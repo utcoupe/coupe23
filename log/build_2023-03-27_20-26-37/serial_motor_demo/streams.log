@@ -1,0 +1,37 @@
+[0.471s] Invoking command in '/home/aurelien/dev_ws/build/serial_motor_demo': AMENT_PREFIX_PATH=/home/aurelien/dev_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/aurelien/dev_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurelien/dev_ws/build/serial_motor_demo/prefix_override:/home/aurelien/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/aurelien/dev_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/aurelien/dev_ws/build/serial_motor_demo/build --no-deps install_data
+[0.700s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.700s]   warnings.warn(
+[0.717s] running develop
+[0.718s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.718s]   warnings.warn(
+[0.719s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.719s]   warnings.warn(
+[0.754s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[0.754s]   warnings.warn(
+[0.754s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[0.754s]   warnings.warn(
+[0.754s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[0.754s]   warnings.warn(
+[0.818s] running egg_info
+[0.818s] creating serial_motor_demo.egg-info
+[0.818s] writing serial_motor_demo.egg-info/PKG-INFO
+[0.819s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[0.819s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[0.819s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[0.819s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[0.819s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[0.821s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[0.821s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[0.822s] running build_ext
+[0.823s] Creating /home/aurelien/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial-motor-demo.egg-link (link to .)
+[0.823s] Installing driver script to /home/aurelien/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.824s] Installing gui script to /home/aurelien/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.824s] 
+[0.824s] Installed /home/aurelien/dev_ws/build/serial_motor_demo
+[0.824s] running install_data
+[0.824s] creating /home/aurelien/dev_ws/install/serial_motor_demo/share/ament_index
+[0.824s] creating /home/aurelien/dev_ws/install/serial_motor_demo/share/ament_index/resource_index
+[0.824s] creating /home/aurelien/dev_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[0.824s] copying resource/serial_motor_demo -> /home/aurelien/dev_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[0.824s] copying package.xml -> /home/aurelien/dev_ws/install/serial_motor_demo/share/serial_motor_demo
+[0.841s] Invoked command in '/home/aurelien/dev_ws/build/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/aurelien/dev_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/aurelien/dev_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurelien/dev_ws/build/serial_motor_demo/prefix_override:/home/aurelien/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/aurelien/dev_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/aurelien/dev_ws/build/serial_motor_demo/build --no-deps install_data

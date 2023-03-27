@@ -1,0 +1,533 @@
+UpdateCTestConfiguration  from :/home/aurelien/dev_ws/src/build/urg_node2/CTestConfiguration.ini
+Parse Config file:/home/aurelien/dev_ws/src/build/urg_node2/CTestConfiguration.ini
+   Site: dell-ag
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20230326-1442 - Experimental
+UpdateCTestConfiguration  from :/home/aurelien/dev_ws/src/build/urg_node2/CTestConfiguration.ini
+Parse Config file:/home/aurelien/dev_ws/src/build/urg_node2/CTestConfiguration.ini
+Test project /home/aurelien/dev_ws/src/build/urg_node2
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: urg_node2_test
+
+1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/aurelien/dev_ws/src/build/urg_node2/test_results/urg_node2/urg_node2_test.gtest.xml" "--package-name" "urg_node2" "--output-file" "/home/aurelien/dev_ws/src/build/urg_node2/ament_cmake_gtest/urg_node2_test.txt" "--command" "/home/aurelien/dev_ws/src/build/urg_node2/urg_node2_test" "--gtest_output=xml:/home/aurelien/dev_ws/src/build/urg_node2/test_results/urg_node2/urg_node2_test.gtest.xml"
+1: Test timeout computed to be: 200
+1: -- run_test.py: invoking following command in '/home/aurelien/dev_ws/src/build/urg_node2':
+1:  - /home/aurelien/dev_ws/src/build/urg_node2/urg_node2_test --gtest_output=xml:/home/aurelien/dev_ws/src/build/urg_node2/test_results/urg_node2/urg_node2_test.gtest.xml
+1: [==========] Running 7 tests from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 7 tests from UTM_30_LX_EW
+1: [ RUN      ] UTM_30_LX_EW.normal_scan
+1: [ERROR] [1679841775.110951469] [urg_node2]: Could not open network Hokuyo 2D LiDAR
+1: 192.168.0.10:10940
+1: could not open ethernet port.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:160: Failure
+1: Expected equality of these values:
+1:   node->get_current_state().label()
+1:     Which is: "unconfigured"
+1:   "inactive"
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:169: Failure
+1: Expected equality of these values:
+1:   (int)ep_scan.size()
+1:     Which is: 0
+1:   1
+1: [WARN] [1679841785.111707493] [rcl_lifecycle]: No transition matching 3 found for current state unconfigured
+1: [ERROR] [1679841785.111733390] []: Unable to start transition 3 from current state unconfigured: Transition is not registered., at ./src/rcl_lifecycle.c:355
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:185: Failure
+1: Expected equality of these values:
+1:   node->get_current_state().label()
+1:     Which is: "unconfigured"
+1:   "active"
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:194: Failure
+1: Expected equality of these values:
+1:   (int)ep_scan.size()
+1:     Which is: 0
+1:   1
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:199: Failure
+1: Expected equality of these values:
+1:   (int)ep_diag.size()
+1:     Which is: 0
+1:   1
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:208: Failure
+1: Expected equality of these values:
+1:   scan_msg.header.frame_id
+1:     Which is: ""
+1:   "laser"
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:209: Failure
+1: The difference between scan_msg.angle_min and (2 * 3.14159265358979323846 * -540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where
+1: scan_msg.angle_min evaluates to 0,
+1: (2 * 3.14159265358979323846 * -540) / 1440.0 evaluates to -2.3561944901923448, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:210: Failure
+1: The difference between scan_msg.angle_max and (2 * 3.14159265358979323846 * 540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where
+1: scan_msg.angle_max evaluates to 0,
+1: (2 * 3.14159265358979323846 * 540) / 1440.0 evaluates to 2.3561944901923448, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:211: Failure
+1: The difference between scan_msg.angle_increment and 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0043633231299858239, which exceeds 1e-6, where
+1: scan_msg.angle_increment evaluates to 0,
+1: 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0043633231299858239, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:212: Failure
+1: The difference between scan_msg.time_increment and 1 * (270.0 / 360.0) * 0.025 / 1080.0 is 1.7361111111111114e-05, which exceeds 1e-6, where
+1: scan_msg.time_increment evaluates to 0,
+1: 1 * (270.0 / 360.0) * 0.025 / 1080.0 evaluates to 1.7361111111111114e-05, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:213: Failure
+1: The difference between scan_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where
+1: scan_msg.scan_time evaluates to 0,
+1: 0.025 evaluates to 0.025000000000000001, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:214: Failure
+1: The difference between scan_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where
+1: scan_msg.range_min evaluates to 0,
+1: 0.023 evaluates to 0.023, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:215: Failure
+1: The difference between scan_msg.range_max and 60.0 is 60, which exceeds 1e-6, where
+1: scan_msg.range_max evaluates to 0,
+1: 60.0 evaluates to 60, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:216: Failure
+1: Expected equality of these values:
+1:   (int)scan_msg.ranges.size()
+1:     Which is: 0
+1:   1081
+1: [  FAILED  ] UTM_30_LX_EW.normal_scan (20093 ms)
+1: [ RUN      ] UTM_30_LX_EW.intensity_scan
+1: [ERROR] [1679841795.124494938] [urg_node2]: Could not open network Hokuyo 2D LiDAR
+1: 192.168.0.10:10940
+1: could not open ethernet port.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:285: Failure
+1: Expected equality of these values:
+1:   node->get_current_state().label()
+1:     Which is: "unconfigured"
+1:   "inactive"
+1: [WARN] [1679841795.124584099] [rcl_lifecycle]: No transition matching 3 found for current state unconfigured
+1: [ERROR] [1679841795.124589891] []: Unable to start transition 3 from current state unconfigured: Transition is not registered., at ./src/rcl_lifecycle.c:355
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:290: Failure
+1: Expected equality of these values:
+1:   node->get_current_state().label()
+1:     Which is: "unconfigured"
+1:   "active"
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:300: Failure
+1: Expected equality of these values:
+1:   scan_msg.header.frame_id
+1:     Which is: ""
+1:   "hokuyo"
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:301: Failure
+1: The difference between scan_msg.angle_min and (2 * 3.14159265358979323846 * -360) / 1440.0 is 1.5707963267948966, which exceeds 1e-6, where
+1: scan_msg.angle_min evaluates to 0,
+1: (2 * 3.14159265358979323846 * -360) / 1440.0 evaluates to -1.5707963267948966, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:302: Failure
+1: The difference between scan_msg.angle_max and (2 * 3.14159265358979323846 * 360) / 1440.0 is 1.5707963267948966, which exceeds 1e-6, where
+1: scan_msg.angle_max evaluates to 0,
+1: (2 * 3.14159265358979323846 * 360) / 1440.0 evaluates to 1.5707963267948966, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:303: Failure
+1: The difference between scan_msg.angle_increment and 2 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0087266462599716477, which exceeds 1e-6, where
+1: scan_msg.angle_increment evaluates to 0,
+1: 2 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0087266462599716477, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:304: Failure
+1: The difference between scan_msg.time_increment and 2 * (180.0 / 360.0) * 0.025 / 720.0 is 3.4722222222222222e-05, which exceeds 1e-6, where
+1: scan_msg.time_increment evaluates to 0,
+1: 2 * (180.0 / 360.0) * 0.025 / 720.0 evaluates to 3.4722222222222222e-05, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:305: Failure
+1: The difference between scan_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where
+1: scan_msg.scan_time evaluates to 0,
+1: 0.025 evaluates to 0.025000000000000001, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:306: Failure
+1: The difference between scan_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where
+1: scan_msg.range_min evaluates to 0,
+1: 0.023 evaluates to 0.023, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:307: Failure
+1: The difference between scan_msg.range_max and 60.0 is 60, which exceeds 1e-6, where
+1: scan_msg.range_max evaluates to 0,
+1: 60.0 evaluates to 60, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:308: Failure
+1: Expected equality of these values:
+1:   (int)scan_msg.ranges.size()
+1:     Which is: 0
+1:   361
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:316: Failure
+1: Expected equality of these values:
+1:   (int)scan_msg.intensities.size()
+1:     Which is: 0
+1:   361
+1: [  FAILED  ] UTM_30_LX_EW.intensity_scan (10012 ms)
+1: [ RUN      ] UTM_30_LX_EW.multiecho_scan
+1: [ERROR] [1679841805.137343020] [urg_node2]: Could not open network Hokuyo 2D LiDAR
+1: 192.168.0.10:10940
+1: could not open ethernet port.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:362: Failure
+1: Expected equality of these values:
+1:   node->get_current_state().label()
+1:     Which is: "unconfigured"
+1:   "inactive"
+1: [WARN] [1679841805.137448661] [rcl_lifecycle]: No transition matching 3 found for current state unconfigured
+1: [ERROR] [1679841805.137456583] []: Unable to start transition 3 from current state unconfigured: Transition is not registered., at ./src/rcl_lifecycle.c:355
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:367: Failure
+1: Expected equality of these values:
+1:   node->get_current_state().label()
+1:     Which is: "unconfigured"
+1:   "active"
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:378: Failure
+1: Expected equality of these values:
+1:   multiecho_msg.header.frame_id
+1:     Which is: ""
+1:   "laser"
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:379: Failure
+1: The difference between multiecho_msg.angle_min and (2 * 3.14159265358979323846 * -360) / 1440.0 is 1.5707963267948966, which exceeds 1e-6, where
+1: multiecho_msg.angle_min evaluates to 0,
+1: (2 * 3.14159265358979323846 * -360) / 1440.0 evaluates to -1.5707963267948966, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:380: Failure
+1: The difference between multiecho_msg.angle_max and (2 * 3.14159265358979323846 * 360) / 1440.0 is 1.5707963267948966, which exceeds 1e-6, where
+1: multiecho_msg.angle_max evaluates to 0,
+1: (2 * 3.14159265358979323846 * 360) / 1440.0 evaluates to 1.5707963267948966, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:381: Failure
+1: The difference between multiecho_msg.angle_increment and 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0043633231299858239, which exceeds 1e-6, where
+1: multiecho_msg.angle_increment evaluates to 0,
+1: 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0043633231299858239, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:382: Failure
+1: The difference between multiecho_msg.time_increment and 1 * (180.0 / 360.0) * 0.025 / 720.0 is 1.7361111111111111e-05, which exceeds 1e-6, where
+1: multiecho_msg.time_increment evaluates to 0,
+1: 1 * (180.0 / 360.0) * 0.025 / 720.0 evaluates to 1.7361111111111111e-05, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:383: Failure
+1: The difference between multiecho_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where
+1: multiecho_msg.scan_time evaluates to 0,
+1: 0.025 evaluates to 0.025000000000000001, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:384: Failure
+1: The difference between multiecho_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where
+1: multiecho_msg.range_min evaluates to 0,
+1: 0.023 evaluates to 0.023, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:385: Failure
+1: The difference between multiecho_msg.range_max and 60.0 is 60, which exceeds 1e-6, where
+1: multiecho_msg.range_max evaluates to 0,
+1: 60.0 evaluates to 60, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:386: Failure
+1: Expected equality of these values:
+1:   (int)multiecho_msg.ranges.size()
+1:     Which is: 0
+1:   721
+1: [  FAILED  ] UTM_30_LX_EW.multiecho_scan (10013 ms)
+1: [ RUN      ] UTM_30_LX_EW.multiecho_intensity_scan
+1: [ERROR] [1679841815.150271007] [urg_node2]: Could not open network Hokuyo 2D LiDAR
+1: 192.168.0.10:10940
+1: could not open ethernet port.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:473: Failure
+1: Expected equality of these values:
+1:   node->get_current_state().label()
+1:     Which is: "unconfigured"
+1:   "inactive"
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:483: Failure
+1: Expected equality of these values:
+1:   (int)ep_multiecho.size()
+1:     Which is: 0
+1:   1
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:484: Failure
+1: Expected equality of these values:
+1:   (int)ep_first.size()
+1:     Which is: 0
+1:   1
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:485: Failure
+1: Expected equality of these values:
+1:   (int)ep_last.size()
+1:     Which is: 0
+1:   1
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:486: Failure
+1: Expected equality of these values:
+1:   (int)ep_most.size()
+1:     Which is: 0
+1:   1
+1: [WARN] [1679841825.150683972] [rcl_lifecycle]: No transition matching 3 found for current state unconfigured
+1: [ERROR] [1679841825.150703864] []: Unable to start transition 3 from current state unconfigured: Transition is not registered., at ./src/rcl_lifecycle.c:355
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:498: Failure
+1: Expected equality of these values:
+1:   node->get_current_state().label()
+1:     Which is: "unconfigured"
+1:   "active"
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:510: Failure
+1: Expected equality of these values:
+1:   multiecho_msg.header.frame_id
+1:     Which is: ""
+1:   "hokuyo"
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:511: Failure
+1: The difference between multiecho_msg.angle_min and (2 * 3.14159265358979323846 * -540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where
+1: multiecho_msg.angle_min evaluates to 0,
+1: (2 * 3.14159265358979323846 * -540) / 1440.0 evaluates to -2.3561944901923448, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:512: Failure
+1: The difference between multiecho_msg.angle_max and (2 * 3.14159265358979323846 * 540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where
+1: multiecho_msg.angle_max evaluates to 0,
+1: (2 * 3.14159265358979323846 * 540) / 1440.0 evaluates to 2.3561944901923448, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:513: Failure
+1: The difference between multiecho_msg.angle_increment and 99 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.43196898986859661, which exceeds 1e-6, where
+1: multiecho_msg.angle_increment evaluates to 0,
+1: 99 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.43196898986859661, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:514: Failure
+1: The difference between multiecho_msg.time_increment and 99 * (270.0 / 360.0) * 0.025 / 1080.0 is 0.0017187500000000002, which exceeds 1e-6, where
+1: multiecho_msg.time_increment evaluates to 0,
+1: 99 * (270.0 / 360.0) * 0.025 / 1080.0 evaluates to 0.0017187500000000002, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:515: Failure
+1: The difference between multiecho_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where
+1: multiecho_msg.scan_time evaluates to 0,
+1: 0.025 evaluates to 0.025000000000000001, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:516: Failure
+1: The difference between multiecho_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where
+1: multiecho_msg.range_min evaluates to 0,
+1: 0.023 evaluates to 0.023, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:517: Failure
+1: The difference between multiecho_msg.range_max and 60.0 is 60, which exceeds 1e-6, where
+1: multiecho_msg.range_max evaluates to 0,
+1: 60.0 evaluates to 60, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:518: Failure
+1: Expected equality of these values:
+1:   (int)multiecho_msg.ranges.size()
+1:     Which is: 0
+1:   11
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:533: Failure
+1: Expected equality of these values:
+1:   (int)multiecho_msg.intensities.size()
+1:     Which is: 0
+1:   11
+1: [  FAILED  ] UTM_30_LX_EW.multiecho_intensity_scan (20013 ms)
+1: [ RUN      ] UTM_30_LX_EW.normal_scan_param
+1: [ERROR] [1679841835.162200123] [urg_node2]: Could not open network Hokuyo 2D LiDAR
+1: 192.168.0.10:10940
+1: could not open ethernet port.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:608: Failure
+1: Expected equality of these values:
+1:   node->get_current_state().label()
+1:     Which is: "unconfigured"
+1:   "inactive"
+1: [WARN] [1679841835.162363835] [rcl_lifecycle]: No transition matching 3 found for current state unconfigured
+1: [ERROR] [1679841835.162376513] []: Unable to start transition 3 from current state unconfigured: Transition is not registered., at ./src/rcl_lifecycle.c:355
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:613: Failure
+1: Expected equality of these values:
+1:   node->get_current_state().label()
+1:     Which is: "unconfigured"
+1:   "active"
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:623: Failure
+1: Expected equality of these values:
+1:   scan_msg.header.frame_id
+1:     Which is: ""
+1:   "laser"
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:624: Failure
+1: The difference between scan_msg.angle_min and (2 * 3.14159265358979323846 * 359) / 1440.0 is 1.5664330036649106, which exceeds 1e-6, where
+1: scan_msg.angle_min evaluates to 0,
+1: (2 * 3.14159265358979323846 * 359) / 1440.0 evaluates to 1.5664330036649106, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:625: Failure
+1: The difference between scan_msg.angle_max and (2 * 3.14159265358979323846 * 360) / 1440.0 is 1.5707963267948966, which exceeds 1e-6, where
+1: scan_msg.angle_max evaluates to 0,
+1: (2 * 3.14159265358979323846 * 360) / 1440.0 evaluates to 1.5707963267948966, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:626: Failure
+1: The difference between scan_msg.angle_increment and 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0043633231299858239, which exceeds 1e-6, where
+1: scan_msg.angle_increment evaluates to 0,
+1: 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0043633231299858239, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:627: Failure
+1: The difference between scan_msg.time_increment and 1 * (270.0 / 360.0) * 0.025 / 1080.0 is 1.7361111111111114e-05, which exceeds 1e-6, where
+1: scan_msg.time_increment evaluates to 0,
+1: 1 * (270.0 / 360.0) * 0.025 / 1080.0 evaluates to 1.7361111111111114e-05, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:628: Failure
+1: The difference between scan_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where
+1: scan_msg.scan_time evaluates to 0,
+1: 0.025 evaluates to 0.025000000000000001, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:629: Failure
+1: The difference between scan_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where
+1: scan_msg.range_min evaluates to 0,
+1: 0.023 evaluates to 0.023, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:630: Failure
+1: The difference between scan_msg.range_max and 60.0 is 60, which exceeds 1e-6, where
+1: scan_msg.range_max evaluates to 0,
+1: 60.0 evaluates to 60, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:631: Failure
+1: Expected equality of these values:
+1:   (int)scan_msg.ranges.size()
+1:     Which is: 0
+1:   2
+1: [  FAILED  ] UTM_30_LX_EW.normal_scan_param (10013 ms)
+1: [ RUN      ] UTM_30_LX_EW.normal_scan_param_angle_min
+1: [ERROR] [1679841845.174586815] [urg_node2]: Could not open network Hokuyo 2D LiDAR
+1: 192.168.0.10:10940
+1: could not open ethernet port.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:684: Failure
+1: Expected equality of these values:
+1:   node->get_current_state().label()
+1:     Which is: "unconfigured"
+1:   "inactive"
+1: [WARN] [1679841845.174742732] [rcl_lifecycle]: No transition matching 3 found for current state unconfigured
+1: [ERROR] [1679841845.174763100] []: Unable to start transition 3 from current state unconfigured: Transition is not registered., at ./src/rcl_lifecycle.c:355
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:689: Failure
+1: Expected equality of these values:
+1:   node->get_current_state().label()
+1:     Which is: "unconfigured"
+1:   "active"
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:699: Failure
+1: Expected equality of these values:
+1:   scan_msg.header.frame_id
+1:     Which is: ""
+1:   "laser"
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:700: Failure
+1: The difference between scan_msg.angle_min and (2 * 3.14159265358979323846 * 539) / 1440.0 is 2.3518311670623593, which exceeds 1e-6, where
+1: scan_msg.angle_min evaluates to 0,
+1: (2 * 3.14159265358979323846 * 539) / 1440.0 evaluates to 2.3518311670623593, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:701: Failure
+1: The difference between scan_msg.angle_max and (2 * 3.14159265358979323846 * 540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where
+1: scan_msg.angle_max evaluates to 0,
+1: (2 * 3.14159265358979323846 * 540) / 1440.0 evaluates to 2.3561944901923448, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:702: Failure
+1: The difference between scan_msg.angle_increment and 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0043633231299858239, which exceeds 1e-6, where
+1: scan_msg.angle_increment evaluates to 0,
+1: 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0043633231299858239, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:703: Failure
+1: The difference between scan_msg.time_increment and 1 * (270.0 / 360.0) * 0.025 / 1080.0 is 1.7361111111111114e-05, which exceeds 1e-6, where
+1: scan_msg.time_increment evaluates to 0,
+1: 1 * (270.0 / 360.0) * 0.025 / 1080.0 evaluates to 1.7361111111111114e-05, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:704: Failure
+1: The difference between scan_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where
+1: scan_msg.scan_time evaluates to 0,
+1: 0.025 evaluates to 0.025000000000000001, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:705: Failure
+1: The difference between scan_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where
+1: scan_msg.range_min evaluates to 0,
+1: 0.023 evaluates to 0.023, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:706: Failure
+1: The difference between scan_msg.range_max and 60.0 is 60, which exceeds 1e-6, where
+1: scan_msg.range_max evaluates to 0,
+1: 60.0 evaluates to 60, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:707: Failure
+1: Expected equality of these values:
+1:   (int)scan_msg.ranges.size()
+1:     Which is: 0
+1:   2
+1: [  FAILED  ] UTM_30_LX_EW.normal_scan_param_angle_min (10011 ms)
+1: [ RUN      ] UTM_30_LX_EW.normal_scan_param_angle_max
+1: [ERROR] [1679841855.185813344] [urg_node2]: Could not open network Hokuyo 2D LiDAR
+1: 192.168.0.10:10940
+1: could not open ethernet port.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:760: Failure
+1: Expected equality of these values:
+1:   node->get_current_state().label()
+1:     Which is: "unconfigured"
+1:   "inactive"
+1: [WARN] [1679841855.185977791] [rcl_lifecycle]: No transition matching 3 found for current state unconfigured
+1: [ERROR] [1679841855.185988954] []: Unable to start transition 3 from current state unconfigured: Transition is not registered., at ./src/rcl_lifecycle.c:355
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:765: Failure
+1: Expected equality of these values:
+1:   node->get_current_state().label()
+1:     Which is: "unconfigured"
+1:   "active"
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:775: Failure
+1: Expected equality of these values:
+1:   scan_msg.header.frame_id
+1:     Which is: ""
+1:   "laser"
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:776: Failure
+1: The difference between scan_msg.angle_min and (2 * 3.14159265358979323846 * -540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where
+1: scan_msg.angle_min evaluates to 0,
+1: (2 * 3.14159265358979323846 * -540) / 1440.0 evaluates to -2.3561944901923448, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:777: Failure
+1: The difference between scan_msg.angle_max and (2 * 3.14159265358979323846 * -539) / 1440.0 is 2.3518311670623593, which exceeds 1e-6, where
+1: scan_msg.angle_max evaluates to 0,
+1: (2 * 3.14159265358979323846 * -539) / 1440.0 evaluates to -2.3518311670623593, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:778: Failure
+1: The difference between scan_msg.angle_increment and 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0043633231299858239, which exceeds 1e-6, where
+1: scan_msg.angle_increment evaluates to 0,
+1: 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0043633231299858239, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:779: Failure
+1: The difference between scan_msg.time_increment and 1 * (270.0 / 360.0) * 0.025 / 1080.0 is 1.7361111111111114e-05, which exceeds 1e-6, where
+1: scan_msg.time_increment evaluates to 0,
+1: 1 * (270.0 / 360.0) * 0.025 / 1080.0 evaluates to 1.7361111111111114e-05, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:780: Failure
+1: The difference between scan_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where
+1: scan_msg.scan_time evaluates to 0,
+1: 0.025 evaluates to 0.025000000000000001, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:781: Failure
+1: The difference between scan_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where
+1: scan_msg.range_min evaluates to 0,
+1: 0.023 evaluates to 0.023, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:782: Failure
+1: The difference between scan_msg.range_max and 60.0 is 60, which exceeds 1e-6, where
+1: scan_msg.range_max evaluates to 0,
+1: 60.0 evaluates to 60, and
+1: 1e-6 evaluates to 9.9999999999999995e-07.
+1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:783: Failure
+1: Expected equality of these values:
+1:   (int)scan_msg.ranges.size()
+1:     Which is: 0
+1:   2
+1: [  FAILED  ] UTM_30_LX_EW.normal_scan_param_angle_max (10011 ms)
+1: [----------] 7 tests from UTM_30_LX_EW (90166 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 7 tests from 1 test suite ran. (90166 ms total)
+1: [  PASSED  ] 0 tests.
+1: [  FAILED  ] 7 tests, listed below:
+1: [  FAILED  ] UTM_30_LX_EW.normal_scan
+1: [  FAILED  ] UTM_30_LX_EW.intensity_scan
+1: [  FAILED  ] UTM_30_LX_EW.multiecho_scan
+1: [  FAILED  ] UTM_30_LX_EW.multiecho_intensity_scan
+1: [  FAILED  ] UTM_30_LX_EW.normal_scan_param
+1: [  FAILED  ] UTM_30_LX_EW.normal_scan_param_angle_min
+1: [  FAILED  ] UTM_30_LX_EW.normal_scan_param_angle_max
+1: 
+1:  7 FAILED TESTS
+1: -- run_test.py: return code 1
+1: -- run_test.py: inject classname prefix into gtest result file '/home/aurelien/dev_ws/src/build/urg_node2/test_results/urg_node2/urg_node2_test.gtest.xml'
+1: -- run_test.py: verify result file '/home/aurelien/dev_ws/src/build/urg_node2/test_results/urg_node2/urg_node2_test.gtest.xml'
+1/1 Test #1: urg_node2_test ...................***Failed   90.38 sec
+
+0% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 1
+
+Label Time Summary:
+gtest    =  90.38 sec*proc (1 test)
+
+Total Test time (real) =  90.38 sec
+
+The following tests FAILED:
+	[0;31m  1 - urg_node2_test (Failed)[0;0m

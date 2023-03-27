@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="articubot_one.flake8"
+  tests="15"
+  errors="0"
+  failures="15"
+  time="0.069"
+>
+  <testcase
+    name="E231 (./launch/rsp.launch.py:20:39)"
+    classname="articubot_one.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    xacro_file = os.path.join(pkg_path,'description','robot.urdf.xacro')&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/rsp.launch.py:20:53)"
+    classname="articubot_one.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    xacro_file = os.path.join(pkg_path,'description','robot.urdf.xacro')&#10;"/>
+  </testcase>
+  <testcase
+    name="W293 (./launch/rsp.launch.py:22:1)"
+    classname="articubot_one.flake8"
+  >
+      <failure message="blank line contains whitespace:&#10;    &#10;"/>
+  </testcase>
+  <testcase
+    name="E303 (./launch/rsp.launch.py:33:5)"
+    classname="articubot_one.flake8"
+  >
+      <failure message="too many blank lines (2):&#10;    # Launch!&#10;"/>
+  </testcase>
+  <testcase
+    name="E303 (./launch/launch_sim.launch.py:14:1)"
+    classname="articubot_one.flake8"
+  >
+      <failure message="too many blank lines (3):&#10;def generate_launch_description():&#10;"/>
+  </testcase>
+  <testcase
+    name="E303 (./launch/launch_sim.launch.py:17:5)"
+    classname="articubot_one.flake8"
+  >
+      <failure message="too many blank lines (2):&#10;    # Include the robot_state_publisher launch file, provided by our own package. Force sim time to be enabled&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./launch/launch_sim.launch.py:17:100)"
+    classname="articubot_one.flake8"
+  >
+      <failure message="line too long (110 &gt; 99 characters):&#10;    # Include the robot_state_publisher launch file, provided by our own package. Force sim time to be enabled&#10;"/>
+  </testcase>
+  <testcase
+    name="E225 (./launch/launch_sim.launch.py:20:17)"
+    classname="articubot_one.flake8"
+  >
+      <failure message="missing whitespace around operator:&#10;    package_name='articubot_one' #&lt;--- CHANGE ME&#10;"/>
+  </testcase>
+  <testcase
+    name="E261 (./launch/launch_sim.launch.py:20:33)"
+    classname="articubot_one.flake8"
+  >
+      <failure message="at least two spaces before inline comment:&#10;    package_name='articubot_one' #&lt;--- CHANGE ME&#10;"/>
+  </testcase>
+  <testcase
+    name="E262 (./launch/launch_sim.launch.py:20:34)"
+    classname="articubot_one.flake8"
+  >
+      <failure message="inline comment should start with '# ':&#10;    package_name='articubot_one' #&lt;--- CHANGE ME&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/launch_sim.launch.py:24:62)"
+    classname="articubot_one.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;                    get_package_share_directory(package_name),'launch','rsp.launch.py'&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/launch_sim.launch.py:24:71)"
+    classname="articubot_one.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;                    get_package_share_directory(package_name),'launch','rsp.launch.py'&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./launch/launch_sim.launch.py:34:100)"
+    classname="articubot_one.flake8"
+  >
+      <failure message="line too long (126 &gt; 99 characters):&#10;    # Run the spawner node from the gazebo_ros package. The entity name doesn't really matter if you only have a single robot.&#10;"/>
+  </testcase>
+  <testcase
+    name="E303 (./launch/launch_sim.launch.py:42:5)"
+    classname="articubot_one.flake8"
+  >
+      <failure message="too many blank lines (3):&#10;    # Launch them all!&#10;"/>
+  </testcase>
+  <testcase
+    name="W292 (./launch/launch_sim.launch.py:47:7)"
+    classname="articubot_one.flake8"
+  >
+      <failure message="no newline at end of file:&#10;    ])"/>
+  </testcase>
+  <system-out>Checked files:
+* ./launch/rsp.launch.py
+* ./launch/launch_sim.launch.py</system-out>
+</testsuite>

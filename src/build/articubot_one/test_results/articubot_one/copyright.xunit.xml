@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="articubot_one.copyright"
+  tests="4"
+  errors="0"
+  failures="4"
+  time="0.000"
+>
+  <testcase
+    name="CONTRIBUTING.md"
+    classname="articubot_one.copyright"
+  >
+      <failure message="file not found"/>
+  </testcase>
+  <testcase
+    name="LICENSE"
+    classname="articubot_one.copyright"
+  >
+      <failure message="file not found"/>
+  </testcase>
+  <testcase
+    name="launch/launch_sim.launch.py"
+    classname="articubot_one.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="launch/rsp.launch.py"
+    classname="articubot_one.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <system-out>Checked files:
+* CONTRIBUTING.md
+* LICENSE
+* launch/launch_sim.launch.py
+* launch/rsp.launch.py</system-out>
+</testsuite>

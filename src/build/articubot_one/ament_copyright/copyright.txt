@@ -1,0 +1,12 @@
+-- run_test.py: invoking following command in '/home/aurelien/dev_ws/src/articubot_one':
+ - /opt/ros/humble/bin/ament_copyright --xunit-file /home/aurelien/dev_ws/src/build/articubot_one/test_results/articubot_one/copyright.xunit.xml
+
+CONTRIBUTING.md: file not found
+LICENSE: file not found
+launch/launch_sim.launch.py: could not find copyright notice
+launch/rsp.launch.py: could not find copyright notice
+4 errors, checked 4 files
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/aurelien/dev_ws/src/build/articubot_one/test_results/articubot_one/copyright.xunit.xml'

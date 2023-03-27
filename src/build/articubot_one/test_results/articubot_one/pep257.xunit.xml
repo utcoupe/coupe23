@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="articubot_one.pep257"
+  tests="2"
+  errors="0"
+  failures="0"
+  time="0.009"
+>
+  <testcase
+    name="./launch/launch_sim.launch.py"
+    classname="articubot_one.pep257"/>
+  <testcase
+    name="./launch/rsp.launch.py"
+    classname="articubot_one.pep257"/>
+  <system-out>Checked files:
+* ./launch/launch_sim.launch.py
+* ./launch/rsp.launch.py</system-out>
+</testsuite>
