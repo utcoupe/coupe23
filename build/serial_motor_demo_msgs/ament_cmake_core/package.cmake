@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "serial_motor_demo_msgs")
 set(serial_motor_demo_msgs_VERSION "0.0.0")
-set(serial_motor_demo_msgs_MAINTAINER "newans <josh.newans@gmail.com>")
+set(serial_motor_demo_msgs_MAINTAINER "aurelien <aurelien.garreau92@gmail.com>")
 set(serial_motor_demo_msgs_BUILD_DEPENDS "rosidl_default_generators")
 set(serial_motor_demo_msgs_BUILDTOOL_DEPENDS "ament_cmake")
 set(serial_motor_demo_msgs_BUILD_EXPORT_DEPENDS )
