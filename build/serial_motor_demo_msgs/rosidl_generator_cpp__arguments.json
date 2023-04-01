@@ -1,11 +1,11 @@
 {
   "package_name": "serial_motor_demo_msgs",
-  "output_dir": "/home/aurelien/dev_ws/build/serial_motor_demo_msgs/rosidl_generator_cpp/serial_motor_demo_msgs",
+  "output_dir": "~/dev_ws/build/serial_motor_demo_msgs/rosidl_generator_cpp/serial_motor_demo_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/aurelien/dev_ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs:msg/MotorCommand.idl",
-    "/home/aurelien/dev_ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs:msg/MotorVels.idl",
-    "/home/aurelien/dev_ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs:msg/EncoderVals.idl"
+    "~/dev_ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs:msg/MotorCommand.idl",
+    "~/dev_ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs:msg/MotorVels.idl",
+    "~/dev_ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs:msg/EncoderVals.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
@@ -23,8 +23,8 @@
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "/home/aurelien/dev_ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs/msg/MotorCommand.idl",
-    "/home/aurelien/dev_ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs/msg/MotorVels.idl",
-    "/home/aurelien/dev_ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs/msg/EncoderVals.idl"
+    "~/dev_ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs/msg/MotorCommand.idl",
+    "~/dev_ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs/msg/MotorVels.idl",
+    "~/dev_ws/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs/msg/EncoderVals.idl"
   ]
 }

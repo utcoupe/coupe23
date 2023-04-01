@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aurelien/dev_ws/src/urg_node2
+CMAKE_SOURCE_DIR = ~/dev_ws/src/urg_node2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aurelien/dev_ws/src/build/urg_node2
+CMAKE_BINARY_DIR = ~/dev_ws/src/build/urg_node2
 
 # Utility rule file for urg_node2_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/urg_node2_uninstall.dir/compiler_depend.make
 include CMakeFiles/urg_node2_uninstall.dir/progress.make
 
 CMakeFiles/urg_node2_uninstall:
-	/usr/bin/cmake -P /home/aurelien/dev_ws/src/build/urg_node2/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P ~/dev_ws/src/build/urg_node2/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 urg_node2_uninstall: CMakeFiles/urg_node2_uninstall
 urg_node2_uninstall: CMakeFiles/urg_node2_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/urg_node2_uninstall.dir/clean:
 .PHONY : CMakeFiles/urg_node2_uninstall.dir/clean
 
 CMakeFiles/urg_node2_uninstall.dir/depend:
-	cd /home/aurelien/dev_ws/src/build/urg_node2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aurelien/dev_ws/src/urg_node2 /home/aurelien/dev_ws/src/urg_node2 /home/aurelien/dev_ws/src/build/urg_node2 /home/aurelien/dev_ws/src/build/urg_node2 /home/aurelien/dev_ws/src/build/urg_node2/CMakeFiles/urg_node2_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd ~/dev_ws/src/build/urg_node2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" ~/dev_ws/src/urg_node2 ~/dev_ws/src/urg_node2 ~/dev_ws/src/build/urg_node2 ~/dev_ws/src/build/urg_node2 ~/dev_ws/src/build/urg_node2/CMakeFiles/urg_node2_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/urg_node2_uninstall.dir/depend
 

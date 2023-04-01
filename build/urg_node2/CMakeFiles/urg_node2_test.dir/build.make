@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aurelien/dev_ws/src/urg_node2
+CMAKE_SOURCE_DIR = ~/dev_ws/src/urg_node2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aurelien/dev_ws/build/urg_node2
+CMAKE_BINARY_DIR = ~/dev_ws/build/urg_node2
 
 # Include any dependencies generated for this target.
 include CMakeFiles/urg_node2_test.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/urg_node2_test.dir/progress.make
 include CMakeFiles/urg_node2_test.dir/flags.make
 
 CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.o: CMakeFiles/urg_node2_test.dir/flags.make
-CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.o: /home/aurelien/dev_ws/src/urg_node2/src/urg_node2.cpp
+CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.o: ~/dev_ws/src/urg_node2/src/urg_node2.cpp
 CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.o: CMakeFiles/urg_node2_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aurelien/dev_ws/build/urg_node2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.o -MF CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.o.d -o CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.o -c /home/aurelien/dev_ws/src/urg_node2/src/urg_node2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=~/dev_ws/build/urg_node2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.o -MF CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.o.d -o CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.o -c ~/dev_ws/src/urg_node2/src/urg_node2.cpp
 
 CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aurelien/dev_ws/src/urg_node2/src/urg_node2.cpp > CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E ~/dev_ws/src/urg_node2/src/urg_node2.cpp > CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.i
 
 CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aurelien/dev_ws/src/urg_node2/src/urg_node2.cpp -o CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S ~/dev_ws/src/urg_node2/src/urg_node2.cpp -o CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.s
 
 CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.o: CMakeFiles/urg_node2_test.dir/flags.make
-CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.o: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp
+CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.o: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp
 CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.o: CMakeFiles/urg_node2_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aurelien/dev_ws/build/urg_node2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.o -MF CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.o.d -o CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.o -c /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=~/dev_ws/build/urg_node2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.o -MF CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.o.d -o CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.o -c ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp
 
 CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp > CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp > CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.i
 
 CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp -o CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp -o CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.s
 
 # Object files for target urg_node2_test
 urg_node2_test_OBJECTS = \
@@ -230,7 +230,7 @@ urg_node2_test: /opt/ros/humble/lib/librosidl_runtime_c.so
 urg_node2_test: /opt/ros/humble/lib/librcutils.so
 urg_node2_test: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 urg_node2_test: CMakeFiles/urg_node2_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aurelien/dev_ws/build/urg_node2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable urg_node2_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=~/dev_ws/build/urg_node2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable urg_node2_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/urg_node2_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -242,6 +242,6 @@ CMakeFiles/urg_node2_test.dir/clean:
 .PHONY : CMakeFiles/urg_node2_test.dir/clean
 
 CMakeFiles/urg_node2_test.dir/depend:
-	cd /home/aurelien/dev_ws/build/urg_node2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aurelien/dev_ws/src/urg_node2 /home/aurelien/dev_ws/src/urg_node2 /home/aurelien/dev_ws/build/urg_node2 /home/aurelien/dev_ws/build/urg_node2 /home/aurelien/dev_ws/build/urg_node2/CMakeFiles/urg_node2_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd ~/dev_ws/build/urg_node2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" ~/dev_ws/src/urg_node2 ~/dev_ws/src/urg_node2 ~/dev_ws/build/urg_node2 ~/dev_ws/build/urg_node2 ~/dev_ws/build/urg_node2/CMakeFiles/urg_node2_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/urg_node2_test.dir/depend
 

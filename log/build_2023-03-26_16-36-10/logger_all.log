@@ -6,7 +6,7 @@
 [0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
 [0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
 [0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
-[0.253s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aurelien/dev_ws'
+[0.253s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '~/dev_ws'
 [0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
 [0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
 [0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
@@ -71,7 +71,7 @@
 [0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
 [0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
 [0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
-[0.285s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/aurelien/dev_ws/install
+[0.285s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in ~/dev_ws/install
 [0.286s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 389 installed packages in /opt/ros/humble
 [0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
 [0.333s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to 'None'
@@ -83,7 +83,7 @@
 [0.333s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
 [0.333s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
 [0.333s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
-[0.333s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aurelien/dev_ws/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aurelien/dev_ws/install/articubot_one', 'merge_install': False, 'path': '/home/aurelien/dev_ws/src/articubot_one', 'symlink_install': True, 'test_result_base': None}
+[0.333s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '~/dev_ws/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '~/dev_ws/install/articubot_one', 'merge_install': False, 'path': '~/dev_ws/src/articubot_one', 'symlink_install': True, 'test_result_base': None}
 [0.333s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_args' from command line to 'None'
 [0.333s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_target' from command line to 'None'
 [0.333s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
@@ -93,108 +93,108 @@
 [0.334s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'ament_cmake_args' from command line to 'None'
 [0.334s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'catkin_cmake_args' from command line to 'None'
 [0.334s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'catkin_skip_building_tests' from command line to 'False'
-[0.334s] DEBUG:colcon.colcon_core.verb:Building package 'urg_node2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aurelien/dev_ws/build/urg_node2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aurelien/dev_ws/install/urg_node2', 'merge_install': False, 'path': '/home/aurelien/dev_ws/src/urg_node2', 'symlink_install': True, 'test_result_base': None}
+[0.334s] DEBUG:colcon.colcon_core.verb:Building package 'urg_node2' with the following arguments: {'ament_cmake_args': None, 'build_base': '~/dev_ws/build/urg_node2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '~/dev_ws/install/urg_node2', 'merge_install': False, 'path': '~/dev_ws/src/urg_node2', 'symlink_install': True, 'test_result_base': None}
 [0.334s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
 [0.336s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
-[0.337s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aurelien/dev_ws/src/articubot_one' with build type 'ament_cmake'
-[0.337s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aurelien/dev_ws/src/articubot_one'
+[0.337s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '~/dev_ws/src/articubot_one' with build type 'ament_cmake'
+[0.337s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '~/dev_ws/src/articubot_one'
 [0.340s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
 [0.340s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
 [0.340s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
-[0.343s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/aurelien/catkin_ws/devel'
-[0.344s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aurelien/dev_ws/src/urg_node2' with build type 'ament_cmake'
-[0.344s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aurelien/dev_ws/src/urg_node2'
+[0.343s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '~/catkin_ws/devel'
+[0.344s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '~/dev_ws/src/urg_node2' with build type 'ament_cmake'
+[0.344s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '~/dev_ws/src/urg_node2'
 [0.345s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
 [0.345s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
-[0.348s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/aurelien/catkin_ws/devel'
-[0.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelien/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/articubot_one:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --build /home/aurelien/dev_ws/build/articubot_one -- -j16 -l16
-[0.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelien/dev_ws/build/urg_node2': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/articubot_one:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake /home/aurelien/dev_ws/src/urg_node2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aurelien/dev_ws/install/urg_node2
-[0.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelien/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/articubot_one:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --build /home/aurelien/dev_ws/build/articubot_one -- -j16 -l16
-[0.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelien/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/articubot_one:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --install /home/aurelien/dev_ws/build/articubot_one
+[0.348s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '~/catkin_ws/devel'
+[0.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '~/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=~/dev_ws/install/articubot_one:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --build ~/dev_ws/build/articubot_one -- -j16 -l16
+[0.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '~/dev_ws/build/urg_node2': CMAKE_PREFIX_PATH=~/dev_ws/install/articubot_one:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake ~/dev_ws/src/urg_node2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=~/dev_ws/install/urg_node2
+[0.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '~/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=~/dev_ws/install/articubot_one:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --build ~/dev_ws/build/articubot_one -- -j16 -l16
+[0.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '~/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=~/dev_ws/install/articubot_one:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --install ~/dev_ws/build/articubot_one
 [0.458s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
-[0.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelien/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/articubot_one:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --install /home/aurelien/dev_ws/build/articubot_one
-[0.463s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one' for CMake module files
-[0.463s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one' for CMake config files
+[0.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '~/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=~/dev_ws/install/articubot_one:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --install ~/dev_ws/build/articubot_one
+[0.463s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one' for CMake module files
+[0.463s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one' for CMake config files
 [0.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
-[0.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
-[0.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
-[0.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
-[0.467s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one/bin'
-[0.467s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
-[0.467s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one/lib/python3.10/site-packages'
-[0.467s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one/bin'
-[0.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.ps1'
-[0.470s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.dsv'
-[0.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.sh'
-[0.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.bash'
-[0.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.zsh'
-[0.472s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurelien/dev_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
+[0.465s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[0.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '~/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[0.466s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[0.467s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one/bin'
+[0.467s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[0.467s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one/lib/python3.10/site-packages'
+[0.467s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one/bin'
+[0.469s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/articubot_one/share/articubot_one/package.ps1'
+[0.470s] INFO:colcon.colcon_core.shell:Creating package descriptor '~/dev_ws/install/articubot_one/share/articubot_one/package.dsv'
+[0.470s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/articubot_one/share/articubot_one/package.sh'
+[0.471s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/articubot_one/share/articubot_one/package.bash'
+[0.471s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/articubot_one/share/articubot_one/package.zsh'
+[0.472s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(~/dev_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
 [0.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
-[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one' for CMake module files
-[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one' for CMake config files
+[0.508s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one' for CMake module files
+[0.509s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one' for CMake config files
 [0.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
-[0.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
-[0.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
-[0.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
-[0.514s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one/bin'
-[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
-[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one/lib/python3.10/site-packages'
-[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one/bin'
-[0.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.ps1'
-[0.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.dsv'
-[0.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.sh'
-[0.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.bash'
-[0.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.zsh'
-[0.521s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurelien/dev_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
-[2.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelien/dev_ws/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/articubot_one:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake /home/aurelien/dev_ws/src/urg_node2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aurelien/dev_ws/install/urg_node2
-[2.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelien/dev_ws/build/urg_node2': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/articubot_one:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --build /home/aurelien/dev_ws/build/urg_node2 -- -j16 -l16
-[17.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelien/dev_ws/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/articubot_one:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --build /home/aurelien/dev_ws/build/urg_node2 -- -j16 -l16
-[17.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelien/dev_ws/build/urg_node2': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/articubot_one:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --install /home/aurelien/dev_ws/build/urg_node2
+[0.512s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[0.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '~/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[0.513s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[0.514s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one/bin'
+[0.515s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[0.515s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one/lib/python3.10/site-packages'
+[0.515s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one/bin'
+[0.518s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/articubot_one/share/articubot_one/package.ps1'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '~/dev_ws/install/articubot_one/share/articubot_one/package.dsv'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/articubot_one/share/articubot_one/package.sh'
+[0.520s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/articubot_one/share/articubot_one/package.bash'
+[0.521s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/articubot_one/share/articubot_one/package.zsh'
+[0.521s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(~/dev_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
+[2.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '~/dev_ws/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=~/dev_ws/install/articubot_one:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake ~/dev_ws/src/urg_node2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=~/dev_ws/install/urg_node2
+[2.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '~/dev_ws/build/urg_node2': CMAKE_PREFIX_PATH=~/dev_ws/install/articubot_one:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --build ~/dev_ws/build/urg_node2 -- -j16 -l16
+[17.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '~/dev_ws/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=~/dev_ws/install/articubot_one:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --build ~/dev_ws/build/urg_node2 -- -j16 -l16
+[17.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '~/dev_ws/build/urg_node2': CMAKE_PREFIX_PATH=~/dev_ws/install/articubot_one:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --install ~/dev_ws/build/urg_node2
 [17.708s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node2)
-[17.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelien/dev_ws/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/articubot_one:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --install /home/aurelien/dev_ws/build/urg_node2
-[17.713s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2' for CMake module files
-[17.714s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2' for CMake config files
+[17.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '~/dev_ws/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=~/dev_ws/install/articubot_one:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --install ~/dev_ws/build/urg_node2
+[17.713s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2' for CMake module files
+[17.714s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2' for CMake config files
 [17.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node2', 'cmake_prefix_path')
-[17.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.ps1'
-[17.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.dsv'
-[17.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.sh'
-[17.719s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2/lib'
+[17.716s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.ps1'
+[17.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '~/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.dsv'
+[17.718s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.sh'
+[17.719s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2/lib'
 [17.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node2', 'ld_library_path_lib')
-[17.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.ps1'
-[17.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.dsv'
-[17.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.sh'
-[17.723s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2/bin'
-[17.723s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2/lib/pkgconfig/urg_node2.pc'
-[17.724s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2/lib/python3.10/site-packages'
-[17.724s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2/bin'
-[17.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/package.ps1'
-[17.728s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/package.dsv'
-[17.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/package.sh'
-[17.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/package.bash'
-[17.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/package.zsh'
-[17.730s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurelien/dev_ws/install/urg_node2/share/colcon-core/packages/urg_node2)
+[17.722s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.ps1'
+[17.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '~/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.dsv'
+[17.723s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.sh'
+[17.723s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2/bin'
+[17.723s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2/lib/pkgconfig/urg_node2.pc'
+[17.724s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2/lib/python3.10/site-packages'
+[17.724s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2/bin'
+[17.727s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/urg_node2/share/urg_node2/package.ps1'
+[17.728s] INFO:colcon.colcon_core.shell:Creating package descriptor '~/dev_ws/install/urg_node2/share/urg_node2/package.dsv'
+[17.728s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/urg_node2/share/urg_node2/package.sh'
+[17.729s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/urg_node2/share/urg_node2/package.bash'
+[17.729s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/urg_node2/share/urg_node2/package.zsh'
+[17.730s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(~/dev_ws/install/urg_node2/share/colcon-core/packages/urg_node2)
 [17.820s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node2)
-[17.823s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2' for CMake module files
-[17.824s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2' for CMake config files
+[17.823s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2' for CMake module files
+[17.824s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2' for CMake config files
 [17.824s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node2', 'cmake_prefix_path')
-[17.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.ps1'
-[17.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.dsv'
-[17.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.sh'
-[17.829s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2/lib'
+[17.826s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.ps1'
+[17.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '~/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.dsv'
+[17.828s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.sh'
+[17.829s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2/lib'
 [17.829s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node2', 'ld_library_path_lib')
-[17.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.ps1'
-[17.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.dsv'
-[17.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.sh'
-[17.832s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2/bin'
-[17.833s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2/lib/pkgconfig/urg_node2.pc'
-[17.833s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2/lib/python3.10/site-packages'
-[17.833s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2/bin'
-[17.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/package.ps1'
-[17.837s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/package.dsv'
-[17.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/package.sh'
-[17.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/package.bash'
-[17.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/package.zsh'
-[17.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurelien/dev_ws/install/urg_node2/share/colcon-core/packages/urg_node2)
+[17.831s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.ps1'
+[17.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '~/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.dsv'
+[17.832s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.sh'
+[17.832s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2/bin'
+[17.833s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2/lib/pkgconfig/urg_node2.pc'
+[17.833s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2/lib/python3.10/site-packages'
+[17.833s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2/bin'
+[17.836s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/urg_node2/share/urg_node2/package.ps1'
+[17.837s] INFO:colcon.colcon_core.shell:Creating package descriptor '~/dev_ws/install/urg_node2/share/urg_node2/package.dsv'
+[17.837s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/urg_node2/share/urg_node2/package.sh'
+[17.838s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/urg_node2/share/urg_node2/package.bash'
+[17.839s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/urg_node2/share/urg_node2/package.zsh'
+[17.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(~/dev_ws/install/urg_node2/share/colcon-core/packages/urg_node2)
 [17.840s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
 [17.840s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
 [17.840s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
@@ -203,13 +203,13 @@
 [17.850s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
 [17.851s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
 [17.873s] DEBUG:colcon.colcon_core.event_reactor:joined thread
-[17.876s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aurelien/dev_ws/install/local_setup.ps1'
-[17.878s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aurelien/dev_ws/install/_local_setup_util_ps1.py'
-[17.880s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aurelien/dev_ws/install/setup.ps1'
-[17.883s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aurelien/dev_ws/install/local_setup.sh'
-[17.884s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aurelien/dev_ws/install/_local_setup_util_sh.py'
-[17.885s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aurelien/dev_ws/install/setup.sh'
-[17.888s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aurelien/dev_ws/install/local_setup.bash'
-[17.888s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aurelien/dev_ws/install/setup.bash'
-[17.891s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aurelien/dev_ws/install/local_setup.zsh'
-[17.892s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aurelien/dev_ws/install/setup.zsh'
+[17.876s] INFO:colcon.colcon_core.shell:Creating prefix script '~/dev_ws/install/local_setup.ps1'
+[17.878s] INFO:colcon.colcon_core.shell:Creating prefix util module '~/dev_ws/install/_local_setup_util_ps1.py'
+[17.880s] INFO:colcon.colcon_core.shell:Creating prefix chain script '~/dev_ws/install/setup.ps1'
+[17.883s] INFO:colcon.colcon_core.shell:Creating prefix script '~/dev_ws/install/local_setup.sh'
+[17.884s] INFO:colcon.colcon_core.shell:Creating prefix util module '~/dev_ws/install/_local_setup_util_sh.py'
+[17.885s] INFO:colcon.colcon_core.shell:Creating prefix chain script '~/dev_ws/install/setup.sh'
+[17.888s] INFO:colcon.colcon_core.shell:Creating prefix script '~/dev_ws/install/local_setup.bash'
+[17.888s] INFO:colcon.colcon_core.shell:Creating prefix chain script '~/dev_ws/install/setup.bash'
+[17.891s] INFO:colcon.colcon_core.shell:Creating prefix script '~/dev_ws/install/local_setup.zsh'
+[17.892s] INFO:colcon.colcon_core.shell:Creating prefix chain script '~/dev_ws/install/setup.zsh'

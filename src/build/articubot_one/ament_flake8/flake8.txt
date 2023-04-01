@@ -1,5 +1,5 @@
--- run_test.py: invoking following command in '/home/aurelien/dev_ws/src/articubot_one':
- - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/aurelien/dev_ws/src/build/articubot_one/test_results/articubot_one/flake8.xunit.xml
+-- run_test.py: invoking following command in '~/dev_ws/src/articubot_one':
+ - /opt/ros/humble/bin/ament_flake8 --xunit-file ~/dev_ws/src/build/articubot_one/test_results/articubot_one/flake8.xunit.xml
 
     xacro_file = os.path.join(pkg_path,'description','robot.urdf.xacro')
                                       ^
@@ -83,4 +83,4 @@ Checked files:
 
 
 -- run_test.py: return code 1
--- run_test.py: verify result file '/home/aurelien/dev_ws/src/build/articubot_one/test_results/articubot_one/flake8.xunit.xml'
+-- run_test.py: verify result file '~/dev_ws/src/build/articubot_one/test_results/articubot_one/flake8.xunit.xml'

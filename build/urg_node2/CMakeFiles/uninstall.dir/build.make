@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aurelien/dev_ws/src/urg_node2
+CMAKE_SOURCE_DIR = ~/dev_ws/src/urg_node2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aurelien/dev_ws/build/urg_node2
+CMAKE_BINARY_DIR = ~/dev_ws/build/urg_node2
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/aurelien/dev_ws/build/urg_node2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aurelien/dev_ws/src/urg_node2 /home/aurelien/dev_ws/src/urg_node2 /home/aurelien/dev_ws/build/urg_node2 /home/aurelien/dev_ws/build/urg_node2 /home/aurelien/dev_ws/build/urg_node2/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd ~/dev_ws/build/urg_node2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" ~/dev_ws/src/urg_node2 ~/dev_ws/src/urg_node2 ~/dev_ws/build/urg_node2 ~/dev_ws/build/urg_node2 ~/dev_ws/build/urg_node2/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

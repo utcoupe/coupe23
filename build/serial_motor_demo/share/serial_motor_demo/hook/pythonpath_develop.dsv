@@ -1,1 +1,1 @@
-prepend-non-duplicate;PYTHONPATH;/home/aurelien/dev_ws/build/serial_motor_demo
+prepend-non-duplicate;PYTHONPATH;~/dev_ws/build/serial_motor_demo

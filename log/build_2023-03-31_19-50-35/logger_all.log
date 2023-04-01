@@ -6,7 +6,7 @@
 [0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
 [0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
 [0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
-[0.247s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aurelien/dev_ws'
+[0.247s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '~/dev_ws'
 [0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
 [0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
 [0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
@@ -114,7 +114,7 @@
 [0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
 [0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
 [0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
-[0.280s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/aurelien/dev_ws/install
+[0.280s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in ~/dev_ws/install
 [0.281s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 389 installed packages in /opt/ros/humble
 [0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
 [0.326s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to 'None'
@@ -126,7 +126,7 @@
 [0.326s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
 [0.326s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
 [0.326s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
-[0.326s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aurelien/dev_ws/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aurelien/dev_ws/install/articubot_one', 'merge_install': False, 'path': '/home/aurelien/dev_ws/src/articubot_one', 'symlink_install': True, 'test_result_base': None}
+[0.326s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '~/dev_ws/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '~/dev_ws/install/articubot_one', 'merge_install': False, 'path': '~/dev_ws/src/articubot_one', 'symlink_install': True, 'test_result_base': None}
 [0.327s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_args' from command line to 'None'
 [0.327s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target' from command line to 'None'
 [0.327s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
@@ -136,7 +136,7 @@
 [0.327s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
 [0.327s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
 [0.327s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
-[0.327s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aurelien/dev_ws/build/serial_motor_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aurelien/dev_ws/install/serial_motor_demo_msgs', 'merge_install': False, 'path': '/home/aurelien/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.327s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '~/dev_ws/build/serial_motor_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '~/dev_ws/install/serial_motor_demo_msgs', 'merge_install': False, 'path': '~/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs', 'symlink_install': True, 'test_result_base': None}
 [0.327s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_args' from command line to 'None'
 [0.327s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_target' from command line to 'None'
 [0.327s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
@@ -146,7 +146,7 @@
 [0.328s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'ament_cmake_args' from command line to 'None'
 [0.328s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'catkin_cmake_args' from command line to 'None'
 [0.328s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' build argument 'catkin_skip_building_tests' from command line to 'False'
-[0.328s] DEBUG:colcon.colcon_core.verb:Building package 'urg_node2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aurelien/dev_ws/build/urg_node2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aurelien/dev_ws/install/urg_node2', 'merge_install': False, 'path': '/home/aurelien/dev_ws/src/urg_node2', 'symlink_install': True, 'test_result_base': None}
+[0.328s] DEBUG:colcon.colcon_core.verb:Building package 'urg_node2' with the following arguments: {'ament_cmake_args': None, 'build_base': '~/dev_ws/build/urg_node2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '~/dev_ws/install/urg_node2', 'merge_install': False, 'path': '~/dev_ws/src/urg_node2', 'symlink_install': True, 'test_result_base': None}
 [0.328s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_args' from command line to 'None'
 [0.328s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target' from command line to 'None'
 [0.328s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
@@ -156,195 +156,195 @@
 [0.328s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'ament_cmake_args' from command line to 'None'
 [0.328s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_cmake_args' from command line to 'None'
 [0.328s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
-[0.328s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aurelien/dev_ws/build/serial_motor_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aurelien/dev_ws/install/serial_motor_demo', 'merge_install': False, 'path': '/home/aurelien/dev_ws/src/serial_motor_demo/serial_motor_demo', 'symlink_install': True, 'test_result_base': None}
+[0.328s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '~/dev_ws/build/serial_motor_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '~/dev_ws/install/serial_motor_demo', 'merge_install': False, 'path': '~/dev_ws/src/serial_motor_demo/serial_motor_demo', 'symlink_install': True, 'test_result_base': None}
 [0.329s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
 [0.331s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
-[0.331s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aurelien/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs' with build type 'ament_cmake'
-[0.331s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aurelien/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs'
+[0.331s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '~/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs' with build type 'ament_cmake'
+[0.331s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '~/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs'
 [0.334s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
 [0.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
 [0.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
-[0.336s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/aurelien/catkin_ws/devel'
-[0.337s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aurelien/dev_ws/src/articubot_one' with build type 'ament_cmake'
-[0.337s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aurelien/dev_ws/src/articubot_one'
+[0.336s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '~/catkin_ws/devel'
+[0.337s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '~/dev_ws/src/articubot_one' with build type 'ament_cmake'
+[0.337s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '~/dev_ws/src/articubot_one'
 [0.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
 [0.338s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
-[0.341s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/aurelien/catkin_ws/devel'
-[0.341s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aurelien/dev_ws/src/urg_node2' with build type 'ament_cmake'
-[0.341s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aurelien/dev_ws/src/urg_node2'
+[0.341s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '~/catkin_ws/devel'
+[0.341s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '~/dev_ws/src/urg_node2' with build type 'ament_cmake'
+[0.341s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '~/dev_ws/src/urg_node2'
 [0.342s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
 [0.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
-[0.345s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/aurelien/catkin_ws/devel'
-[0.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelien/dev_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/urg_node2:/home/aurelien/dev_ws/install/serial_motor_demo_msgs:/home/aurelien/dev_ws/install/articubot_one:/home/aurelien/dev_ws/install/serial_motor_demo:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --build /home/aurelien/dev_ws/build/serial_motor_demo_msgs -- -j16 -l16
-[0.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelien/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/urg_node2:/home/aurelien/dev_ws/install/serial_motor_demo_msgs:/home/aurelien/dev_ws/install/articubot_one:/home/aurelien/dev_ws/install/serial_motor_demo:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --build /home/aurelien/dev_ws/build/articubot_one -- -j16 -l16
-[0.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelien/dev_ws/build/urg_node2': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/urg_node2:/home/aurelien/dev_ws/install/serial_motor_demo_msgs:/home/aurelien/dev_ws/install/articubot_one:/home/aurelien/dev_ws/install/serial_motor_demo:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --build /home/aurelien/dev_ws/build/urg_node2 -- -j16 -l16
-[0.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelien/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/urg_node2:/home/aurelien/dev_ws/install/serial_motor_demo_msgs:/home/aurelien/dev_ws/install/articubot_one:/home/aurelien/dev_ws/install/serial_motor_demo:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --build /home/aurelien/dev_ws/build/articubot_one -- -j16 -l16
-[0.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelien/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/urg_node2:/home/aurelien/dev_ws/install/serial_motor_demo_msgs:/home/aurelien/dev_ws/install/articubot_one:/home/aurelien/dev_ws/install/serial_motor_demo:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --install /home/aurelien/dev_ws/build/articubot_one
+[0.345s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '~/catkin_ws/devel'
+[0.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '~/dev_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=~/dev_ws/install/urg_node2:~/dev_ws/install/serial_motor_demo_msgs:~/dev_ws/install/articubot_one:~/dev_ws/install/serial_motor_demo:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --build ~/dev_ws/build/serial_motor_demo_msgs -- -j16 -l16
+[0.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '~/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=~/dev_ws/install/urg_node2:~/dev_ws/install/serial_motor_demo_msgs:~/dev_ws/install/articubot_one:~/dev_ws/install/serial_motor_demo:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --build ~/dev_ws/build/articubot_one -- -j16 -l16
+[0.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '~/dev_ws/build/urg_node2': CMAKE_PREFIX_PATH=~/dev_ws/install/urg_node2:~/dev_ws/install/serial_motor_demo_msgs:~/dev_ws/install/articubot_one:~/dev_ws/install/serial_motor_demo:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --build ~/dev_ws/build/urg_node2 -- -j16 -l16
+[0.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '~/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=~/dev_ws/install/urg_node2:~/dev_ws/install/serial_motor_demo_msgs:~/dev_ws/install/articubot_one:~/dev_ws/install/serial_motor_demo:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --build ~/dev_ws/build/articubot_one -- -j16 -l16
+[0.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '~/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=~/dev_ws/install/urg_node2:~/dev_ws/install/serial_motor_demo_msgs:~/dev_ws/install/articubot_one:~/dev_ws/install/serial_motor_demo:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --install ~/dev_ws/build/articubot_one
 [0.398s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
-[0.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelien/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/urg_node2:/home/aurelien/dev_ws/install/serial_motor_demo_msgs:/home/aurelien/dev_ws/install/articubot_one:/home/aurelien/dev_ws/install/serial_motor_demo:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --install /home/aurelien/dev_ws/build/articubot_one
-[0.403s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one' for CMake module files
-[0.403s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one' for CMake config files
+[0.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '~/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=~/dev_ws/install/urg_node2:~/dev_ws/install/serial_motor_demo_msgs:~/dev_ws/install/articubot_one:~/dev_ws/install/serial_motor_demo:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --install ~/dev_ws/build/articubot_one
+[0.403s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one' for CMake module files
+[0.403s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one' for CMake config files
 [0.403s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
-[0.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
-[0.404s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
-[0.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
-[0.405s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one/bin'
-[0.405s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
-[0.406s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one/lib/python3.10/site-packages'
-[0.406s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one/bin'
-[0.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.ps1'
-[0.407s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.dsv'
-[0.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.sh'
-[0.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.bash'
-[0.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.zsh'
-[0.409s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurelien/dev_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
-[0.410s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelien/dev_ws/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/urg_node2:/home/aurelien/dev_ws/install/serial_motor_demo_msgs:/home/aurelien/dev_ws/install/articubot_one:/home/aurelien/dev_ws/install/serial_motor_demo:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --build /home/aurelien/dev_ws/build/urg_node2 -- -j16 -l16
+[0.404s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[0.404s] INFO:colcon.colcon_core.shell:Creating environment descriptor '~/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[0.405s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[0.405s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one/bin'
+[0.405s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[0.406s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one/lib/python3.10/site-packages'
+[0.406s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one/bin'
+[0.407s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/articubot_one/share/articubot_one/package.ps1'
+[0.407s] INFO:colcon.colcon_core.shell:Creating package descriptor '~/dev_ws/install/articubot_one/share/articubot_one/package.dsv'
+[0.407s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/articubot_one/share/articubot_one/package.sh'
+[0.408s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/articubot_one/share/articubot_one/package.bash'
+[0.408s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/articubot_one/share/articubot_one/package.zsh'
+[0.409s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(~/dev_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
+[0.410s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '~/dev_ws/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=~/dev_ws/install/urg_node2:~/dev_ws/install/serial_motor_demo_msgs:~/dev_ws/install/articubot_one:~/dev_ws/install/serial_motor_demo:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --build ~/dev_ws/build/urg_node2 -- -j16 -l16
 [0.422s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
-[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one' for CMake module files
-[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one' for CMake config files
+[0.423s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one' for CMake module files
+[0.423s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one' for CMake config files
 [0.424s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
-[0.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
-[0.425s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
-[0.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
-[0.426s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one/bin'
-[0.426s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
-[0.426s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one/lib/python3.10/site-packages'
-[0.426s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one/bin'
-[0.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.ps1'
-[0.428s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.dsv'
-[0.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.sh'
-[0.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.bash'
-[0.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.zsh'
-[0.428s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurelien/dev_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
-[0.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelien/dev_ws/build/urg_node2': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/urg_node2:/home/aurelien/dev_ws/install/serial_motor_demo_msgs:/home/aurelien/dev_ws/install/articubot_one:/home/aurelien/dev_ws/install/serial_motor_demo:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --install /home/aurelien/dev_ws/build/urg_node2
+[0.424s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[0.425s] INFO:colcon.colcon_core.shell:Creating environment descriptor '~/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[0.425s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[0.426s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one/bin'
+[0.426s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[0.426s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one/lib/python3.10/site-packages'
+[0.426s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one/bin'
+[0.427s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/articubot_one/share/articubot_one/package.ps1'
+[0.428s] INFO:colcon.colcon_core.shell:Creating package descriptor '~/dev_ws/install/articubot_one/share/articubot_one/package.dsv'
+[0.428s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/articubot_one/share/articubot_one/package.sh'
+[0.428s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/articubot_one/share/articubot_one/package.bash'
+[0.428s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/articubot_one/share/articubot_one/package.zsh'
+[0.428s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(~/dev_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
+[0.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '~/dev_ws/build/urg_node2': CMAKE_PREFIX_PATH=~/dev_ws/install/urg_node2:~/dev_ws/install/serial_motor_demo_msgs:~/dev_ws/install/articubot_one:~/dev_ws/install/serial_motor_demo:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --install ~/dev_ws/build/urg_node2
 [0.452s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node2)
-[0.454s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2' for CMake module files
-[0.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelien/dev_ws/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/urg_node2:/home/aurelien/dev_ws/install/serial_motor_demo_msgs:/home/aurelien/dev_ws/install/articubot_one:/home/aurelien/dev_ws/install/serial_motor_demo:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --install /home/aurelien/dev_ws/build/urg_node2
-[0.454s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2' for CMake config files
+[0.454s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2' for CMake module files
+[0.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '~/dev_ws/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=~/dev_ws/install/urg_node2:~/dev_ws/install/serial_motor_demo_msgs:~/dev_ws/install/articubot_one:~/dev_ws/install/serial_motor_demo:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --install ~/dev_ws/build/urg_node2
+[0.454s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2' for CMake config files
 [0.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node2', 'cmake_prefix_path')
-[0.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.ps1'
-[0.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.dsv'
-[0.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.sh'
-[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2/lib'
+[0.455s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.ps1'
+[0.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '~/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.dsv'
+[0.456s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.sh'
+[0.456s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2/lib'
 [0.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node2', 'ld_library_path_lib')
-[0.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.ps1'
-[0.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.dsv'
-[0.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.sh'
-[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2/bin'
-[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2/lib/pkgconfig/urg_node2.pc'
-[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2/lib/python3.10/site-packages'
-[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2/bin'
-[0.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/package.ps1'
-[0.459s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/package.dsv'
-[0.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/package.sh'
-[0.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/package.bash'
-[0.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/package.zsh'
-[0.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurelien/dev_ws/install/urg_node2/share/colcon-core/packages/urg_node2)
+[0.457s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.ps1'
+[0.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '~/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.dsv'
+[0.458s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.sh'
+[0.458s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2/bin'
+[0.458s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2/lib/pkgconfig/urg_node2.pc'
+[0.458s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2/lib/python3.10/site-packages'
+[0.458s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2/bin'
+[0.459s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/urg_node2/share/urg_node2/package.ps1'
+[0.459s] INFO:colcon.colcon_core.shell:Creating package descriptor '~/dev_ws/install/urg_node2/share/urg_node2/package.dsv'
+[0.460s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/urg_node2/share/urg_node2/package.sh'
+[0.460s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/urg_node2/share/urg_node2/package.bash'
+[0.460s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/urg_node2/share/urg_node2/package.zsh'
+[0.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(~/dev_ws/install/urg_node2/share/colcon-core/packages/urg_node2)
 [0.493s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node2)
-[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2' for CMake module files
-[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2' for CMake config files
+[0.494s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2' for CMake module files
+[0.494s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2' for CMake config files
 [0.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node2', 'cmake_prefix_path')
-[0.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.ps1'
-[0.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.dsv'
-[0.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.sh'
-[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2/lib'
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.ps1'
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '~/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.dsv'
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/urg_node2/share/urg_node2/hook/cmake_prefix_path.sh'
+[0.496s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2/lib'
 [0.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node2', 'ld_library_path_lib')
-[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.ps1'
-[0.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.dsv'
-[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.sh'
-[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2/bin'
-[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2/lib/pkgconfig/urg_node2.pc'
-[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2/lib/python3.10/site-packages'
-[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/urg_node2/bin'
-[0.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/package.ps1'
-[0.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/package.dsv'
-[0.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/package.sh'
-[0.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/package.bash'
-[0.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/urg_node2/share/urg_node2/package.zsh'
-[0.500s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurelien/dev_ws/install/urg_node2/share/colcon-core/packages/urg_node2)
-[2.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelien/dev_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/urg_node2:/home/aurelien/dev_ws/install/serial_motor_demo_msgs:/home/aurelien/dev_ws/install/articubot_one:/home/aurelien/dev_ws/install/serial_motor_demo:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --build /home/aurelien/dev_ws/build/serial_motor_demo_msgs -- -j16 -l16
-[2.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelien/dev_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/urg_node2:/home/aurelien/dev_ws/install/serial_motor_demo_msgs:/home/aurelien/dev_ws/install/articubot_one:/home/aurelien/dev_ws/install/serial_motor_demo:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --install /home/aurelien/dev_ws/build/serial_motor_demo_msgs
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.ps1'
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '~/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.dsv'
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/urg_node2/share/urg_node2/hook/ld_library_path_lib.sh'
+[0.497s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2/bin'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2/lib/pkgconfig/urg_node2.pc'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2/lib/python3.10/site-packages'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/urg_node2/bin'
+[0.499s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/urg_node2/share/urg_node2/package.ps1'
+[0.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '~/dev_ws/install/urg_node2/share/urg_node2/package.dsv'
+[0.499s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/urg_node2/share/urg_node2/package.sh'
+[0.500s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/urg_node2/share/urg_node2/package.bash'
+[0.500s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/urg_node2/share/urg_node2/package.zsh'
+[0.500s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(~/dev_ws/install/urg_node2/share/colcon-core/packages/urg_node2)
+[2.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '~/dev_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=~/dev_ws/install/urg_node2:~/dev_ws/install/serial_motor_demo_msgs:~/dev_ws/install/articubot_one:~/dev_ws/install/serial_motor_demo:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --build ~/dev_ws/build/serial_motor_demo_msgs -- -j16 -l16
+[2.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '~/dev_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=~/dev_ws/install/urg_node2:~/dev_ws/install/serial_motor_demo_msgs:~/dev_ws/install/articubot_one:~/dev_ws/install/serial_motor_demo:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --install ~/dev_ws/build/serial_motor_demo_msgs
 [2.251s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
-[2.253s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/serial_motor_demo_msgs' for CMake module files
-[2.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelien/dev_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/urg_node2:/home/aurelien/dev_ws/install/serial_motor_demo_msgs:/home/aurelien/dev_ws/install/articubot_one:/home/aurelien/dev_ws/install/serial_motor_demo:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --install /home/aurelien/dev_ws/build/serial_motor_demo_msgs
-[2.254s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/serial_motor_demo_msgs' for CMake config files
+[2.253s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/serial_motor_demo_msgs' for CMake module files
+[2.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '~/dev_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=~/dev_ws/install/urg_node2:~/dev_ws/install/serial_motor_demo_msgs:~/dev_ws/install/articubot_one:~/dev_ws/install/serial_motor_demo:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --install ~/dev_ws/build/serial_motor_demo_msgs
+[2.254s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/serial_motor_demo_msgs' for CMake config files
 [2.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
-[2.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
-[2.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
-[2.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
-[2.255s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/lib'
+[2.255s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[2.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '~/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[2.255s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[2.255s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/serial_motor_demo_msgs/lib'
 [2.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
-[2.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
-[2.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
-[2.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
-[2.257s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/bin'
-[2.257s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
-[2.257s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/lib/python3.10/site-packages'
-[2.257s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/bin'
-[2.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
-[2.258s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
-[2.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
-[2.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
-[2.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
-[2.259s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurelien/dev_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[2.256s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[2.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '~/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[2.257s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[2.257s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/serial_motor_demo_msgs/bin'
+[2.257s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[2.257s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/serial_motor_demo_msgs/lib/python3.10/site-packages'
+[2.257s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/serial_motor_demo_msgs/bin'
+[2.258s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[2.258s] INFO:colcon.colcon_core.shell:Creating package descriptor '~/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[2.259s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[2.259s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[2.259s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[2.259s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(~/dev_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
 [2.323s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
-[2.324s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/serial_motor_demo_msgs' for CMake module files
-[2.325s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/serial_motor_demo_msgs' for CMake config files
+[2.324s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/serial_motor_demo_msgs' for CMake module files
+[2.325s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/serial_motor_demo_msgs' for CMake config files
 [2.325s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
-[2.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
-[2.326s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
-[2.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
-[2.327s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/lib'
+[2.326s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[2.326s] INFO:colcon.colcon_core.shell:Creating environment descriptor '~/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[2.326s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[2.327s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/serial_motor_demo_msgs/lib'
 [2.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
-[2.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
-[2.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
-[2.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
-[2.328s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/bin'
-[2.328s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
-[2.328s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/lib/python3.10/site-packages'
-[2.328s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/bin'
-[2.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
-[2.330s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
-[2.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
-[2.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
-[2.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
-[2.331s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurelien/dev_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
-[2.331s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aurelien/dev_ws/src/serial_motor_demo/serial_motor_demo' with build type 'ament_python'
+[2.327s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[2.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '~/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[2.328s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[2.328s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/serial_motor_demo_msgs/bin'
+[2.328s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[2.328s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/serial_motor_demo_msgs/lib/python3.10/site-packages'
+[2.328s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/serial_motor_demo_msgs/bin'
+[2.329s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[2.330s] INFO:colcon.colcon_core.shell:Creating package descriptor '~/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[2.330s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[2.330s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[2.331s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[2.331s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(~/dev_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[2.331s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '~/dev_ws/src/serial_motor_demo/serial_motor_demo' with build type 'ament_python'
 [2.331s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'ament_prefix_path')
-[2.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.ps1'
-[2.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelien/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.dsv'
-[2.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.sh'
+[2.332s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.ps1'
+[2.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '~/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.dsv'
+[2.333s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.sh'
 [2.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
 [2.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
-[2.337s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/aurelien/catkin_ws/devel'
-[2.509s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aurelien/dev_ws/src/serial_motor_demo/serial_motor_demo'
+[2.337s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '~/catkin_ws/devel'
+[2.509s] INFO:colcon.colcon_core.task.python.build:Building Python package in '~/dev_ws/src/serial_motor_demo/serial_motor_demo'
 [2.510s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
 [2.510s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
-[2.513s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/aurelien/catkin_ws/devel'
-[2.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelien/dev_ws/build/serial_motor_demo': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/serial_motor_demo_msgs:/home/aurelien/dev_ws/install/urg_node2:/home/aurelien/dev_ws/install/articubot_one:/home/aurelien/catkin_ws/devel LD_LIBRARY_PATH=/home/aurelien/dev_ws/install/serial_motor_demo_msgs/lib:/home/aurelien/dev_ws/install/urg_node2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/aurelien/catkin_ws/devel/lib PYTHONPATH=/home/aurelien/dev_ws/build/serial_motor_demo/prefix_override:/home/aurelien/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/aurelien/dev_ws/build/serial_motor_demo/build --no-deps install_data
+[2.513s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '~/catkin_ws/devel'
+[2.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '~/dev_ws/build/serial_motor_demo': CMAKE_PREFIX_PATH=~/dev_ws/install/serial_motor_demo_msgs:~/dev_ws/install/urg_node2:~/dev_ws/install/articubot_one:~/catkin_ws/devel LD_LIBRARY_PATH=~/dev_ws/install/serial_motor_demo_msgs/lib:~/dev_ws/install/urg_node2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:~/catkin_ws/devel/lib PYTHONPATH=~/dev_ws/build/serial_motor_demo/prefix_override:~/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory ~/dev_ws/build/serial_motor_demo/build --no-deps install_data
 [3.098s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath_develop')
-[3.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.ps1'
-[3.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelien/dev_ws/build/serial_motor_demo' returned '0': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/serial_motor_demo_msgs:/home/aurelien/dev_ws/install/urg_node2:/home/aurelien/dev_ws/install/articubot_one:/home/aurelien/catkin_ws/devel LD_LIBRARY_PATH=/home/aurelien/dev_ws/install/serial_motor_demo_msgs/lib:/home/aurelien/dev_ws/install/urg_node2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/aurelien/catkin_ws/devel/lib PYTHONPATH=/home/aurelien/dev_ws/build/serial_motor_demo/prefix_override:/home/aurelien/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/aurelien/dev_ws/build/serial_motor_demo/build --no-deps install_data
-[3.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelien/dev_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.dsv'
-[3.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.sh'
-[3.101s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/serial_motor_demo' for CMake module files
-[3.101s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/serial_motor_demo' for CMake config files
-[3.101s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/serial_motor_demo/lib'
-[3.101s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/serial_motor_demo/bin'
-[3.101s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/serial_motor_demo/lib/pkgconfig/serial_motor_demo.pc'
-[3.101s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages'
+[3.098s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.ps1'
+[3.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '~/dev_ws/build/serial_motor_demo' returned '0': CMAKE_PREFIX_PATH=~/dev_ws/install/serial_motor_demo_msgs:~/dev_ws/install/urg_node2:~/dev_ws/install/articubot_one:~/catkin_ws/devel LD_LIBRARY_PATH=~/dev_ws/install/serial_motor_demo_msgs/lib:~/dev_ws/install/urg_node2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:~/catkin_ws/devel/lib PYTHONPATH=~/dev_ws/build/serial_motor_demo/prefix_override:~/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory ~/dev_ws/build/serial_motor_demo/build --no-deps install_data
+[3.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '~/dev_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.dsv'
+[3.099s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.sh'
+[3.101s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/serial_motor_demo' for CMake module files
+[3.101s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/serial_motor_demo' for CMake config files
+[3.101s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/serial_motor_demo/lib'
+[3.101s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/serial_motor_demo/bin'
+[3.101s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/serial_motor_demo/lib/pkgconfig/serial_motor_demo.pc'
+[3.101s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages'
 [3.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath')
-[3.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.ps1'
-[3.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelien/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.dsv'
-[3.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.sh'
-[3.103s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/serial_motor_demo/bin'
+[3.102s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.ps1'
+[3.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '~/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.dsv'
+[3.102s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.sh'
+[3.103s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/serial_motor_demo/bin'
 [3.103s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo)
-[3.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.ps1'
-[3.104s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurelien/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.dsv'
-[3.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.sh'
-[3.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.bash'
-[3.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.zsh'
-[3.104s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurelien/dev_ws/install/serial_motor_demo/share/colcon-core/packages/serial_motor_demo)
+[3.103s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.ps1'
+[3.104s] INFO:colcon.colcon_core.shell:Creating package descriptor '~/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.dsv'
+[3.104s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.sh'
+[3.104s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.bash'
+[3.104s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.zsh'
+[3.104s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(~/dev_ws/install/serial_motor_demo/share/colcon-core/packages/serial_motor_demo)
 [3.105s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
 [3.105s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
 [3.105s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
@@ -353,13 +353,13 @@
 [3.110s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
 [3.110s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
 [3.118s] DEBUG:colcon.colcon_core.event_reactor:joined thread
-[3.118s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aurelien/dev_ws/install/local_setup.ps1'
-[3.119s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aurelien/dev_ws/install/_local_setup_util_ps1.py'
-[3.120s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aurelien/dev_ws/install/setup.ps1'
-[3.121s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aurelien/dev_ws/install/local_setup.sh'
-[3.121s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aurelien/dev_ws/install/_local_setup_util_sh.py'
-[3.121s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aurelien/dev_ws/install/setup.sh'
-[3.122s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aurelien/dev_ws/install/local_setup.bash'
-[3.122s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aurelien/dev_ws/install/setup.bash'
-[3.123s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aurelien/dev_ws/install/local_setup.zsh'
-[3.123s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aurelien/dev_ws/install/setup.zsh'
+[3.118s] INFO:colcon.colcon_core.shell:Creating prefix script '~/dev_ws/install/local_setup.ps1'
+[3.119s] INFO:colcon.colcon_core.shell:Creating prefix util module '~/dev_ws/install/_local_setup_util_ps1.py'
+[3.120s] INFO:colcon.colcon_core.shell:Creating prefix chain script '~/dev_ws/install/setup.ps1'
+[3.121s] INFO:colcon.colcon_core.shell:Creating prefix script '~/dev_ws/install/local_setup.sh'
+[3.121s] INFO:colcon.colcon_core.shell:Creating prefix util module '~/dev_ws/install/_local_setup_util_sh.py'
+[3.121s] INFO:colcon.colcon_core.shell:Creating prefix chain script '~/dev_ws/install/setup.sh'
+[3.122s] INFO:colcon.colcon_core.shell:Creating prefix script '~/dev_ws/install/local_setup.bash'
+[3.122s] INFO:colcon.colcon_core.shell:Creating prefix chain script '~/dev_ws/install/setup.bash'
+[3.123s] INFO:colcon.colcon_core.shell:Creating prefix script '~/dev_ws/install/local_setup.zsh'
+[3.123s] INFO:colcon.colcon_core.shell:Creating prefix chain script '~/dev_ws/install/setup.zsh'

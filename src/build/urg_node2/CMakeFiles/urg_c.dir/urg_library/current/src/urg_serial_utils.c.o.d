@@ -1,9 +1,9 @@
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.o: \
- /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_serial_utils.c \
+ ~/dev_ws/src/urg_node2/urg_library/current/src/urg_serial_utils.c \
  /usr/include/stdc-predef.h \
- /home/aurelien/dev_ws/src/urg_node2/urg_library/current/include/c/urg_serial_utils.h \
- /home/aurelien/dev_ws/src/urg_node2/urg_library/current/include/c/urg_detect_os.h \
- /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_serial_utils_linux.c \
+ ~/dev_ws/src/urg_node2/urg_library/current/include/c/urg_serial_utils.h \
+ ~/dev_ws/src/urg_node2/urg_library/current/include/c/urg_detect_os.h \
+ ~/dev_ws/src/urg_node2/urg_library/current/src/urg_serial_utils_linux.c \
  /usr/include/dirent.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

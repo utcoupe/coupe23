@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aurelien/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs
+CMAKE_SOURCE_DIR = ~/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aurelien/dev_ws/build/serial_motor_demo_msgs
+CMAKE_BINARY_DIR = ~/dev_ws/build/serial_motor_demo_msgs
 
 # Utility rule file for serial_motor_demo_msgs__cpp.
 
@@ -97,8 +97,8 @@ rosidl_generator_cpp/serial_motor_demo_msgs/msg/motor_command.hpp: /opt/ros/humb
 rosidl_generator_cpp/serial_motor_demo_msgs/msg/motor_command.hpp: rosidl_adapter/serial_motor_demo_msgs/msg/MotorCommand.idl
 rosidl_generator_cpp/serial_motor_demo_msgs/msg/motor_command.hpp: rosidl_adapter/serial_motor_demo_msgs/msg/MotorVels.idl
 rosidl_generator_cpp/serial_motor_demo_msgs/msg/motor_command.hpp: rosidl_adapter/serial_motor_demo_msgs/msg/EncoderVals.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/aurelien/dev_ws/build/serial_motor_demo_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/aurelien/dev_ws/build/serial_motor_demo_msgs/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=~/dev_ws/build/serial_motor_demo_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file ~/dev_ws/build/serial_motor_demo_msgs/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp: rosidl_generator_cpp/serial_motor_demo_msgs/msg/motor_command.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp
@@ -158,6 +158,6 @@ CMakeFiles/serial_motor_demo_msgs__cpp.dir/clean:
 .PHONY : CMakeFiles/serial_motor_demo_msgs__cpp.dir/clean
 
 CMakeFiles/serial_motor_demo_msgs__cpp.dir/depend:
-	cd /home/aurelien/dev_ws/build/serial_motor_demo_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aurelien/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs /home/aurelien/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs /home/aurelien/dev_ws/build/serial_motor_demo_msgs /home/aurelien/dev_ws/build/serial_motor_demo_msgs /home/aurelien/dev_ws/build/serial_motor_demo_msgs/CMakeFiles/serial_motor_demo_msgs__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd ~/dev_ws/build/serial_motor_demo_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" ~/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs ~/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs ~/dev_ws/build/serial_motor_demo_msgs ~/dev_ws/build/serial_motor_demo_msgs ~/dev_ws/build/serial_motor_demo_msgs/CMakeFiles/serial_motor_demo_msgs__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/serial_motor_demo_msgs__cpp.dir/depend
 

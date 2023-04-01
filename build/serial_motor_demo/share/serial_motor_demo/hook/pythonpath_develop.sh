@@ -1,3 +1,3 @@
 # generated from colcon_core/shell/template/hook_prepend_value.sh.em
 
-_colcon_prepend_unique_value PYTHONPATH "/home/aurelien/dev_ws/build/serial_motor_demo"
+_colcon_prepend_unique_value PYTHONPATH "~/dev_ws/build/serial_motor_demo"

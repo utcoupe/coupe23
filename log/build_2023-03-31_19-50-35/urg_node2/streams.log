@@ -1,37 +1,37 @@
-[0.010s] Invoking command in '/home/aurelien/dev_ws/build/urg_node2': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/urg_node2:/home/aurelien/dev_ws/install/serial_motor_demo_msgs:/home/aurelien/dev_ws/install/articubot_one:/home/aurelien/dev_ws/install/serial_motor_demo:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --build /home/aurelien/dev_ws/build/urg_node2 -- -j16 -l16
+[0.010s] Invoking command in '~/dev_ws/build/urg_node2': CMAKE_PREFIX_PATH=~/dev_ws/install/urg_node2:~/dev_ws/install/serial_motor_demo_msgs:~/dev_ws/install/articubot_one:~/dev_ws/install/serial_motor_demo:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --build ~/dev_ws/build/urg_node2 -- -j16 -l16
 [0.037s] [ 45%] Built target urg_c
 [0.037s] [ 55%] Built target gtest_main
 [0.038s] [ 65%] Built target gtest
 [0.039s] [ 75%] Built target urg_node2_node
 [0.052s] [ 85%] Built target urg_node2
 [0.053s] [100%] Built target urg_node2_test
-[0.068s] Invoked command in '/home/aurelien/dev_ws/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/urg_node2:/home/aurelien/dev_ws/install/serial_motor_demo_msgs:/home/aurelien/dev_ws/install/articubot_one:/home/aurelien/dev_ws/install/serial_motor_demo:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --build /home/aurelien/dev_ws/build/urg_node2 -- -j16 -l16
-[0.098s] Invoking command in '/home/aurelien/dev_ws/build/urg_node2': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/urg_node2:/home/aurelien/dev_ws/install/serial_motor_demo_msgs:/home/aurelien/dev_ws/install/articubot_one:/home/aurelien/dev_ws/install/serial_motor_demo:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --install /home/aurelien/dev_ws/build/urg_node2
+[0.068s] Invoked command in '~/dev_ws/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=~/dev_ws/install/urg_node2:~/dev_ws/install/serial_motor_demo_msgs:~/dev_ws/install/articubot_one:~/dev_ws/install/serial_motor_demo:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --build ~/dev_ws/build/urg_node2 -- -j16 -l16
+[0.098s] Invoking command in '~/dev_ws/build/urg_node2': CMAKE_PREFIX_PATH=~/dev_ws/install/urg_node2:~/dev_ws/install/serial_motor_demo_msgs:~/dev_ws/install/articubot_one:~/dev_ws/install/serial_motor_demo:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --install ~/dev_ws/build/urg_node2
 [0.102s] -- Install configuration: ""
 [0.102s] -- Execute custom install script
-[0.102s] -- Up-to-date symlink: /home/aurelien/dev_ws/install/urg_node2/lib/urg_node2/urg_node2_node
-[0.103s] -- Up-to-date symlink: /home/aurelien/dev_ws/install/urg_node2/lib/liburg_node2.so
-[0.103s] -- Up-to-date symlink: /home/aurelien/dev_ws/install/urg_node2/lib/liburg_c.so
-[0.103s] -- Up-to-date symlink: /home/aurelien/dev_ws/install/urg_node2/share/urg_node2/launch/urg_node2.launch.py
-[0.103s] -- Up-to-date symlink: /home/aurelien/dev_ws/install/urg_node2/share/urg_node2/launch/urg_node2_2lidar.launch.py
-[0.103s] -- Up-to-date symlink: /home/aurelien/dev_ws/install/urg_node2/share/urg_node2/launch/urg_node2_component.launch.py
-[0.103s] -- Up-to-date symlink: /home/aurelien/dev_ws/install/urg_node2/share/urg_node2/config/params_ether.yaml
-[0.103s] -- Up-to-date symlink: /home/aurelien/dev_ws/install/urg_node2/share/urg_node2/config/params_ether_2nd.yaml
-[0.103s] -- Up-to-date symlink: /home/aurelien/dev_ws/install/urg_node2/share/urg_node2/config/params_serial.yaml
-[0.104s] -- Up-to-date symlink: /home/aurelien/dev_ws/install/urg_node2/share/ament_index/resource_index/package_run_dependencies/urg_node2
-[0.104s] -- Up-to-date symlink: /home/aurelien/dev_ws/install/urg_node2/share/ament_index/resource_index/parent_prefix_path/urg_node2
-[0.104s] -- Up-to-date symlink: /home/aurelien/dev_ws/install/urg_node2/share/urg_node2/environment/ament_prefix_path.sh
-[0.104s] -- Up-to-date symlink: /home/aurelien/dev_ws/install/urg_node2/share/urg_node2/environment/ament_prefix_path.dsv
-[0.104s] -- Up-to-date symlink: /home/aurelien/dev_ws/install/urg_node2/share/urg_node2/environment/path.sh
-[0.104s] -- Up-to-date symlink: /home/aurelien/dev_ws/install/urg_node2/share/urg_node2/environment/path.dsv
-[0.104s] -- Up-to-date symlink: /home/aurelien/dev_ws/install/urg_node2/share/urg_node2/local_setup.bash
-[0.104s] -- Up-to-date symlink: /home/aurelien/dev_ws/install/urg_node2/share/urg_node2/local_setup.sh
-[0.104s] -- Up-to-date symlink: /home/aurelien/dev_ws/install/urg_node2/share/urg_node2/local_setup.zsh
-[0.104s] -- Up-to-date symlink: /home/aurelien/dev_ws/install/urg_node2/share/urg_node2/local_setup.dsv
-[0.104s] -- Symlinking: /home/aurelien/dev_ws/install/urg_node2/share/urg_node2/package.dsv
-[0.109s] -- Up-to-date symlink: /home/aurelien/dev_ws/install/urg_node2/share/ament_index/resource_index/packages/urg_node2
-[0.109s] -- Up-to-date symlink: /home/aurelien/dev_ws/install/urg_node2/share/ament_index/resource_index/rclcpp_components/urg_node2
-[0.109s] -- Up-to-date symlink: /home/aurelien/dev_ws/install/urg_node2/share/urg_node2/cmake/urg_node2Config.cmake
-[0.109s] -- Up-to-date symlink: /home/aurelien/dev_ws/install/urg_node2/share/urg_node2/cmake/urg_node2Config-version.cmake
-[0.109s] -- Up-to-date symlink: /home/aurelien/dev_ws/install/urg_node2/share/urg_node2/package.xml
-[0.112s] Invoked command in '/home/aurelien/dev_ws/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/urg_node2:/home/aurelien/dev_ws/install/serial_motor_demo_msgs:/home/aurelien/dev_ws/install/articubot_one:/home/aurelien/dev_ws/install/serial_motor_demo:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --install /home/aurelien/dev_ws/build/urg_node2
+[0.102s] -- Up-to-date symlink: ~/dev_ws/install/urg_node2/lib/urg_node2/urg_node2_node
+[0.103s] -- Up-to-date symlink: ~/dev_ws/install/urg_node2/lib/liburg_node2.so
+[0.103s] -- Up-to-date symlink: ~/dev_ws/install/urg_node2/lib/liburg_c.so
+[0.103s] -- Up-to-date symlink: ~/dev_ws/install/urg_node2/share/urg_node2/launch/urg_node2.launch.py
+[0.103s] -- Up-to-date symlink: ~/dev_ws/install/urg_node2/share/urg_node2/launch/urg_node2_2lidar.launch.py
+[0.103s] -- Up-to-date symlink: ~/dev_ws/install/urg_node2/share/urg_node2/launch/urg_node2_component.launch.py
+[0.103s] -- Up-to-date symlink: ~/dev_ws/install/urg_node2/share/urg_node2/config/params_ether.yaml
+[0.103s] -- Up-to-date symlink: ~/dev_ws/install/urg_node2/share/urg_node2/config/params_ether_2nd.yaml
+[0.103s] -- Up-to-date symlink: ~/dev_ws/install/urg_node2/share/urg_node2/config/params_serial.yaml
+[0.104s] -- Up-to-date symlink: ~/dev_ws/install/urg_node2/share/ament_index/resource_index/package_run_dependencies/urg_node2
+[0.104s] -- Up-to-date symlink: ~/dev_ws/install/urg_node2/share/ament_index/resource_index/parent_prefix_path/urg_node2
+[0.104s] -- Up-to-date symlink: ~/dev_ws/install/urg_node2/share/urg_node2/environment/ament_prefix_path.sh
+[0.104s] -- Up-to-date symlink: ~/dev_ws/install/urg_node2/share/urg_node2/environment/ament_prefix_path.dsv
+[0.104s] -- Up-to-date symlink: ~/dev_ws/install/urg_node2/share/urg_node2/environment/path.sh
+[0.104s] -- Up-to-date symlink: ~/dev_ws/install/urg_node2/share/urg_node2/environment/path.dsv
+[0.104s] -- Up-to-date symlink: ~/dev_ws/install/urg_node2/share/urg_node2/local_setup.bash
+[0.104s] -- Up-to-date symlink: ~/dev_ws/install/urg_node2/share/urg_node2/local_setup.sh
+[0.104s] -- Up-to-date symlink: ~/dev_ws/install/urg_node2/share/urg_node2/local_setup.zsh
+[0.104s] -- Up-to-date symlink: ~/dev_ws/install/urg_node2/share/urg_node2/local_setup.dsv
+[0.104s] -- Symlinking: ~/dev_ws/install/urg_node2/share/urg_node2/package.dsv
+[0.109s] -- Up-to-date symlink: ~/dev_ws/install/urg_node2/share/ament_index/resource_index/packages/urg_node2
+[0.109s] -- Up-to-date symlink: ~/dev_ws/install/urg_node2/share/ament_index/resource_index/rclcpp_components/urg_node2
+[0.109s] -- Up-to-date symlink: ~/dev_ws/install/urg_node2/share/urg_node2/cmake/urg_node2Config.cmake
+[0.109s] -- Up-to-date symlink: ~/dev_ws/install/urg_node2/share/urg_node2/cmake/urg_node2Config-version.cmake
+[0.109s] -- Up-to-date symlink: ~/dev_ws/install/urg_node2/share/urg_node2/package.xml
+[0.112s] Invoked command in '~/dev_ws/build/urg_node2' returned '0': CMAKE_PREFIX_PATH=~/dev_ws/install/urg_node2:~/dev_ws/install/serial_motor_demo_msgs:~/dev_ws/install/articubot_one:~/dev_ws/install/serial_motor_demo:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --install ~/dev_ws/build/urg_node2

@@ -1,7 +1,7 @@
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.o: \
- /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_tcpclient.c \
+ ~/dev_ws/src/urg_node2/urg_library/current/src/urg_tcpclient.c \
  /usr/include/stdc-predef.h \
- /home/aurelien/dev_ws/src/urg_node2/urg_library/current/include/c/urg_detect_os.h \
+ ~/dev_ws/src/urg_node2/urg_library/current/include/c/urg_detect_os.h \
  /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -35,9 +35,9 @@ CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.o: \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /home/aurelien/dev_ws/src/urg_node2/urg_library/current/include/c/urg_tcpclient.h \
- /home/aurelien/dev_ws/src/urg_node2/urg_library/current/include/c/urg_ring_buffer.h \
- /home/aurelien/dev_ws/src/urg_node2/urg_library/current/include/c/urg_detect_os.h \
+ ~/dev_ws/src/urg_node2/urg_library/current/include/c/urg_tcpclient.h \
+ ~/dev_ws/src/urg_node2/urg_library/current/include/c/urg_ring_buffer.h \
+ ~/dev_ws/src/urg_node2/urg_library/current/include/c/urg_detect_os.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \

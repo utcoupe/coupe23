@@ -21,25 +21,25 @@
 -- Added test 'xmllint' to check XML markup files
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/aurelien/dev_ws/build/articubot_one
+-- Build files have been written to: ~/dev_ws/build/articubot_one
 -- Install configuration: ""
 -- Execute custom install script
--- Symlinking: /home/aurelien/dev_ws/install/articubot_one/share/articubot_one/config/empty.yaml
--- Symlinking: /home/aurelien/dev_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
--- Symlinking: /home/aurelien/dev_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
--- Symlinking: /home/aurelien/dev_ws/install/articubot_one/share/articubot_one/worlds/empty.world
--- Symlinking: /home/aurelien/dev_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
--- Symlinking: /home/aurelien/dev_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
--- Symlinking: /home/aurelien/dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
--- Symlinking: /home/aurelien/dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
--- Symlinking: /home/aurelien/dev_ws/install/articubot_one/share/articubot_one/environment/path.sh
--- Symlinking: /home/aurelien/dev_ws/install/articubot_one/share/articubot_one/environment/path.dsv
--- Symlinking: /home/aurelien/dev_ws/install/articubot_one/share/articubot_one/local_setup.bash
--- Symlinking: /home/aurelien/dev_ws/install/articubot_one/share/articubot_one/local_setup.sh
--- Symlinking: /home/aurelien/dev_ws/install/articubot_one/share/articubot_one/local_setup.zsh
--- Symlinking: /home/aurelien/dev_ws/install/articubot_one/share/articubot_one/local_setup.dsv
--- Symlinking: /home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.dsv
--- Symlinking: /home/aurelien/dev_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
--- Symlinking: /home/aurelien/dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
--- Symlinking: /home/aurelien/dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
--- Symlinking: /home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.xml
+-- Symlinking: ~/dev_ws/install/articubot_one/share/articubot_one/config/empty.yaml
+-- Symlinking: ~/dev_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+-- Symlinking: ~/dev_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+-- Symlinking: ~/dev_ws/install/articubot_one/share/articubot_one/worlds/empty.world
+-- Symlinking: ~/dev_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+-- Symlinking: ~/dev_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+-- Symlinking: ~/dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+-- Symlinking: ~/dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+-- Symlinking: ~/dev_ws/install/articubot_one/share/articubot_one/environment/path.sh
+-- Symlinking: ~/dev_ws/install/articubot_one/share/articubot_one/environment/path.dsv
+-- Symlinking: ~/dev_ws/install/articubot_one/share/articubot_one/local_setup.bash
+-- Symlinking: ~/dev_ws/install/articubot_one/share/articubot_one/local_setup.sh
+-- Symlinking: ~/dev_ws/install/articubot_one/share/articubot_one/local_setup.zsh
+-- Symlinking: ~/dev_ws/install/articubot_one/share/articubot_one/local_setup.dsv
+-- Symlinking: ~/dev_ws/install/articubot_one/share/articubot_one/package.dsv
+-- Symlinking: ~/dev_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+-- Symlinking: ~/dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+-- Symlinking: ~/dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+-- Symlinking: ~/dev_ws/install/articubot_one/share/articubot_one/package.xml

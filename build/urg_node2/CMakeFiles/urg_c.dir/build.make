@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aurelien/dev_ws/src/urg_node2
+CMAKE_SOURCE_DIR = ~/dev_ws/src/urg_node2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aurelien/dev_ws/build/urg_node2
+CMAKE_BINARY_DIR = ~/dev_ws/build/urg_node2
 
 # Include any dependencies generated for this target.
 include CMakeFiles/urg_c.dir/depend.make
@@ -70,116 +70,116 @@ include CMakeFiles/urg_c.dir/progress.make
 include CMakeFiles/urg_c.dir/flags.make
 
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.o: CMakeFiles/urg_c.dir/flags.make
-CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.o: /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_sensor.c
+CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.o: ~/dev_ws/src/urg_node2/urg_library/current/src/urg_sensor.c
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.o: CMakeFiles/urg_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aurelien/dev_ws/build/urg_node2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.o -MF CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.o.d -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.o -c /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_sensor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=~/dev_ws/build/urg_node2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.o -MF CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.o.d -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.o -c ~/dev_ws/src/urg_node2/urg_library/current/src/urg_sensor.c
 
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_sensor.c > CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E ~/dev_ws/src/urg_node2/urg_library/current/src/urg_sensor.c > CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.i
 
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_sensor.c -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S ~/dev_ws/src/urg_node2/urg_library/current/src/urg_sensor.c -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.s
 
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.o: CMakeFiles/urg_c.dir/flags.make
-CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.o: /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_utils.c
+CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.o: ~/dev_ws/src/urg_node2/urg_library/current/src/urg_utils.c
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.o: CMakeFiles/urg_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aurelien/dev_ws/build/urg_node2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.o -MF CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.o.d -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.o -c /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=~/dev_ws/build/urg_node2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.o -MF CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.o.d -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.o -c ~/dev_ws/src/urg_node2/urg_library/current/src/urg_utils.c
 
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_utils.c > CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E ~/dev_ws/src/urg_node2/urg_library/current/src/urg_utils.c > CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.i
 
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_utils.c -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S ~/dev_ws/src/urg_node2/urg_library/current/src/urg_utils.c -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.s
 
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.o: CMakeFiles/urg_c.dir/flags.make
-CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.o: /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_debug.c
+CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.o: ~/dev_ws/src/urg_node2/urg_library/current/src/urg_debug.c
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.o: CMakeFiles/urg_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aurelien/dev_ws/build/urg_node2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.o -MF CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.o.d -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.o -c /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_debug.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=~/dev_ws/build/urg_node2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.o -MF CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.o.d -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.o -c ~/dev_ws/src/urg_node2/urg_library/current/src/urg_debug.c
 
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_debug.c > CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E ~/dev_ws/src/urg_node2/urg_library/current/src/urg_debug.c > CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.i
 
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_debug.c -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S ~/dev_ws/src/urg_node2/urg_library/current/src/urg_debug.c -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.s
 
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.o: CMakeFiles/urg_c.dir/flags.make
-CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.o: /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_connection.c
+CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.o: ~/dev_ws/src/urg_node2/urg_library/current/src/urg_connection.c
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.o: CMakeFiles/urg_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aurelien/dev_ws/build/urg_node2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.o -MF CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.o.d -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.o -c /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_connection.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=~/dev_ws/build/urg_node2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.o -MF CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.o.d -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.o -c ~/dev_ws/src/urg_node2/urg_library/current/src/urg_connection.c
 
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_connection.c > CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E ~/dev_ws/src/urg_node2/urg_library/current/src/urg_connection.c > CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.i
 
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_connection.c -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S ~/dev_ws/src/urg_node2/urg_library/current/src/urg_connection.c -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.s
 
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.o: CMakeFiles/urg_c.dir/flags.make
-CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.o: /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_ring_buffer.c
+CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.o: ~/dev_ws/src/urg_node2/urg_library/current/src/urg_ring_buffer.c
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.o: CMakeFiles/urg_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aurelien/dev_ws/build/urg_node2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.o -MF CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.o.d -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.o -c /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_ring_buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=~/dev_ws/build/urg_node2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.o -MF CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.o.d -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.o -c ~/dev_ws/src/urg_node2/urg_library/current/src/urg_ring_buffer.c
 
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_ring_buffer.c > CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E ~/dev_ws/src/urg_node2/urg_library/current/src/urg_ring_buffer.c > CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.i
 
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_ring_buffer.c -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S ~/dev_ws/src/urg_node2/urg_library/current/src/urg_ring_buffer.c -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.s
 
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.o: CMakeFiles/urg_c.dir/flags.make
-CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.o: /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_serial.c
+CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.o: ~/dev_ws/src/urg_node2/urg_library/current/src/urg_serial.c
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.o: CMakeFiles/urg_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aurelien/dev_ws/build/urg_node2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.o -MF CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.o.d -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.o -c /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_serial.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=~/dev_ws/build/urg_node2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.o -MF CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.o.d -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.o -c ~/dev_ws/src/urg_node2/urg_library/current/src/urg_serial.c
 
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_serial.c > CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E ~/dev_ws/src/urg_node2/urg_library/current/src/urg_serial.c > CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.i
 
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_serial.c -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S ~/dev_ws/src/urg_node2/urg_library/current/src/urg_serial.c -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.s
 
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.o: CMakeFiles/urg_c.dir/flags.make
-CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.o: /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_serial_utils.c
+CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.o: ~/dev_ws/src/urg_node2/urg_library/current/src/urg_serial_utils.c
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.o: CMakeFiles/urg_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aurelien/dev_ws/build/urg_node2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.o -MF CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.o.d -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.o -c /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_serial_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=~/dev_ws/build/urg_node2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.o -MF CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.o.d -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.o -c ~/dev_ws/src/urg_node2/urg_library/current/src/urg_serial_utils.c
 
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_serial_utils.c > CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E ~/dev_ws/src/urg_node2/urg_library/current/src/urg_serial_utils.c > CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.i
 
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_serial_utils.c -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S ~/dev_ws/src/urg_node2/urg_library/current/src/urg_serial_utils.c -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.s
 
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.o: CMakeFiles/urg_c.dir/flags.make
-CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.o: /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_tcpclient.c
+CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.o: ~/dev_ws/src/urg_node2/urg_library/current/src/urg_tcpclient.c
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.o: CMakeFiles/urg_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aurelien/dev_ws/build/urg_node2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.o -MF CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.o.d -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.o -c /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_tcpclient.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=~/dev_ws/build/urg_node2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.o -MF CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.o.d -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.o -c ~/dev_ws/src/urg_node2/urg_library/current/src/urg_tcpclient.c
 
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_tcpclient.c > CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E ~/dev_ws/src/urg_node2/urg_library/current/src/urg_tcpclient.c > CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.i
 
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_tcpclient.c -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S ~/dev_ws/src/urg_node2/urg_library/current/src/urg_tcpclient.c -o CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.s
 
 # Object files for target urg_c
 urg_c_OBJECTS = \
@@ -205,7 +205,7 @@ liburg_c.so: CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.o
 liburg_c.so: CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.o
 liburg_c.so: CMakeFiles/urg_c.dir/build.make
 liburg_c.so: CMakeFiles/urg_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aurelien/dev_ws/build/urg_node2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C shared library liburg_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=~/dev_ws/build/urg_node2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C shared library liburg_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/urg_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -217,6 +217,6 @@ CMakeFiles/urg_c.dir/clean:
 .PHONY : CMakeFiles/urg_c.dir/clean
 
 CMakeFiles/urg_c.dir/depend:
-	cd /home/aurelien/dev_ws/build/urg_node2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aurelien/dev_ws/src/urg_node2 /home/aurelien/dev_ws/src/urg_node2 /home/aurelien/dev_ws/build/urg_node2 /home/aurelien/dev_ws/build/urg_node2 /home/aurelien/dev_ws/build/urg_node2/CMakeFiles/urg_c.dir/DependInfo.cmake --color=$(COLOR)
+	cd ~/dev_ws/build/urg_node2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" ~/dev_ws/src/urg_node2 ~/dev_ws/src/urg_node2 ~/dev_ws/build/urg_node2 ~/dev_ws/build/urg_node2 ~/dev_ws/build/urg_node2/CMakeFiles/urg_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/urg_c.dir/depend
 

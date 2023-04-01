@@ -1,4 +1,4 @@
-[0.015s] Invoking command in '/home/aurelien/dev_ws/src/build/articubot_one': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/articubot_one:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake /home/aurelien/dev_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aurelien/dev_ws/src/install/articubot_one
+[0.015s] Invoking command in '~/dev_ws/src/build/articubot_one': CMAKE_PREFIX_PATH=~/dev_ws/install/articubot_one:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake ~/dev_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=~/dev_ws/src/install/articubot_one
 [0.099s] -- The C compiler identification is GNU 11.3.0
 [0.197s] -- The CXX compiler identification is GNU 11.3.0
 [0.210s] -- Detecting C compiler ABI info
@@ -22,39 +22,39 @@
 [1.017s] -- Added test 'xmllint' to check XML markup files
 [1.018s] -- Configuring done
 [1.020s] -- Generating done
-[1.021s] -- Build files have been written to: /home/aurelien/dev_ws/src/build/articubot_one
-[1.027s] Invoked command in '/home/aurelien/dev_ws/src/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/articubot_one:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake /home/aurelien/dev_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aurelien/dev_ws/src/install/articubot_one
-[1.028s] Invoking command in '/home/aurelien/dev_ws/src/build/articubot_one': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/articubot_one:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --build /home/aurelien/dev_ws/src/build/articubot_one -- -j16 -l16
-[1.056s] Invoked command in '/home/aurelien/dev_ws/src/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/articubot_one:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --build /home/aurelien/dev_ws/src/build/articubot_one -- -j16 -l16
-[1.085s] Invoking command in '/home/aurelien/dev_ws/src/build/articubot_one': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/articubot_one:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --install /home/aurelien/dev_ws/src/build/articubot_one
+[1.021s] -- Build files have been written to: ~/dev_ws/src/build/articubot_one
+[1.027s] Invoked command in '~/dev_ws/src/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=~/dev_ws/install/articubot_one:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake ~/dev_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=~/dev_ws/src/install/articubot_one
+[1.028s] Invoking command in '~/dev_ws/src/build/articubot_one': CMAKE_PREFIX_PATH=~/dev_ws/install/articubot_one:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --build ~/dev_ws/src/build/articubot_one -- -j16 -l16
+[1.056s] Invoked command in '~/dev_ws/src/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=~/dev_ws/install/articubot_one:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --build ~/dev_ws/src/build/articubot_one -- -j16 -l16
+[1.085s] Invoking command in '~/dev_ws/src/build/articubot_one': CMAKE_PREFIX_PATH=~/dev_ws/install/articubot_one:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --install ~/dev_ws/src/build/articubot_one
 [1.089s] -- Install configuration: ""
 [1.090s] -- Execute custom install script
-[1.090s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/config/drive_bot.rviz
-[1.096s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/config/empty.yaml
-[1.101s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/config/view_bot.rviz
-[1.107s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
-[1.114s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
-[1.123s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/description/lidar.xacro
-[1.135s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
-[1.148s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/description/robot_core.xacro
-[1.162s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
-[1.175s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/launch/rsp.launch.py
-[1.188s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/worlds/empty.world
-[1.200s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/worlds/my_world.world
-[1.212s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/worlds/obstacles.world
-[1.224s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
-[1.234s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
-[1.243s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
-[1.252s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
-[1.260s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/environment/path.sh
-[1.267s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/environment/path.dsv
-[1.273s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/local_setup.bash
-[1.279s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/local_setup.sh
-[1.285s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/local_setup.zsh
-[1.291s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/local_setup.dsv
-[1.302s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/package.dsv
-[1.314s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
-[1.326s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
-[1.339s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
-[1.351s] -- Symlinking: /home/aurelien/dev_ws/src/install/articubot_one/share/articubot_one/package.xml
-[1.368s] Invoked command in '/home/aurelien/dev_ws/src/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/articubot_one:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --install /home/aurelien/dev_ws/src/build/articubot_one
+[1.090s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[1.096s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/config/empty.yaml
+[1.101s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[1.107s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[1.114s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[1.123s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/description/lidar.xacro
+[1.135s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[1.148s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[1.162s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[1.175s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[1.188s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/worlds/empty.world
+[1.200s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/worlds/my_world.world
+[1.212s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[1.224s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[1.234s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[1.243s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[1.252s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[1.260s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/environment/path.sh
+[1.267s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/environment/path.dsv
+[1.273s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/local_setup.bash
+[1.279s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/local_setup.sh
+[1.285s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/local_setup.zsh
+[1.291s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/local_setup.dsv
+[1.302s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/package.dsv
+[1.314s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[1.326s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[1.339s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[1.351s] -- Symlinking: ~/dev_ws/src/install/articubot_one/share/articubot_one/package.xml
+[1.368s] Invoked command in '~/dev_ws/src/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=~/dev_ws/install/articubot_one:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --install ~/dev_ws/src/build/articubot_one

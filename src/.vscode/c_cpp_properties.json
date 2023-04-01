@@ -7,7 +7,7 @@
       },
       "includePath": [
         "/opt/ros/humble/include/**",
-        "/home/aurelien/dev_ws/src/urg_node2/include/**",
+        "~/dev_ws/src/urg_node2/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",

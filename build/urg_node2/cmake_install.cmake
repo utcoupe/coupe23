@@ -1,8 +1,8 @@
-# Install script for directory: /home/aurelien/dev_ws/src/urg_node2
+# Install script for directory: ~/dev_ws/src/urg_node2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/aurelien/dev_ws/install/urg_node2")
+  set(CMAKE_INSTALL_PREFIX "~/dev_ws/install/urg_node2")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,12 +43,12 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/aurelien/dev_ws/build/urg_node2/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("~/dev_ws/build/urg_node2/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/aurelien/dev_ws/build/urg_node2/gtest/cmake_install.cmake")
+  include("~/dev_ws/build/urg_node2/gtest/cmake_install.cmake")
 
 endif()
 
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/aurelien/dev_ws/build/urg_node2/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "~/dev_ws/build/urg_node2/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

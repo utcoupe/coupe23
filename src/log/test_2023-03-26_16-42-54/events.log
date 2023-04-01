@@ -1,19 +1,19 @@
 [0.000000] (-) TimerEvent: {}
-[0.000166] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict([('articubot_one', '/home/aurelien/dev_ws/src/install/articubot_one')])}
-[0.000340] (urg_node2) JobQueued: {'identifier': 'urg_node2', 'dependencies': OrderedDict([('urg_node2', '/home/aurelien/dev_ws/src/install/urg_node2')])}
+[0.000166] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict([('articubot_one', '~/dev_ws/src/install/articubot_one')])}
+[0.000340] (urg_node2) JobQueued: {'identifier': 'urg_node2', 'dependencies': OrderedDict([('urg_node2', '~/dev_ws/src/install/urg_node2')])}
 [0.000407] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
 [0.006531] (urg_node2) JobStarted: {'identifier': 'urg_node2'}
-[0.039461] (urg_node2) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/aurelien/dev_ws/src/build/urg_node2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aurelien'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aurelien/dev_ws/src/install/urg_node2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/aurelien/catkin_ws/devel/lib'), ('HOME', '/home/aurelien'), ('OLDPWD', '/home/aurelien/dev_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aurelien/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aurelien'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/aurelien/catkin_ws/devel/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aurelien'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/aurelien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dell-ag:@/tmp/.ICE-unix/2511,unix/dell-ag:/tmp/.ICE-unix/2511'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/87e63be1_fc7b_4858_a920_9ba6c9184c1e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZOGQ21'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.192'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/aurelien/dev_ws/src/install/urg_node2:/home/aurelien/dev_ws/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aurelien/dev_ws/src/build/urg_node2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/aurelien/catkin_ws/devel/lib/python3/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('EDITOR', 'nano -w'), ('CMAKE_PREFIX_PATH', '/home/aurelien/dev_ws/src/install/urg_node2:/home/aurelien/dev_ws/install/articubot_one:/home/aurelien/catkin_ws/devel')]), 'shell': False}
-[0.041999] (articubot_one) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/aurelien/dev_ws/src/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aurelien'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/aurelien/catkin_ws/devel/lib'), ('HOME', '/home/aurelien'), ('OLDPWD', '/home/aurelien/dev_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aurelien/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aurelien'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/aurelien/catkin_ws/devel/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aurelien'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/aurelien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dell-ag:@/tmp/.ICE-unix/2511,unix/dell-ag:/tmp/.ICE-unix/2511'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/87e63be1_fc7b_4858_a920_9ba6c9184c1e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZOGQ21'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.192'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/aurelien/dev_ws/src/install/articubot_one:/home/aurelien/dev_ws/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aurelien/dev_ws/src/build/articubot_one'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/aurelien/catkin_ws/devel/lib/python3/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('EDITOR', 'nano -w'), ('CMAKE_PREFIX_PATH', '/home/aurelien/dev_ws/src/install/articubot_one:/home/aurelien/dev_ws/install/articubot_one:/home/aurelien/catkin_ws/devel')]), 'shell': False}
-[0.046883] (urg_node2) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/aurelien/dev_ws/src/build/urg_node2/CTestConfiguration.ini\n'}
-[0.047165] (urg_node2) StdoutLine: {'line': b'Parse Config file:/home/aurelien/dev_ws/src/build/urg_node2/CTestConfiguration.ini\n'}
+[0.039461] (urg_node2) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '~/dev_ws/src/build/urg_node2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aurelien'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '~/dev_ws/src/install/urg_node2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:~/catkin_ws/devel/lib'), ('HOME', '~'), ('OLDPWD', '~/dev_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '~/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aurelien'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '~/catkin_ws/devel/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aurelien'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:~/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dell-ag:@/tmp/.ICE-unix/2511,unix/dell-ag:/tmp/.ICE-unix/2511'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/87e63be1_fc7b_4858_a920_9ba6c9184c1e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZOGQ21'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.192'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '~/dev_ws/src/install/urg_node2:~/dev_ws/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '~/dev_ws/src/build/urg_node2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:~/catkin_ws/devel/lib/python3/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('EDITOR', 'nano -w'), ('CMAKE_PREFIX_PATH', '~/dev_ws/src/install/urg_node2:~/dev_ws/install/articubot_one:~/catkin_ws/devel')]), 'shell': False}
+[0.041999] (articubot_one) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '~/dev_ws/src/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aurelien'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:~/catkin_ws/devel/lib'), ('HOME', '~'), ('OLDPWD', '~/dev_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '~/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aurelien'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '~/catkin_ws/devel/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aurelien'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:~/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dell-ag:@/tmp/.ICE-unix/2511,unix/dell-ag:/tmp/.ICE-unix/2511'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/87e63be1_fc7b_4858_a920_9ba6c9184c1e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZOGQ21'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.192'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '~/dev_ws/src/install/articubot_one:~/dev_ws/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '~/dev_ws/src/build/articubot_one'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:~/catkin_ws/devel/lib/python3/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('EDITOR', 'nano -w'), ('CMAKE_PREFIX_PATH', '~/dev_ws/src/install/articubot_one:~/dev_ws/install/articubot_one:~/catkin_ws/devel')]), 'shell': False}
+[0.046883] (urg_node2) StdoutLine: {'line': b'UpdateCTestConfiguration  from :~/dev_ws/src/build/urg_node2/CTestConfiguration.ini\n'}
+[0.047165] (urg_node2) StdoutLine: {'line': b'Parse Config file:~/dev_ws/src/build/urg_node2/CTestConfiguration.ini\n'}
 [0.047315] (urg_node2) StdoutLine: {'line': b'   Site: dell-ag\n'}
 [0.047449] (urg_node2) StdoutLine: {'line': b'   Build name: (empty)\n'}
 [0.047537] (urg_node2) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
 [0.047625] (urg_node2) StdoutLine: {'line': b'Create new tag: 20230326-1442 - Experimental\n'}
-[0.047714] (urg_node2) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/aurelien/dev_ws/src/build/urg_node2/CTestConfiguration.ini\n'}
-[0.047801] (urg_node2) StdoutLine: {'line': b'Parse Config file:/home/aurelien/dev_ws/src/build/urg_node2/CTestConfiguration.ini\n'}
-[0.047887] (urg_node2) StdoutLine: {'line': b'Test project /home/aurelien/dev_ws/src/build/urg_node2\n'}
+[0.047714] (urg_node2) StdoutLine: {'line': b'UpdateCTestConfiguration  from :~/dev_ws/src/build/urg_node2/CTestConfiguration.ini\n'}
+[0.047801] (urg_node2) StdoutLine: {'line': b'Parse Config file:~/dev_ws/src/build/urg_node2/CTestConfiguration.ini\n'}
+[0.047887] (urg_node2) StdoutLine: {'line': b'Test project ~/dev_ws/src/build/urg_node2\n'}
 [0.047972] (urg_node2) StdoutLine: {'line': b'Constructing a list of tests\n'}
 [0.048102] (urg_node2) StdoutLine: {'line': b'Done constructing a list of tests\n'}
 [0.048178] (urg_node2) StdoutLine: {'line': b'Updating test list for fixtures\n'}
@@ -23,17 +23,17 @@
 [0.048390] (urg_node2) StdoutLine: {'line': b'test 1\n'}
 [0.048444] (urg_node2) StdoutLine: {'line': b'    Start 1: urg_node2_test\n'}
 [0.048498] (urg_node2) StdoutLine: {'line': b'\n'}
-[0.048553] (urg_node2) StdoutLine: {'line': b'1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/aurelien/dev_ws/src/build/urg_node2/test_results/urg_node2/urg_node2_test.gtest.xml" "--package-name" "urg_node2" "--output-file" "/home/aurelien/dev_ws/src/build/urg_node2/ament_cmake_gtest/urg_node2_test.txt" "--command" "/home/aurelien/dev_ws/src/build/urg_node2/urg_node2_test" "--gtest_output=xml:/home/aurelien/dev_ws/src/build/urg_node2/test_results/urg_node2/urg_node2_test.gtest.xml"\n'}
+[0.048553] (urg_node2) StdoutLine: {'line': b'1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "~/dev_ws/src/build/urg_node2/test_results/urg_node2/urg_node2_test.gtest.xml" "--package-name" "urg_node2" "--output-file" "~/dev_ws/src/build/urg_node2/ament_cmake_gtest/urg_node2_test.txt" "--command" "~/dev_ws/src/build/urg_node2/urg_node2_test" "--gtest_output=xml:~/dev_ws/src/build/urg_node2/test_results/urg_node2/urg_node2_test.gtest.xml"\n'}
 [0.048680] (urg_node2) StdoutLine: {'line': b'1: Test timeout computed to be: 200\n'}
-[0.048736] (articubot_one) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/aurelien/dev_ws/src/build/articubot_one/CTestConfiguration.ini\n'}
-[0.048878] (articubot_one) StdoutLine: {'line': b'Parse Config file:/home/aurelien/dev_ws/src/build/articubot_one/CTestConfiguration.ini\n'}
+[0.048736] (articubot_one) StdoutLine: {'line': b'UpdateCTestConfiguration  from :~/dev_ws/src/build/articubot_one/CTestConfiguration.ini\n'}
+[0.048878] (articubot_one) StdoutLine: {'line': b'Parse Config file:~/dev_ws/src/build/articubot_one/CTestConfiguration.ini\n'}
 [0.048929] (articubot_one) StdoutLine: {'line': b'   Site: dell-ag\n'}
 [0.048980] (articubot_one) StdoutLine: {'line': b'   Build name: (empty)\n'}
 [0.049029] (articubot_one) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
 [0.049079] (articubot_one) StdoutLine: {'line': b'Create new tag: 20230326-1442 - Experimental\n'}
-[0.049129] (articubot_one) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/aurelien/dev_ws/src/build/articubot_one/CTestConfiguration.ini\n'}
-[0.049180] (articubot_one) StdoutLine: {'line': b'Parse Config file:/home/aurelien/dev_ws/src/build/articubot_one/CTestConfiguration.ini\n'}
-[0.049229] (articubot_one) StdoutLine: {'line': b'Test project /home/aurelien/dev_ws/src/build/articubot_one\n'}
+[0.049129] (articubot_one) StdoutLine: {'line': b'UpdateCTestConfiguration  from :~/dev_ws/src/build/articubot_one/CTestConfiguration.ini\n'}
+[0.049180] (articubot_one) StdoutLine: {'line': b'Parse Config file:~/dev_ws/src/build/articubot_one/CTestConfiguration.ini\n'}
+[0.049229] (articubot_one) StdoutLine: {'line': b'Test project ~/dev_ws/src/build/articubot_one\n'}
 [0.049277] (articubot_one) StdoutLine: {'line': b'Constructing a list of tests\n'}
 [0.049327] (articubot_one) StdoutLine: {'line': b'Done constructing a list of tests\n'}
 [0.049378] (articubot_one) StdoutLine: {'line': b'Updating test list for fixtures\n'}
@@ -43,13 +43,13 @@
 [0.049574] (articubot_one) StdoutLine: {'line': b'test 1\n'}
 [0.049623] (articubot_one) StdoutLine: {'line': b'    Start 1: copyright\n'}
 [0.049672] (articubot_one) StdoutLine: {'line': b'\n'}
-[0.049721] (articubot_one) StdoutLine: {'line': b'1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/aurelien/dev_ws/src/build/articubot_one/test_results/articubot_one/copyright.xunit.xml" "--package-name" "articubot_one" "--output-file" "/home/aurelien/dev_ws/src/build/articubot_one/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/aurelien/dev_ws/src/build/articubot_one/test_results/articubot_one/copyright.xunit.xml"\n'}
+[0.049721] (articubot_one) StdoutLine: {'line': b'1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "~/dev_ws/src/build/articubot_one/test_results/articubot_one/copyright.xunit.xml" "--package-name" "articubot_one" "--output-file" "~/dev_ws/src/build/articubot_one/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "~/dev_ws/src/build/articubot_one/test_results/articubot_one/copyright.xunit.xml"\n'}
 [0.049778] (articubot_one) StdoutLine: {'line': b'1: Test timeout computed to be: 200\n'}
 [0.098055] (-) TimerEvent: {}
-[0.122664] (urg_node2) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/aurelien/dev_ws/src/build/urg_node2':\n"}
-[0.123002] (urg_node2) StdoutLine: {'line': b'1:  - /home/aurelien/dev_ws/src/build/urg_node2/urg_node2_test --gtest_output=xml:/home/aurelien/dev_ws/src/build/urg_node2/test_results/urg_node2/urg_node2_test.gtest.xml\n'}
-[0.124186] (articubot_one) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/aurelien/dev_ws/src/articubot_one':\n"}
-[0.124390] (articubot_one) StdoutLine: {'line': b'1:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/aurelien/dev_ws/src/build/articubot_one/test_results/articubot_one/copyright.xunit.xml\n'}
+[0.122664] (urg_node2) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '~/dev_ws/src/build/urg_node2':\n"}
+[0.123002] (urg_node2) StdoutLine: {'line': b'1:  - ~/dev_ws/src/build/urg_node2/urg_node2_test --gtest_output=xml:~/dev_ws/src/build/urg_node2/test_results/urg_node2/urg_node2_test.gtest.xml\n'}
+[0.124186] (articubot_one) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '~/dev_ws/src/articubot_one':\n"}
+[0.124390] (articubot_one) StdoutLine: {'line': b'1:  - /opt/ros/humble/bin/ament_copyright --xunit-file ~/dev_ws/src/build/articubot_one/test_results/articubot_one/copyright.xunit.xml\n'}
 [0.131583] (urg_node2) StdoutLine: {'line': b'1: [==========] Running 7 tests from 1 test suite.\n'}
 [0.131856] (urg_node2) StdoutLine: {'line': b'1: [----------] Global test environment set-up.\n'}
 [0.131985] (urg_node2) StdoutLine: {'line': b'1: [----------] 7 tests from UTM_30_LX_EW\n'}
@@ -58,12 +58,12 @@
 [0.219233] (urg_node2) StdoutLine: {'line': b'1: [ERROR] [1679841775.110951469] [urg_node2]: Could not open network Hokuyo 2D LiDAR\n'}
 [0.219649] (urg_node2) StdoutLine: {'line': b'1: 192.168.0.10:10940\n'}
 [0.219782] (urg_node2) StdoutLine: {'line': b'1: could not open ethernet port.\n'}
-[0.219916] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:160: Failure\n'}
+[0.219916] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:160: Failure\n'}
 [0.220033] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [0.220141] (urg_node2) StdoutLine: {'line': b'1:   node->get_current_state().label()\n'}
 [0.220245] (urg_node2) StdoutLine: {'line': b'1:     Which is: "unconfigured"\n'}
 [0.220363] (urg_node2) StdoutLine: {'line': b'1:   "inactive"\n'}
-[0.220474] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:169: Failure\n'}
+[0.220474] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:169: Failure\n'}
 [0.220591] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [0.220704] (urg_node2) StdoutLine: {'line': b'1:   (int)ep_scan.size()\n'}
 [0.220815] (urg_node2) StdoutLine: {'line': b'1:     Which is: 0\n'}
@@ -74,16 +74,16 @@
 [0.249127] (articubot_one) StdoutLine: {'line': b'1: launch/rsp.launch.py: could not find copyright notice\n'}
 [0.249179] (articubot_one) StdoutLine: {'line': b'1: 4 errors, checked 4 files\n'}
 [0.256262] (articubot_one) StdoutLine: {'line': b'1: -- run_test.py: return code 1\n'}
-[0.256585] (articubot_one) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/aurelien/dev_ws/src/build/articubot_one/test_results/articubot_one/copyright.xunit.xml'\n"}
+[0.256585] (articubot_one) StdoutLine: {'line': b"1: -- run_test.py: verify result file '~/dev_ws/src/build/articubot_one/test_results/articubot_one/copyright.xunit.xml'\n"}
 [0.263764] (articubot_one) StdoutLine: {'line': b'1/5 Test #1: copyright ........................***Failed    0.21 sec\n'}
 [0.264005] (articubot_one) StdoutLine: {'line': b'test 2\n'}
 [0.264129] (articubot_one) StdoutLine: {'line': b'    Start 2: flake8\n'}
 [0.264198] (articubot_one) StdoutLine: {'line': b'\n'}
-[0.264249] (articubot_one) StdoutLine: {'line': b'2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/aurelien/dev_ws/src/build/articubot_one/test_results/articubot_one/flake8.xunit.xml" "--package-name" "articubot_one" "--output-file" "/home/aurelien/dev_ws/src/build/articubot_one/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/aurelien/dev_ws/src/build/articubot_one/test_results/articubot_one/flake8.xunit.xml"\n'}
+[0.264249] (articubot_one) StdoutLine: {'line': b'2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "~/dev_ws/src/build/articubot_one/test_results/articubot_one/flake8.xunit.xml" "--package-name" "articubot_one" "--output-file" "~/dev_ws/src/build/articubot_one/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "~/dev_ws/src/build/articubot_one/test_results/articubot_one/flake8.xunit.xml"\n'}
 [0.264306] (articubot_one) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
 [0.298341] (-) TimerEvent: {}
-[0.306936] (articubot_one) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/aurelien/dev_ws/src/articubot_one':\n"}
-[0.307264] (articubot_one) StdoutLine: {'line': b'2:  - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/aurelien/dev_ws/src/build/articubot_one/test_results/articubot_one/flake8.xunit.xml\n'}
+[0.306936] (articubot_one) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '~/dev_ws/src/articubot_one':\n"}
+[0.307264] (articubot_one) StdoutLine: {'line': b'2:  - /opt/ros/humble/bin/ament_flake8 --xunit-file ~/dev_ws/src/build/articubot_one/test_results/articubot_one/flake8.xunit.xml\n'}
 [0.398540] (-) TimerEvent: {}
 [0.448204] (articubot_one) StdoutLine: {'line': b"2:     xacro_file = os.path.join(pkg_path,'description','robot.urdf.xacro')\n"}
 [0.448433] (articubot_one) StdoutLine: {'line': b'2:                                       ^\n'}
@@ -165,43 +165,43 @@
 [0.453138] (articubot_one) StdoutLine: {'line': b'2: * ./launch/rsp.launch.py\n'}
 [0.453180] (articubot_one) StdoutLine: {'line': b'2: * ./launch/launch_sim.launch.py\n'}
 [0.462770] (articubot_one) StdoutLine: {'line': b'2: -- run_test.py: return code 1\n'}
-[0.463042] (articubot_one) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/aurelien/dev_ws/src/build/articubot_one/test_results/articubot_one/flake8.xunit.xml'\n"}
+[0.463042] (articubot_one) StdoutLine: {'line': b"2: -- run_test.py: verify result file '~/dev_ws/src/build/articubot_one/test_results/articubot_one/flake8.xunit.xml'\n"}
 [0.471883] (articubot_one) StdoutLine: {'line': b'2/5 Test #2: flake8 ...........................***Failed    0.21 sec\n'}
 [0.472015] (articubot_one) StdoutLine: {'line': b'test 3\n'}
 [0.472161] (articubot_one) StdoutLine: {'line': b'    Start 3: lint_cmake\n'}
 [0.472226] (articubot_one) StdoutLine: {'line': b'\n'}
-[0.472277] (articubot_one) StdoutLine: {'line': b'3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/aurelien/dev_ws/src/build/articubot_one/test_results/articubot_one/lint_cmake.xunit.xml" "--package-name" "articubot_one" "--output-file" "/home/aurelien/dev_ws/src/build/articubot_one/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/aurelien/dev_ws/src/build/articubot_one/test_results/articubot_one/lint_cmake.xunit.xml"\n'}
+[0.472277] (articubot_one) StdoutLine: {'line': b'3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "~/dev_ws/src/build/articubot_one/test_results/articubot_one/lint_cmake.xunit.xml" "--package-name" "articubot_one" "--output-file" "~/dev_ws/src/build/articubot_one/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "~/dev_ws/src/build/articubot_one/test_results/articubot_one/lint_cmake.xunit.xml"\n'}
 [0.472342] (articubot_one) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
 [0.498584] (-) TimerEvent: {}
-[0.514641] (articubot_one) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/aurelien/dev_ws/src/articubot_one':\n"}
-[0.514933] (articubot_one) StdoutLine: {'line': b'3:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/aurelien/dev_ws/src/build/articubot_one/test_results/articubot_one/lint_cmake.xunit.xml\n'}
+[0.514641] (articubot_one) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '~/dev_ws/src/articubot_one':\n"}
+[0.514933] (articubot_one) StdoutLine: {'line': b'3:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file ~/dev_ws/src/build/articubot_one/test_results/articubot_one/lint_cmake.xunit.xml\n'}
 [0.565728] (articubot_one) StdoutLine: {'line': b'3: \n'}
 [0.566081] (articubot_one) StdoutLine: {'line': b'3: No problems found\n'}
 [0.571815] (articubot_one) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
-[0.572118] (articubot_one) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/aurelien/dev_ws/src/build/articubot_one/test_results/articubot_one/lint_cmake.xunit.xml'\n"}
+[0.572118] (articubot_one) StdoutLine: {'line': b"3: -- run_test.py: verify result file '~/dev_ws/src/build/articubot_one/test_results/articubot_one/lint_cmake.xunit.xml'\n"}
 [0.578701] (articubot_one) StdoutLine: {'line': b'3/5 Test #3: lint_cmake .......................   Passed    0.11 sec\n'}
 [0.579249] (articubot_one) StdoutLine: {'line': b'test 4\n'}
 [0.579560] (articubot_one) StdoutLine: {'line': b'    Start 4: pep257\n'}
 [0.579733] (articubot_one) StdoutLine: {'line': b'\n'}
-[0.579890] (articubot_one) StdoutLine: {'line': b'4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/aurelien/dev_ws/src/build/articubot_one/test_results/articubot_one/pep257.xunit.xml" "--package-name" "articubot_one" "--output-file" "/home/aurelien/dev_ws/src/build/articubot_one/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/aurelien/dev_ws/src/build/articubot_one/test_results/articubot_one/pep257.xunit.xml"\n'}
+[0.579890] (articubot_one) StdoutLine: {'line': b'4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "~/dev_ws/src/build/articubot_one/test_results/articubot_one/pep257.xunit.xml" "--package-name" "articubot_one" "--output-file" "~/dev_ws/src/build/articubot_one/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "~/dev_ws/src/build/articubot_one/test_results/articubot_one/pep257.xunit.xml"\n'}
 [0.580068] (articubot_one) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
 [0.598779] (-) TimerEvent: {}
-[0.621536] (articubot_one) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/aurelien/dev_ws/src/articubot_one':\n"}
-[0.621848] (articubot_one) StdoutLine: {'line': b'4:  - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/aurelien/dev_ws/src/build/articubot_one/test_results/articubot_one/pep257.xunit.xml\n'}
+[0.621536] (articubot_one) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '~/dev_ws/src/articubot_one':\n"}
+[0.621848] (articubot_one) StdoutLine: {'line': b'4:  - /opt/ros/humble/bin/ament_pep257 --xunit-file ~/dev_ws/src/build/articubot_one/test_results/articubot_one/pep257.xunit.xml\n'}
 [0.698977] (-) TimerEvent: {}
 [0.715359] (articubot_one) StdoutLine: {'line': b'4: checking ./launch/launch_sim.launch.py\n'}
 [0.715668] (articubot_one) StdoutLine: {'line': b'4: checking ./launch/rsp.launch.py\n'}
 [0.715841] (articubot_one) StdoutLine: {'line': b'4: No problems found\n'}
 [0.725772] (articubot_one) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
-[0.726195] (articubot_one) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/aurelien/dev_ws/src/build/articubot_one/test_results/articubot_one/pep257.xunit.xml'\n"}
+[0.726195] (articubot_one) StdoutLine: {'line': b"4: -- run_test.py: verify result file '~/dev_ws/src/build/articubot_one/test_results/articubot_one/pep257.xunit.xml'\n"}
 [0.734669] (articubot_one) StdoutLine: {'line': b'4/5 Test #4: pep257 ...........................   Passed    0.16 sec\n'}
 [0.735336] (articubot_one) StdoutLine: {'line': b'test 5\n'}
 [0.735623] (articubot_one) StdoutLine: {'line': b'    Start 5: xmllint\n'}
 [0.735789] (articubot_one) StdoutLine: {'line': b'\n'}
-[0.735942] (articubot_one) StdoutLine: {'line': b'5: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/aurelien/dev_ws/src/build/articubot_one/test_results/articubot_one/xmllint.xunit.xml" "--package-name" "articubot_one" "--output-file" "/home/aurelien/dev_ws/src/build/articubot_one/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/aurelien/dev_ws/src/build/articubot_one/test_results/articubot_one/xmllint.xunit.xml"\n'}
+[0.735942] (articubot_one) StdoutLine: {'line': b'5: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "~/dev_ws/src/build/articubot_one/test_results/articubot_one/xmllint.xunit.xml" "--package-name" "articubot_one" "--output-file" "~/dev_ws/src/build/articubot_one/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "~/dev_ws/src/build/articubot_one/test_results/articubot_one/xmllint.xunit.xml"\n'}
 [0.736082] (articubot_one) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
-[0.780794] (articubot_one) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/aurelien/dev_ws/src/articubot_one':\n"}
-[0.781162] (articubot_one) StdoutLine: {'line': b'5:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/aurelien/dev_ws/src/build/articubot_one/test_results/articubot_one/xmllint.xunit.xml\n'}
+[0.780794] (articubot_one) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '~/dev_ws/src/articubot_one':\n"}
+[0.781162] (articubot_one) StdoutLine: {'line': b'5:  - /opt/ros/humble/bin/ament_xmllint --xunit-file ~/dev_ws/src/build/articubot_one/test_results/articubot_one/xmllint.xunit.xml\n'}
 [0.799147] (-) TimerEvent: {}
 [0.877705] (articubot_one) StdoutLine: {'line': b"5: File 'package.xml' is invalid:\n"}
 [0.878171] (articubot_one) StdoutLine: {'line': b'5: error : Resource temporarily unavailable\n'}
@@ -211,7 +211,7 @@
 [0.879084] (articubot_one) StdoutLine: {'line': b'5: \n'}
 [0.879206] (articubot_one) StdoutLine: {'line': b'5: 1 files are invalid\n'}
 [0.888218] (articubot_one) StdoutLine: {'line': b'5: -- run_test.py: return code 1\n'}
-[0.888351] (articubot_one) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/aurelien/dev_ws/src/build/articubot_one/test_results/articubot_one/xmllint.xunit.xml'\n"}
+[0.888351] (articubot_one) StdoutLine: {'line': b"5: -- run_test.py: verify result file '~/dev_ws/src/build/articubot_one/test_results/articubot_one/xmllint.xunit.xml'\n"}
 [0.895641] (articubot_one) StdoutLine: {'line': b'5/5 Test #5: xmllint ..........................***Failed    0.16 sec\n'}
 [0.896065] (articubot_one) StdoutLine: {'line': b'\n'}
 [0.896134] (articubot_one) StdoutLine: {'line': b'40% tests passed\x1b[0;0m, \x1b[0;31m3 tests failed\x1b[0;0m out of 5\n'}
@@ -231,7 +231,7 @@
 [0.896939] (articubot_one) StdoutLine: {'line': b'\t\x1b[0;31m  2 - flake8 (Failed)\x1b[0;0m\n'}
 [0.896989] (articubot_one) StdoutLine: {'line': b'\t\x1b[0;31m  5 - xmllint (Failed)\x1b[0;0m\n'}
 [0.898926] (articubot_one) StderrLine: {'line': b'Errors while running CTest\n'}
-[0.899034] (articubot_one) StderrLine: {'line': b'Output from these tests are in: /home/aurelien/dev_ws/src/build/articubot_one/Testing/Temporary/LastTest.log\n'}
+[0.899034] (articubot_one) StderrLine: {'line': b'Output from these tests are in: ~/dev_ws/src/build/articubot_one/Testing/Temporary/LastTest.log\n'}
 [0.899097] (articubot_one) StderrLine: {'line': b'Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.\n'}
 [0.899149] (-) TimerEvent: {}
 [0.900589] (articubot_one) CommandEnded: {'returncode': 8}
@@ -331,17 +331,17 @@
 [10.146715] (-) TimerEvent: {}
 [10.220232] (urg_node2) StdoutLine: {'line': b'1: [WARN] [1679841785.111707493] [rcl_lifecycle]: No transition matching 3 found for current state unconfigured\n'}
 [10.220605] (urg_node2) StdoutLine: {'line': b'1: [ERROR] [1679841785.111733390] []: Unable to start transition 3 from current state unconfigured: Transition is not registered., at ./src/rcl_lifecycle.c:355\n'}
-[10.220783] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:185: Failure\n'}
+[10.220783] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:185: Failure\n'}
 [10.220868] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [10.220912] (urg_node2) StdoutLine: {'line': b'1:   node->get_current_state().label()\n'}
 [10.220957] (urg_node2) StdoutLine: {'line': b'1:     Which is: "unconfigured"\n'}
 [10.221001] (urg_node2) StdoutLine: {'line': b'1:   "active"\n'}
-[10.221045] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:194: Failure\n'}
+[10.221045] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:194: Failure\n'}
 [10.221088] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [10.221131] (urg_node2) StdoutLine: {'line': b'1:   (int)ep_scan.size()\n'}
 [10.221175] (urg_node2) StdoutLine: {'line': b'1:     Which is: 0\n'}
 [10.221218] (urg_node2) StdoutLine: {'line': b'1:   1\n'}
-[10.221260] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:199: Failure\n'}
+[10.221260] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:199: Failure\n'}
 [10.221303] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [10.221346] (urg_node2) StdoutLine: {'line': b'1:   (int)ep_diag.size()\n'}
 [10.221387] (urg_node2) StdoutLine: {'line': b'1:     Which is: 0\n'}
@@ -446,47 +446,47 @@
 [19.997872] (-) TimerEvent: {}
 [20.098431] (-) TimerEvent: {}
 [20.198924] (-) TimerEvent: {}
-[20.220154] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:208: Failure\n'}
+[20.220154] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:208: Failure\n'}
 [20.220862] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [20.221071] (urg_node2) StdoutLine: {'line': b'1:   scan_msg.header.frame_id\n'}
 [20.221236] (urg_node2) StdoutLine: {'line': b'1:     Which is: ""\n'}
 [20.221395] (urg_node2) StdoutLine: {'line': b'1:   "laser"\n'}
-[20.221470] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:209: Failure\n'}
+[20.221470] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:209: Failure\n'}
 [20.221522] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.angle_min and (2 * 3.14159265358979323846 * -540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where\n'}
 [20.221586] (urg_node2) StdoutLine: {'line': b'1: scan_msg.angle_min evaluates to 0,\n'}
 [20.221637] (urg_node2) StdoutLine: {'line': b'1: (2 * 3.14159265358979323846 * -540) / 1440.0 evaluates to -2.3561944901923448, and\n'}
 [20.221687] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[20.221736] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:210: Failure\n'}
+[20.221736] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:210: Failure\n'}
 [20.221786] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.angle_max and (2 * 3.14159265358979323846 * 540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where\n'}
 [20.221836] (urg_node2) StdoutLine: {'line': b'1: scan_msg.angle_max evaluates to 0,\n'}
 [20.221885] (urg_node2) StdoutLine: {'line': b'1: (2 * 3.14159265358979323846 * 540) / 1440.0 evaluates to 2.3561944901923448, and\n'}
 [20.221934] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[20.221984] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:211: Failure\n'}
+[20.221984] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:211: Failure\n'}
 [20.222056] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.angle_increment and 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0043633231299858239, which exceeds 1e-6, where\n'}
 [20.222110] (urg_node2) StdoutLine: {'line': b'1: scan_msg.angle_increment evaluates to 0,\n'}
 [20.222160] (urg_node2) StdoutLine: {'line': b'1: 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0043633231299858239, and\n'}
 [20.222224] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[20.222274] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:212: Failure\n'}
+[20.222274] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:212: Failure\n'}
 [20.222323] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.time_increment and 1 * (270.0 / 360.0) * 0.025 / 1080.0 is 1.7361111111111114e-05, which exceeds 1e-6, where\n'}
 [20.222374] (urg_node2) StdoutLine: {'line': b'1: scan_msg.time_increment evaluates to 0,\n'}
 [20.222423] (urg_node2) StdoutLine: {'line': b'1: 1 * (270.0 / 360.0) * 0.025 / 1080.0 evaluates to 1.7361111111111114e-05, and\n'}
 [20.222473] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[20.222523] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:213: Failure\n'}
+[20.222523] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:213: Failure\n'}
 [20.222572] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where\n'}
 [20.222622] (urg_node2) StdoutLine: {'line': b'1: scan_msg.scan_time evaluates to 0,\n'}
 [20.222672] (urg_node2) StdoutLine: {'line': b'1: 0.025 evaluates to 0.025000000000000001, and\n'}
 [20.222723] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[20.222772] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:214: Failure\n'}
+[20.222772] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:214: Failure\n'}
 [20.222825] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where\n'}
 [20.222876] (urg_node2) StdoutLine: {'line': b'1: scan_msg.range_min evaluates to 0,\n'}
 [20.222929] (urg_node2) StdoutLine: {'line': b'1: 0.023 evaluates to 0.023, and\n'}
 [20.222980] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[20.223031] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:215: Failure\n'}
+[20.223031] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:215: Failure\n'}
 [20.223081] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.range_max and 60.0 is 60, which exceeds 1e-6, where\n'}
 [20.223132] (urg_node2) StdoutLine: {'line': b'1: scan_msg.range_max evaluates to 0,\n'}
 [20.223182] (urg_node2) StdoutLine: {'line': b'1: 60.0 evaluates to 60, and\n'}
 [20.223234] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[20.223285] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:216: Failure\n'}
+[20.223285] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:216: Failure\n'}
 [20.223336] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [20.223387] (urg_node2) StdoutLine: {'line': b'1:   (int)scan_msg.ranges.size()\n'}
 [20.223439] (urg_node2) StdoutLine: {'line': b'1:     Which is: 0\n'}
@@ -496,14 +496,14 @@
 [20.232688] (urg_node2) StdoutLine: {'line': b'1: [ERROR] [1679841795.124494938] [urg_node2]: Could not open network Hokuyo 2D LiDAR\n'}
 [20.232957] (urg_node2) StdoutLine: {'line': b'1: 192.168.0.10:10940\n'}
 [20.233179] (urg_node2) StdoutLine: {'line': b'1: could not open ethernet port.\n'}
-[20.233371] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:285: Failure\n'}
+[20.233371] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:285: Failure\n'}
 [20.233557] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [20.233623] (urg_node2) StdoutLine: {'line': b'1:   node->get_current_state().label()\n'}
 [20.233682] (urg_node2) StdoutLine: {'line': b'1:     Which is: "unconfigured"\n'}
 [20.233739] (urg_node2) StdoutLine: {'line': b'1:   "inactive"\n'}
 [20.233797] (urg_node2) StdoutLine: {'line': b'1: [WARN] [1679841795.124584099] [rcl_lifecycle]: No transition matching 3 found for current state unconfigured\n'}
 [20.233853] (urg_node2) StdoutLine: {'line': b'1: [ERROR] [1679841795.124589891] []: Unable to start transition 3 from current state unconfigured: Transition is not registered., at ./src/rcl_lifecycle.c:355\n'}
-[20.233914] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:290: Failure\n'}
+[20.233914] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:290: Failure\n'}
 [20.233966] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [20.234017] (urg_node2) StdoutLine: {'line': b'1:   node->get_current_state().label()\n'}
 [20.234073] (urg_node2) StdoutLine: {'line': b'1:     Which is: "unconfigured"\n'}
@@ -607,52 +607,52 @@
 [29.944864] (-) TimerEvent: {}
 [30.045356] (-) TimerEvent: {}
 [30.145882] (-) TimerEvent: {}
-[30.233198] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:300: Failure\n'}
+[30.233198] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:300: Failure\n'}
 [30.233690] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [30.233758] (urg_node2) StdoutLine: {'line': b'1:   scan_msg.header.frame_id\n'}
 [30.233814] (urg_node2) StdoutLine: {'line': b'1:     Which is: ""\n'}
 [30.233869] (urg_node2) StdoutLine: {'line': b'1:   "hokuyo"\n'}
-[30.233923] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:301: Failure\n'}
+[30.233923] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:301: Failure\n'}
 [30.233986] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.angle_min and (2 * 3.14159265358979323846 * -360) / 1440.0 is 1.5707963267948966, which exceeds 1e-6, where\n'}
 [30.234048] (urg_node2) StdoutLine: {'line': b'1: scan_msg.angle_min evaluates to 0,\n'}
 [30.234102] (urg_node2) StdoutLine: {'line': b'1: (2 * 3.14159265358979323846 * -360) / 1440.0 evaluates to -1.5707963267948966, and\n'}
 [30.234154] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[30.234208] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:302: Failure\n'}
+[30.234208] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:302: Failure\n'}
 [30.234260] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.angle_max and (2 * 3.14159265358979323846 * 360) / 1440.0 is 1.5707963267948966, which exceeds 1e-6, where\n'}
 [30.234319] (urg_node2) StdoutLine: {'line': b'1: scan_msg.angle_max evaluates to 0,\n'}
 [30.234369] (urg_node2) StdoutLine: {'line': b'1: (2 * 3.14159265358979323846 * 360) / 1440.0 evaluates to 1.5707963267948966, and\n'}
 [30.234421] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[30.234472] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:303: Failure\n'}
+[30.234472] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:303: Failure\n'}
 [30.234523] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.angle_increment and 2 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0087266462599716477, which exceeds 1e-6, where\n'}
 [30.234574] (urg_node2) StdoutLine: {'line': b'1: scan_msg.angle_increment evaluates to 0,\n'}
 [30.234626] (urg_node2) StdoutLine: {'line': b'1: 2 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0087266462599716477, and\n'}
 [30.234677] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[30.234726] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:304: Failure\n'}
+[30.234726] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:304: Failure\n'}
 [30.234784] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.time_increment and 2 * (180.0 / 360.0) * 0.025 / 720.0 is 3.4722222222222222e-05, which exceeds 1e-6, where\n'}
 [30.234835] (urg_node2) StdoutLine: {'line': b'1: scan_msg.time_increment evaluates to 0,\n'}
 [30.234887] (urg_node2) StdoutLine: {'line': b'1: 2 * (180.0 / 360.0) * 0.025 / 720.0 evaluates to 3.4722222222222222e-05, and\n'}
 [30.234939] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[30.234989] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:305: Failure\n'}
+[30.234989] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:305: Failure\n'}
 [30.235039] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where\n'}
 [30.235089] (urg_node2) StdoutLine: {'line': b'1: scan_msg.scan_time evaluates to 0,\n'}
 [30.235138] (urg_node2) StdoutLine: {'line': b'1: 0.025 evaluates to 0.025000000000000001, and\n'}
 [30.235188] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[30.235238] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:306: Failure\n'}
+[30.235238] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:306: Failure\n'}
 [30.235287] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where\n'}
 [30.235337] (urg_node2) StdoutLine: {'line': b'1: scan_msg.range_min evaluates to 0,\n'}
 [30.235387] (urg_node2) StdoutLine: {'line': b'1: 0.023 evaluates to 0.023, and\n'}
 [30.235444] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[30.235493] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:307: Failure\n'}
+[30.235493] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:307: Failure\n'}
 [30.235542] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.range_max and 60.0 is 60, which exceeds 1e-6, where\n'}
 [30.235591] (urg_node2) StdoutLine: {'line': b'1: scan_msg.range_max evaluates to 0,\n'}
 [30.235640] (urg_node2) StdoutLine: {'line': b'1: 60.0 evaluates to 60, and\n'}
 [30.235694] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[30.235742] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:308: Failure\n'}
+[30.235742] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:308: Failure\n'}
 [30.235791] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [30.235839] (urg_node2) StdoutLine: {'line': b'1:   (int)scan_msg.ranges.size()\n'}
 [30.235893] (urg_node2) StdoutLine: {'line': b'1:     Which is: 0\n'}
 [30.235944] (urg_node2) StdoutLine: {'line': b'1:   361\n'}
-[30.235993] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:316: Failure\n'}
+[30.235993] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:316: Failure\n'}
 [30.236042] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [30.236092] (urg_node2) StdoutLine: {'line': b'1:   (int)scan_msg.intensities.size()\n'}
 [30.236142] (urg_node2) StdoutLine: {'line': b'1:     Which is: 0\n'}
@@ -663,14 +663,14 @@
 [30.245865] (urg_node2) StdoutLine: {'line': b'1: 192.168.0.10:10940\n'}
 [30.246026] (-) TimerEvent: {}
 [30.246248] (urg_node2) StdoutLine: {'line': b'1: could not open ethernet port.\n'}
-[30.246430] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:362: Failure\n'}
+[30.246430] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:362: Failure\n'}
 [30.246585] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [30.246726] (urg_node2) StdoutLine: {'line': b'1:   node->get_current_state().label()\n'}
 [30.246775] (urg_node2) StdoutLine: {'line': b'1:     Which is: "unconfigured"\n'}
 [30.246831] (urg_node2) StdoutLine: {'line': b'1:   "inactive"\n'}
 [30.246880] (urg_node2) StdoutLine: {'line': b'1: [WARN] [1679841805.137448661] [rcl_lifecycle]: No transition matching 3 found for current state unconfigured\n'}
 [30.246928] (urg_node2) StdoutLine: {'line': b'1: [ERROR] [1679841805.137456583] []: Unable to start transition 3 from current state unconfigured: Transition is not registered., at ./src/rcl_lifecycle.c:355\n'}
-[30.246979] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:367: Failure\n'}
+[30.246979] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:367: Failure\n'}
 [30.247026] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [30.247074] (urg_node2) StdoutLine: {'line': b'1:   node->get_current_state().label()\n'}
 [30.247122] (urg_node2) StdoutLine: {'line': b'1:     Which is: "unconfigured"\n'}
@@ -774,47 +774,47 @@
 [39.994423] (-) TimerEvent: {}
 [40.094969] (-) TimerEvent: {}
 [40.195479] (-) TimerEvent: {}
-[40.246001] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:378: Failure\n'}
+[40.246001] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:378: Failure\n'}
 [40.246555] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [40.246723] (urg_node2) StdoutLine: {'line': b'1:   multiecho_msg.header.frame_id\n'}
 [40.246772] (urg_node2) StdoutLine: {'line': b'1:     Which is: ""\n'}
 [40.246821] (urg_node2) StdoutLine: {'line': b'1:   "laser"\n'}
-[40.246869] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:379: Failure\n'}
+[40.246869] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:379: Failure\n'}
 [40.246916] (urg_node2) StdoutLine: {'line': b'1: The difference between multiecho_msg.angle_min and (2 * 3.14159265358979323846 * -360) / 1440.0 is 1.5707963267948966, which exceeds 1e-6, where\n'}
 [40.246965] (urg_node2) StdoutLine: {'line': b'1: multiecho_msg.angle_min evaluates to 0,\n'}
 [40.247013] (urg_node2) StdoutLine: {'line': b'1: (2 * 3.14159265358979323846 * -360) / 1440.0 evaluates to -1.5707963267948966, and\n'}
 [40.247060] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[40.247105] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:380: Failure\n'}
+[40.247105] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:380: Failure\n'}
 [40.247151] (urg_node2) StdoutLine: {'line': b'1: The difference between multiecho_msg.angle_max and (2 * 3.14159265358979323846 * 360) / 1440.0 is 1.5707963267948966, which exceeds 1e-6, where\n'}
 [40.247197] (urg_node2) StdoutLine: {'line': b'1: multiecho_msg.angle_max evaluates to 0,\n'}
 [40.247241] (urg_node2) StdoutLine: {'line': b'1: (2 * 3.14159265358979323846 * 360) / 1440.0 evaluates to 1.5707963267948966, and\n'}
 [40.247288] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[40.247333] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:381: Failure\n'}
+[40.247333] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:381: Failure\n'}
 [40.247377] (urg_node2) StdoutLine: {'line': b'1: The difference between multiecho_msg.angle_increment and 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0043633231299858239, which exceeds 1e-6, where\n'}
 [40.247423] (urg_node2) StdoutLine: {'line': b'1: multiecho_msg.angle_increment evaluates to 0,\n'}
 [40.247469] (urg_node2) StdoutLine: {'line': b'1: 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0043633231299858239, and\n'}
 [40.247515] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[40.247586] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:382: Failure\n'}
+[40.247586] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:382: Failure\n'}
 [40.247633] (urg_node2) StdoutLine: {'line': b'1: The difference between multiecho_msg.time_increment and 1 * (180.0 / 360.0) * 0.025 / 720.0 is 1.7361111111111111e-05, which exceeds 1e-6, where\n'}
 [40.247681] (urg_node2) StdoutLine: {'line': b'1: multiecho_msg.time_increment evaluates to 0,\n'}
 [40.247741] (urg_node2) StdoutLine: {'line': b'1: 1 * (180.0 / 360.0) * 0.025 / 720.0 evaluates to 1.7361111111111111e-05, and\n'}
 [40.247791] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[40.247833] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:383: Failure\n'}
+[40.247833] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:383: Failure\n'}
 [40.247876] (urg_node2) StdoutLine: {'line': b'1: The difference between multiecho_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where\n'}
 [40.247919] (urg_node2) StdoutLine: {'line': b'1: multiecho_msg.scan_time evaluates to 0,\n'}
 [40.247964] (urg_node2) StdoutLine: {'line': b'1: 0.025 evaluates to 0.025000000000000001, and\n'}
 [40.248013] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[40.248063] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:384: Failure\n'}
+[40.248063] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:384: Failure\n'}
 [40.248107] (urg_node2) StdoutLine: {'line': b'1: The difference between multiecho_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where\n'}
 [40.248150] (urg_node2) StdoutLine: {'line': b'1: multiecho_msg.range_min evaluates to 0,\n'}
 [40.248198] (urg_node2) StdoutLine: {'line': b'1: 0.023 evaluates to 0.023, and\n'}
 [40.248242] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[40.248285] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:385: Failure\n'}
+[40.248285] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:385: Failure\n'}
 [40.248328] (urg_node2) StdoutLine: {'line': b'1: The difference between multiecho_msg.range_max and 60.0 is 60, which exceeds 1e-6, where\n'}
 [40.248371] (urg_node2) StdoutLine: {'line': b'1: multiecho_msg.range_max evaluates to 0,\n'}
 [40.248414] (urg_node2) StdoutLine: {'line': b'1: 60.0 evaluates to 60, and\n'}
 [40.248457] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[40.248501] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:386: Failure\n'}
+[40.248501] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:386: Failure\n'}
 [40.248544] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [40.248587] (urg_node2) StdoutLine: {'line': b'1:   (int)multiecho_msg.ranges.size()\n'}
 [40.248630] (urg_node2) StdoutLine: {'line': b'1:     Which is: 0\n'}
@@ -824,27 +824,27 @@
 [40.258627] (urg_node2) StdoutLine: {'line': b'1: [ERROR] [1679841815.150271007] [urg_node2]: Could not open network Hokuyo 2D LiDAR\n'}
 [40.258849] (urg_node2) StdoutLine: {'line': b'1: 192.168.0.10:10940\n'}
 [40.258915] (urg_node2) StdoutLine: {'line': b'1: could not open ethernet port.\n'}
-[40.258973] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:473: Failure\n'}
+[40.258973] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:473: Failure\n'}
 [40.259032] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [40.259086] (urg_node2) StdoutLine: {'line': b'1:   node->get_current_state().label()\n'}
 [40.259141] (urg_node2) StdoutLine: {'line': b'1:     Which is: "unconfigured"\n'}
 [40.259193] (urg_node2) StdoutLine: {'line': b'1:   "inactive"\n'}
-[40.259247] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:483: Failure\n'}
+[40.259247] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:483: Failure\n'}
 [40.259302] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [40.259355] (urg_node2) StdoutLine: {'line': b'1:   (int)ep_multiecho.size()\n'}
 [40.259408] (urg_node2) StdoutLine: {'line': b'1:     Which is: 0\n'}
 [40.259466] (urg_node2) StdoutLine: {'line': b'1:   1\n'}
-[40.259520] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:484: Failure\n'}
+[40.259520] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:484: Failure\n'}
 [40.259574] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [40.259626] (urg_node2) StdoutLine: {'line': b'1:   (int)ep_first.size()\n'}
 [40.259678] (urg_node2) StdoutLine: {'line': b'1:     Which is: 0\n'}
 [40.259725] (urg_node2) StdoutLine: {'line': b'1:   1\n'}
-[40.259770] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:485: Failure\n'}
+[40.259770] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:485: Failure\n'}
 [40.259815] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [40.259862] (urg_node2) StdoutLine: {'line': b'1:   (int)ep_last.size()\n'}
 [40.259908] (urg_node2) StdoutLine: {'line': b'1:     Which is: 0\n'}
 [40.259954] (urg_node2) StdoutLine: {'line': b'1:   1\n'}
-[40.259999] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:486: Failure\n'}
+[40.259999] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:486: Failure\n'}
 [40.260046] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [40.260093] (urg_node2) StdoutLine: {'line': b'1:   (int)ep_most.size()\n'}
 [40.260139] (urg_node2) StdoutLine: {'line': b'1:     Which is: 0\n'}
@@ -951,7 +951,7 @@
 [50.242895] (-) TimerEvent: {}
 [50.259012] (urg_node2) StdoutLine: {'line': b'1: [WARN] [1679841825.150683972] [rcl_lifecycle]: No transition matching 3 found for current state unconfigured\n'}
 [50.259360] (urg_node2) StdoutLine: {'line': b'1: [ERROR] [1679841825.150703864] []: Unable to start transition 3 from current state unconfigured: Transition is not registered., at ./src/rcl_lifecycle.c:355\n'}
-[50.259540] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:498: Failure\n'}
+[50.259540] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:498: Failure\n'}
 [50.259693] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [50.259845] (urg_node2) StdoutLine: {'line': b'1:   node->get_current_state().label()\n'}
 [50.259996] (urg_node2) StdoutLine: {'line': b'1:     Which is: "unconfigured"\n'}
@@ -1055,52 +1055,52 @@
 [59.991769] (-) TimerEvent: {}
 [60.092261] (-) TimerEvent: {}
 [60.192746] (-) TimerEvent: {}
-[60.259521] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:510: Failure\n'}
+[60.259521] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:510: Failure\n'}
 [60.259917] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [60.260105] (urg_node2) StdoutLine: {'line': b'1:   multiecho_msg.header.frame_id\n'}
 [60.260256] (urg_node2) StdoutLine: {'line': b'1:     Which is: ""\n'}
 [60.260412] (urg_node2) StdoutLine: {'line': b'1:   "hokuyo"\n'}
-[60.260559] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:511: Failure\n'}
+[60.260559] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:511: Failure\n'}
 [60.260663] (urg_node2) StdoutLine: {'line': b'1: The difference between multiecho_msg.angle_min and (2 * 3.14159265358979323846 * -540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where\n'}
 [60.260715] (urg_node2) StdoutLine: {'line': b'1: multiecho_msg.angle_min evaluates to 0,\n'}
 [60.260765] (urg_node2) StdoutLine: {'line': b'1: (2 * 3.14159265358979323846 * -540) / 1440.0 evaluates to -2.3561944901923448, and\n'}
 [60.260815] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[60.260866] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:512: Failure\n'}
+[60.260866] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:512: Failure\n'}
 [60.260915] (urg_node2) StdoutLine: {'line': b'1: The difference between multiecho_msg.angle_max and (2 * 3.14159265358979323846 * 540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where\n'}
 [60.260964] (urg_node2) StdoutLine: {'line': b'1: multiecho_msg.angle_max evaluates to 0,\n'}
 [60.261011] (urg_node2) StdoutLine: {'line': b'1: (2 * 3.14159265358979323846 * 540) / 1440.0 evaluates to 2.3561944901923448, and\n'}
 [60.261061] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[60.261110] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:513: Failure\n'}
+[60.261110] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:513: Failure\n'}
 [60.261159] (urg_node2) StdoutLine: {'line': b'1: The difference between multiecho_msg.angle_increment and 99 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.43196898986859661, which exceeds 1e-6, where\n'}
 [60.261209] (urg_node2) StdoutLine: {'line': b'1: multiecho_msg.angle_increment evaluates to 0,\n'}
 [60.261258] (urg_node2) StdoutLine: {'line': b'1: 99 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.43196898986859661, and\n'}
 [60.261322] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[60.261371] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:514: Failure\n'}
+[60.261371] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:514: Failure\n'}
 [60.261422] (urg_node2) StdoutLine: {'line': b'1: The difference between multiecho_msg.time_increment and 99 * (270.0 / 360.0) * 0.025 / 1080.0 is 0.0017187500000000002, which exceeds 1e-6, where\n'}
 [60.261469] (urg_node2) StdoutLine: {'line': b'1: multiecho_msg.time_increment evaluates to 0,\n'}
 [60.261523] (urg_node2) StdoutLine: {'line': b'1: 99 * (270.0 / 360.0) * 0.025 / 1080.0 evaluates to 0.0017187500000000002, and\n'}
 [60.261583] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[60.261632] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:515: Failure\n'}
+[60.261632] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:515: Failure\n'}
 [60.261680] (urg_node2) StdoutLine: {'line': b'1: The difference between multiecho_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where\n'}
 [60.261728] (urg_node2) StdoutLine: {'line': b'1: multiecho_msg.scan_time evaluates to 0,\n'}
 [60.261775] (urg_node2) StdoutLine: {'line': b'1: 0.025 evaluates to 0.025000000000000001, and\n'}
 [60.261828] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[60.261876] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:516: Failure\n'}
+[60.261876] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:516: Failure\n'}
 [60.261924] (urg_node2) StdoutLine: {'line': b'1: The difference between multiecho_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where\n'}
 [60.261976] (urg_node2) StdoutLine: {'line': b'1: multiecho_msg.range_min evaluates to 0,\n'}
 [60.262021] (urg_node2) StdoutLine: {'line': b'1: 0.023 evaluates to 0.023, and\n'}
 [60.262081] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[60.262129] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:517: Failure\n'}
+[60.262129] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:517: Failure\n'}
 [60.262178] (urg_node2) StdoutLine: {'line': b'1: The difference between multiecho_msg.range_max and 60.0 is 60, which exceeds 1e-6, where\n'}
 [60.262226] (urg_node2) StdoutLine: {'line': b'1: multiecho_msg.range_max evaluates to 0,\n'}
 [60.262273] (urg_node2) StdoutLine: {'line': b'1: 60.0 evaluates to 60, and\n'}
 [60.262328] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[60.262392] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:518: Failure\n'}
+[60.262392] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:518: Failure\n'}
 [60.262440] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [60.262487] (urg_node2) StdoutLine: {'line': b'1:   (int)multiecho_msg.ranges.size()\n'}
 [60.262534] (urg_node2) StdoutLine: {'line': b'1:     Which is: 0\n'}
 [60.262716] (urg_node2) StdoutLine: {'line': b'1:   11\n'}
-[60.262806] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:533: Failure\n'}
+[60.262806] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:533: Failure\n'}
 [60.262862] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [60.262913] (urg_node2) StdoutLine: {'line': b'1:   (int)multiecho_msg.intensities.size()\n'}
 [60.262962] (urg_node2) StdoutLine: {'line': b'1:     Which is: 0\n'}
@@ -1110,14 +1110,14 @@
 [60.270604] (urg_node2) StdoutLine: {'line': b'1: [ERROR] [1679841835.162200123] [urg_node2]: Could not open network Hokuyo 2D LiDAR\n'}
 [60.270913] (urg_node2) StdoutLine: {'line': b'1: 192.168.0.10:10940\n'}
 [60.271080] (urg_node2) StdoutLine: {'line': b'1: could not open ethernet port.\n'}
-[60.271228] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:608: Failure\n'}
+[60.271228] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:608: Failure\n'}
 [60.271375] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [60.271515] (urg_node2) StdoutLine: {'line': b'1:   node->get_current_state().label()\n'}
 [60.271658] (urg_node2) StdoutLine: {'line': b'1:     Which is: "unconfigured"\n'}
 [60.271750] (urg_node2) StdoutLine: {'line': b'1:   "inactive"\n'}
 [60.271806] (urg_node2) StdoutLine: {'line': b'1: [WARN] [1679841835.162363835] [rcl_lifecycle]: No transition matching 3 found for current state unconfigured\n'}
 [60.271861] (urg_node2) StdoutLine: {'line': b'1: [ERROR] [1679841835.162376513] []: Unable to start transition 3 from current state unconfigured: Transition is not registered., at ./src/rcl_lifecycle.c:355\n'}
-[60.271917] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:613: Failure\n'}
+[60.271917] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:613: Failure\n'}
 [60.271971] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [60.272026] (urg_node2) StdoutLine: {'line': b'1:   node->get_current_state().label()\n'}
 [60.272080] (urg_node2) StdoutLine: {'line': b'1:     Which is: "unconfigured"\n'}
@@ -1222,47 +1222,47 @@
 [70.040215] (-) TimerEvent: {}
 [70.140636] (-) TimerEvent: {}
 [70.241058] (-) TimerEvent: {}
-[70.271519] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:623: Failure\n'}
+[70.271519] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:623: Failure\n'}
 [70.271797] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [70.271904] (urg_node2) StdoutLine: {'line': b'1:   scan_msg.header.frame_id\n'}
 [70.271977] (urg_node2) StdoutLine: {'line': b'1:     Which is: ""\n'}
 [70.272033] (urg_node2) StdoutLine: {'line': b'1:   "laser"\n'}
-[70.272103] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:624: Failure\n'}
+[70.272103] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:624: Failure\n'}
 [70.272164] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.angle_min and (2 * 3.14159265358979323846 * 359) / 1440.0 is 1.5664330036649106, which exceeds 1e-6, where\n'}
 [70.272222] (urg_node2) StdoutLine: {'line': b'1: scan_msg.angle_min evaluates to 0,\n'}
 [70.272281] (urg_node2) StdoutLine: {'line': b'1: (2 * 3.14159265358979323846 * 359) / 1440.0 evaluates to 1.5664330036649106, and\n'}
 [70.272336] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[70.272397] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:625: Failure\n'}
+[70.272397] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:625: Failure\n'}
 [70.272455] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.angle_max and (2 * 3.14159265358979323846 * 360) / 1440.0 is 1.5707963267948966, which exceeds 1e-6, where\n'}
 [70.272519] (urg_node2) StdoutLine: {'line': b'1: scan_msg.angle_max evaluates to 0,\n'}
 [70.272575] (urg_node2) StdoutLine: {'line': b'1: (2 * 3.14159265358979323846 * 360) / 1440.0 evaluates to 1.5707963267948966, and\n'}
 [70.272651] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[70.272718] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:626: Failure\n'}
+[70.272718] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:626: Failure\n'}
 [70.272781] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.angle_increment and 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0043633231299858239, which exceeds 1e-6, where\n'}
 [70.272839] (urg_node2) StdoutLine: {'line': b'1: scan_msg.angle_increment evaluates to 0,\n'}
 [70.272901] (urg_node2) StdoutLine: {'line': b'1: 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0043633231299858239, and\n'}
 [70.272961] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[70.273024] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:627: Failure\n'}
+[70.273024] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:627: Failure\n'}
 [70.273097] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.time_increment and 1 * (270.0 / 360.0) * 0.025 / 1080.0 is 1.7361111111111114e-05, which exceeds 1e-6, where\n'}
 [70.273159] (urg_node2) StdoutLine: {'line': b'1: scan_msg.time_increment evaluates to 0,\n'}
 [70.273223] (urg_node2) StdoutLine: {'line': b'1: 1 * (270.0 / 360.0) * 0.025 / 1080.0 evaluates to 1.7361111111111114e-05, and\n'}
 [70.273288] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[70.273344] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:628: Failure\n'}
+[70.273344] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:628: Failure\n'}
 [70.273406] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where\n'}
 [70.273468] (urg_node2) StdoutLine: {'line': b'1: scan_msg.scan_time evaluates to 0,\n'}
 [70.273533] (urg_node2) StdoutLine: {'line': b'1: 0.025 evaluates to 0.025000000000000001, and\n'}
 [70.273600] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[70.273668] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:629: Failure\n'}
+[70.273668] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:629: Failure\n'}
 [70.273742] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where\n'}
 [70.273799] (urg_node2) StdoutLine: {'line': b'1: scan_msg.range_min evaluates to 0,\n'}
 [70.273853] (urg_node2) StdoutLine: {'line': b'1: 0.023 evaluates to 0.023, and\n'}
 [70.273904] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[70.273969] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:630: Failure\n'}
+[70.273969] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:630: Failure\n'}
 [70.274022] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.range_max and 60.0 is 60, which exceeds 1e-6, where\n'}
 [70.274087] (urg_node2) StdoutLine: {'line': b'1: scan_msg.range_max evaluates to 0,\n'}
 [70.274153] (urg_node2) StdoutLine: {'line': b'1: 60.0 evaluates to 60, and\n'}
 [70.274210] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[70.274263] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:631: Failure\n'}
+[70.274263] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:631: Failure\n'}
 [70.274315] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [70.274368] (urg_node2) StdoutLine: {'line': b'1:   (int)scan_msg.ranges.size()\n'}
 [70.274423] (urg_node2) StdoutLine: {'line': b'1:     Which is: 0\n'}
@@ -1272,14 +1272,14 @@
 [70.282813] (urg_node2) StdoutLine: {'line': b'1: [ERROR] [1679841845.174586815] [urg_node2]: Could not open network Hokuyo 2D LiDAR\n'}
 [70.282987] (urg_node2) StdoutLine: {'line': b'1: 192.168.0.10:10940\n'}
 [70.283087] (urg_node2) StdoutLine: {'line': b'1: could not open ethernet port.\n'}
-[70.283178] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:684: Failure\n'}
+[70.283178] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:684: Failure\n'}
 [70.283282] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [70.283365] (urg_node2) StdoutLine: {'line': b'1:   node->get_current_state().label()\n'}
 [70.283450] (urg_node2) StdoutLine: {'line': b'1:     Which is: "unconfigured"\n'}
 [70.283535] (urg_node2) StdoutLine: {'line': b'1:   "inactive"\n'}
 [70.283595] (urg_node2) StdoutLine: {'line': b'1: [WARN] [1679841845.174742732] [rcl_lifecycle]: No transition matching 3 found for current state unconfigured\n'}
 [70.283640] (urg_node2) StdoutLine: {'line': b'1: [ERROR] [1679841845.174763100] []: Unable to start transition 3 from current state unconfigured: Transition is not registered., at ./src/rcl_lifecycle.c:355\n'}
-[70.283687] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:689: Failure\n'}
+[70.283687] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:689: Failure\n'}
 [70.283733] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [70.283777] (urg_node2) StdoutLine: {'line': b'1:   node->get_current_state().label()\n'}
 [70.283822] (urg_node2) StdoutLine: {'line': b'1:     Which is: "unconfigured"\n'}
@@ -1383,47 +1383,47 @@
 [79.988077] (-) TimerEvent: {}
 [80.088617] (-) TimerEvent: {}
 [80.189100] (-) TimerEvent: {}
-[80.283296] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:699: Failure\n'}
+[80.283296] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:699: Failure\n'}
 [80.283561] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [80.283660] (urg_node2) StdoutLine: {'line': b'1:   scan_msg.header.frame_id\n'}
 [80.284035] (urg_node2) StdoutLine: {'line': b'1:     Which is: ""\n'}
 [80.284141] (urg_node2) StdoutLine: {'line': b'1:   "laser"\n'}
-[80.284220] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:700: Failure\n'}
+[80.284220] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:700: Failure\n'}
 [80.284295] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.angle_min and (2 * 3.14159265358979323846 * 539) / 1440.0 is 2.3518311670623593, which exceeds 1e-6, where\n'}
 [80.284357] (urg_node2) StdoutLine: {'line': b'1: scan_msg.angle_min evaluates to 0,\n'}
 [80.284407] (urg_node2) StdoutLine: {'line': b'1: (2 * 3.14159265358979323846 * 539) / 1440.0 evaluates to 2.3518311670623593, and\n'}
 [80.284457] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[80.284507] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:701: Failure\n'}
+[80.284507] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:701: Failure\n'}
 [80.284556] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.angle_max and (2 * 3.14159265358979323846 * 540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where\n'}
 [80.284607] (urg_node2) StdoutLine: {'line': b'1: scan_msg.angle_max evaluates to 0,\n'}
 [80.284656] (urg_node2) StdoutLine: {'line': b'1: (2 * 3.14159265358979323846 * 540) / 1440.0 evaluates to 2.3561944901923448, and\n'}
 [80.284705] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[80.284754] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:702: Failure\n'}
+[80.284754] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:702: Failure\n'}
 [80.284803] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.angle_increment and 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0043633231299858239, which exceeds 1e-6, where\n'}
 [80.284853] (urg_node2) StdoutLine: {'line': b'1: scan_msg.angle_increment evaluates to 0,\n'}
 [80.284902] (urg_node2) StdoutLine: {'line': b'1: 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0043633231299858239, and\n'}
 [80.284951] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[80.285012] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:703: Failure\n'}
+[80.285012] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:703: Failure\n'}
 [80.285063] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.time_increment and 1 * (270.0 / 360.0) * 0.025 / 1080.0 is 1.7361111111111114e-05, which exceeds 1e-6, where\n'}
 [80.285117] (urg_node2) StdoutLine: {'line': b'1: scan_msg.time_increment evaluates to 0,\n'}
 [80.285165] (urg_node2) StdoutLine: {'line': b'1: 1 * (270.0 / 360.0) * 0.025 / 1080.0 evaluates to 1.7361111111111114e-05, and\n'}
 [80.285215] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[80.285262] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:704: Failure\n'}
+[80.285262] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:704: Failure\n'}
 [80.285317] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where\n'}
 [80.285365] (urg_node2) StdoutLine: {'line': b'1: scan_msg.scan_time evaluates to 0,\n'}
 [80.285428] (urg_node2) StdoutLine: {'line': b'1: 0.025 evaluates to 0.025000000000000001, and\n'}
 [80.285477] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[80.285525] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:705: Failure\n'}
+[80.285525] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:705: Failure\n'}
 [80.285574] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where\n'}
 [80.285621] (urg_node2) StdoutLine: {'line': b'1: scan_msg.range_min evaluates to 0,\n'}
 [80.285671] (urg_node2) StdoutLine: {'line': b'1: 0.023 evaluates to 0.023, and\n'}
 [80.285728] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[80.285775] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:706: Failure\n'}
+[80.285775] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:706: Failure\n'}
 [80.285821] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.range_max and 60.0 is 60, which exceeds 1e-6, where\n'}
 [80.285868] (urg_node2) StdoutLine: {'line': b'1: scan_msg.range_max evaluates to 0,\n'}
 [80.285916] (urg_node2) StdoutLine: {'line': b'1: 60.0 evaluates to 60, and\n'}
 [80.285964] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[80.286010] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:707: Failure\n'}
+[80.286010] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:707: Failure\n'}
 [80.286069] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [80.286118] (urg_node2) StdoutLine: {'line': b'1:   (int)scan_msg.ranges.size()\n'}
 [80.286164] (urg_node2) StdoutLine: {'line': b'1:     Which is: 0\n'}
@@ -1434,14 +1434,14 @@
 [80.294019] (urg_node2) StdoutLine: {'line': b'1: [ERROR] [1679841855.185813344] [urg_node2]: Could not open network Hokuyo 2D LiDAR\n'}
 [80.294325] (urg_node2) StdoutLine: {'line': b'1: 192.168.0.10:10940\n'}
 [80.294484] (urg_node2) StdoutLine: {'line': b'1: could not open ethernet port.\n'}
-[80.294636] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:760: Failure\n'}
+[80.294636] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:760: Failure\n'}
 [80.294731] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [80.294780] (urg_node2) StdoutLine: {'line': b'1:   node->get_current_state().label()\n'}
 [80.294829] (urg_node2) StdoutLine: {'line': b'1:     Which is: "unconfigured"\n'}
 [80.294876] (urg_node2) StdoutLine: {'line': b'1:   "inactive"\n'}
 [80.294925] (urg_node2) StdoutLine: {'line': b'1: [WARN] [1679841855.185977791] [rcl_lifecycle]: No transition matching 3 found for current state unconfigured\n'}
 [80.294974] (urg_node2) StdoutLine: {'line': b'1: [ERROR] [1679841855.185988954] []: Unable to start transition 3 from current state unconfigured: Transition is not registered., at ./src/rcl_lifecycle.c:355\n'}
-[80.295023] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:765: Failure\n'}
+[80.295023] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:765: Failure\n'}
 [80.295071] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [80.295118] (urg_node2) StdoutLine: {'line': b'1:   node->get_current_state().label()\n'}
 [80.295163] (urg_node2) StdoutLine: {'line': b'1:     Which is: "unconfigured"\n'}
@@ -1545,47 +1545,47 @@
 [90.037988] (-) TimerEvent: {}
 [90.138613] (-) TimerEvent: {}
 [90.239137] (-) TimerEvent: {}
-[90.294808] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:775: Failure\n'}
+[90.294808] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:775: Failure\n'}
 [90.295138] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [90.295296] (urg_node2) StdoutLine: {'line': b'1:   scan_msg.header.frame_id\n'}
 [90.295349] (urg_node2) StdoutLine: {'line': b'1:     Which is: ""\n'}
 [90.295401] (urg_node2) StdoutLine: {'line': b'1:   "laser"\n'}
-[90.295451] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:776: Failure\n'}
+[90.295451] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:776: Failure\n'}
 [90.295502] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.angle_min and (2 * 3.14159265358979323846 * -540) / 1440.0 is 2.3561944901923448, which exceeds 1e-6, where\n'}
 [90.295559] (urg_node2) StdoutLine: {'line': b'1: scan_msg.angle_min evaluates to 0,\n'}
 [90.295609] (urg_node2) StdoutLine: {'line': b'1: (2 * 3.14159265358979323846 * -540) / 1440.0 evaluates to -2.3561944901923448, and\n'}
 [90.295657] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[90.295708] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:777: Failure\n'}
+[90.295708] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:777: Failure\n'}
 [90.295758] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.angle_max and (2 * 3.14159265358979323846 * -539) / 1440.0 is 2.3518311670623593, which exceeds 1e-6, where\n'}
 [90.295808] (urg_node2) StdoutLine: {'line': b'1: scan_msg.angle_max evaluates to 0,\n'}
 [90.295856] (urg_node2) StdoutLine: {'line': b'1: (2 * 3.14159265358979323846 * -539) / 1440.0 evaluates to -2.3518311670623593, and\n'}
 [90.295906] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[90.295953] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:778: Failure\n'}
+[90.295953] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:778: Failure\n'}
 [90.296001] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.angle_increment and 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 is 0.0043633231299858239, which exceeds 1e-6, where\n'}
 [90.296065] (urg_node2) StdoutLine: {'line': b'1: scan_msg.angle_increment evaluates to 0,\n'}
 [90.296120] (urg_node2) StdoutLine: {'line': b'1: 1 * (2 * 3.14159265358979323846 * 1) / 1440.0 evaluates to 0.0043633231299858239, and\n'}
 [90.296174] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[90.296224] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:779: Failure\n'}
+[90.296224] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:779: Failure\n'}
 [90.296274] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.time_increment and 1 * (270.0 / 360.0) * 0.025 / 1080.0 is 1.7361111111111114e-05, which exceeds 1e-6, where\n'}
 [90.296324] (urg_node2) StdoutLine: {'line': b'1: scan_msg.time_increment evaluates to 0,\n'}
 [90.296373] (urg_node2) StdoutLine: {'line': b'1: 1 * (270.0 / 360.0) * 0.025 / 1080.0 evaluates to 1.7361111111111114e-05, and\n'}
 [90.296425] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[90.296472] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:780: Failure\n'}
+[90.296472] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:780: Failure\n'}
 [90.296520] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.scan_time and 0.025 is 0.025000000000000001, which exceeds 1e-6, where\n'}
 [90.296571] (urg_node2) StdoutLine: {'line': b'1: scan_msg.scan_time evaluates to 0,\n'}
 [90.296619] (urg_node2) StdoutLine: {'line': b'1: 0.025 evaluates to 0.025000000000000001, and\n'}
 [90.296667] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[90.296715] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:781: Failure\n'}
+[90.296715] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:781: Failure\n'}
 [90.296774] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.range_min and 0.023 is 0.023, which exceeds 1e-6, where\n'}
 [90.296827] (urg_node2) StdoutLine: {'line': b'1: scan_msg.range_min evaluates to 0,\n'}
 [90.296879] (urg_node2) StdoutLine: {'line': b'1: 0.023 evaluates to 0.023, and\n'}
 [90.296928] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[90.296975] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:782: Failure\n'}
+[90.296975] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:782: Failure\n'}
 [90.297021] (urg_node2) StdoutLine: {'line': b'1: The difference between scan_msg.range_max and 60.0 is 60, which exceeds 1e-6, where\n'}
 [90.297066] (urg_node2) StdoutLine: {'line': b'1: scan_msg.range_max evaluates to 0,\n'}
 [90.297111] (urg_node2) StdoutLine: {'line': b'1: 60.0 evaluates to 60, and\n'}
 [90.297156] (urg_node2) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
-[90.297201] (urg_node2) StdoutLine: {'line': b'1: /home/aurelien/dev_ws/src/urg_node2/test/urg_node2_test.cpp:783: Failure\n'}
+[90.297201] (urg_node2) StdoutLine: {'line': b'1: ~/dev_ws/src/urg_node2/test/urg_node2_test.cpp:783: Failure\n'}
 [90.297247] (urg_node2) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
 [90.297291] (urg_node2) StdoutLine: {'line': b'1:   (int)scan_msg.ranges.size()\n'}
 [90.297337] (urg_node2) StdoutLine: {'line': b'1:     Which is: 0\n'}
@@ -1608,8 +1608,8 @@
 [90.300799] (urg_node2) StdoutLine: {'line': b'1:  7 FAILED TESTS\n'}
 [90.339275] (-) TimerEvent: {}
 [90.403706] (urg_node2) StdoutLine: {'line': b'1: -- run_test.py: return code 1\n'}
-[90.404402] (urg_node2) StdoutLine: {'line': b"1: -- run_test.py: inject classname prefix into gtest result file '/home/aurelien/dev_ws/src/build/urg_node2/test_results/urg_node2/urg_node2_test.gtest.xml'\n"}
-[90.405017] (urg_node2) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/aurelien/dev_ws/src/build/urg_node2/test_results/urg_node2/urg_node2_test.gtest.xml'\n"}
+[90.404402] (urg_node2) StdoutLine: {'line': b"1: -- run_test.py: inject classname prefix into gtest result file '~/dev_ws/src/build/urg_node2/test_results/urg_node2/urg_node2_test.gtest.xml'\n"}
+[90.405017] (urg_node2) StdoutLine: {'line': b"1: -- run_test.py: verify result file '~/dev_ws/src/build/urg_node2/test_results/urg_node2/urg_node2_test.gtest.xml'\n"}
 [90.424347] (urg_node2) StdoutLine: {'line': b'1/1 Test #1: urg_node2_test ...................***Failed   90.38 sec\n'}
 [90.424947] (urg_node2) StdoutLine: {'line': b'\n'}
 [90.425451] (urg_node2) StdoutLine: {'line': b'0% tests passed\x1b[0;0m, \x1b[0;31m1 tests failed\x1b[0;0m out of 1\n'}
@@ -1622,7 +1622,7 @@
 [90.426545] (urg_node2) StdoutLine: {'line': b'The following tests FAILED:\n'}
 [90.426665] (urg_node2) StdoutLine: {'line': b'\t\x1b[0;31m  1 - urg_node2_test (Failed)\x1b[0;0m\n'}
 [90.433519] (urg_node2) StderrLine: {'line': b'Errors while running CTest\n'}
-[90.433854] (urg_node2) StderrLine: {'line': b'Output from these tests are in: /home/aurelien/dev_ws/src/build/urg_node2/Testing/Temporary/LastTest.log\n'}
+[90.433854] (urg_node2) StderrLine: {'line': b'Output from these tests are in: ~/dev_ws/src/build/urg_node2/Testing/Temporary/LastTest.log\n'}
 [90.433998] (urg_node2) StderrLine: {'line': b'Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.\n'}
 [90.439072] (urg_node2) CommandEnded: {'returncode': 8}
 [90.440193] (-) TimerEvent: {}

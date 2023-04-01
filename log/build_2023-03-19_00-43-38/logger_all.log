@@ -6,7 +6,7 @@
 [0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
 [0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
 [0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
-[0.206s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aurelien/dev_ws'
+[0.206s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '~/dev_ws'
 [0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
 [0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
 [0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
@@ -61,12 +61,12 @@
 [0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
 [0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
 [0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
-[0.234s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/aurelien/dev_ws/src/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
-[0.234s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/aurelien/dev_ws/install/my_package' in the environment variable AMENT_PREFIX_PATH doesn't exist
-[0.234s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/aurelien/dev_ws/src/install/my_package' in the environment variable AMENT_PREFIX_PATH doesn't exist
-[0.234s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/aurelien/dev_ws/install/my_package' in the environment variable CMAKE_PREFIX_PATH doesn't exist
-[0.234s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/aurelien/dev_ws/src/install/my_package' in the environment variable CMAKE_PREFIX_PATH doesn't exist
-[0.235s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/aurelien/dev_ws/install
+[0.234s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '~/dev_ws/src/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.234s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '~/dev_ws/install/my_package' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.234s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '~/dev_ws/src/install/my_package' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.234s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '~/dev_ws/install/my_package' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.234s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '~/dev_ws/src/install/my_package' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.235s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in ~/dev_ws/install
 [0.236s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 389 installed packages in /opt/ros/humble
 [0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
 [0.282s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to 'None'
@@ -78,53 +78,53 @@
 [0.282s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
 [0.282s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
 [0.282s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
-[0.282s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aurelien/dev_ws/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aurelien/dev_ws/install/articubot_one', 'merge_install': False, 'path': '/home/aurelien/dev_ws/src/articubot_one', 'symlink_install': True, 'test_result_base': None}
+[0.282s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '~/dev_ws/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '~/dev_ws/install/articubot_one', 'merge_install': False, 'path': '~/dev_ws/src/articubot_one', 'symlink_install': True, 'test_result_base': None}
 [0.283s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
 [0.285s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
-[0.285s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aurelien/dev_ws/src/articubot_one' with build type 'ament_cmake'
-[0.286s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aurelien/dev_ws/src/articubot_one'
+[0.285s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '~/dev_ws/src/articubot_one' with build type 'ament_cmake'
+[0.286s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '~/dev_ws/src/articubot_one'
 [0.288s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
 [0.288s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
 [0.288s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
-[0.291s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/aurelien/catkin_ws/devel'
-[0.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelien/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/articubot_one:/home/aurelien/dev_ws/install/my_package:/home/aurelien/dev_ws/src/install/my_package:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --build /home/aurelien/dev_ws/build/articubot_one -- -j16 -l16
-[0.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelien/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/articubot_one:/home/aurelien/dev_ws/install/my_package:/home/aurelien/dev_ws/src/install/my_package:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --build /home/aurelien/dev_ws/build/articubot_one -- -j16 -l16
-[0.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelien/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/articubot_one:/home/aurelien/dev_ws/install/my_package:/home/aurelien/dev_ws/src/install/my_package:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --install /home/aurelien/dev_ws/build/articubot_one
+[0.291s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '~/catkin_ws/devel'
+[0.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '~/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=~/dev_ws/install/articubot_one:~/dev_ws/install/my_package:~/dev_ws/src/install/my_package:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --build ~/dev_ws/build/articubot_one -- -j16 -l16
+[0.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '~/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=~/dev_ws/install/articubot_one:~/dev_ws/install/my_package:~/dev_ws/src/install/my_package:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --build ~/dev_ws/build/articubot_one -- -j16 -l16
+[0.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '~/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=~/dev_ws/install/articubot_one:~/dev_ws/install/my_package:~/dev_ws/src/install/my_package:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --install ~/dev_ws/build/articubot_one
 [0.363s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
-[0.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelien/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/articubot_one:/home/aurelien/dev_ws/install/my_package:/home/aurelien/dev_ws/src/install/my_package:/opt/ros/humble:/home/aurelien/catkin_ws/devel /usr/bin/cmake --install /home/aurelien/dev_ws/build/articubot_one
-[0.369s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one' for CMake module files
-[0.369s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one' for CMake config files
+[0.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '~/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=~/dev_ws/install/articubot_one:~/dev_ws/install/my_package:~/dev_ws/src/install/my_package:/opt/ros/humble:~/catkin_ws/devel /usr/bin/cmake --install ~/dev_ws/build/articubot_one
+[0.369s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one' for CMake module files
+[0.369s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one' for CMake config files
 [0.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
-[0.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
-[0.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
-[0.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
-[0.373s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one/bin'
-[0.373s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
-[0.373s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one/lib/python3.10/site-packages'
-[0.373s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one/bin'
-[0.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.ps1'
-[0.375s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.dsv'
-[0.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.sh'
-[0.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.bash'
-[0.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.zsh'
-[0.376s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurelien/dev_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
+[0.371s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[0.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '~/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[0.372s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[0.373s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one/bin'
+[0.373s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[0.373s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one/lib/python3.10/site-packages'
+[0.373s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one/bin'
+[0.374s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/articubot_one/share/articubot_one/package.ps1'
+[0.375s] INFO:colcon.colcon_core.shell:Creating package descriptor '~/dev_ws/install/articubot_one/share/articubot_one/package.dsv'
+[0.375s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/articubot_one/share/articubot_one/package.sh'
+[0.376s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/articubot_one/share/articubot_one/package.bash'
+[0.376s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/articubot_one/share/articubot_one/package.zsh'
+[0.376s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(~/dev_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
 [0.389s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
-[0.391s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one' for CMake module files
-[0.392s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one' for CMake config files
+[0.391s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one' for CMake module files
+[0.392s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one' for CMake config files
 [0.392s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
-[0.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
-[0.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
-[0.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
-[0.394s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one/bin'
-[0.395s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
-[0.395s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one/lib/python3.10/site-packages'
-[0.395s] Level 1:colcon.colcon_core.environment:checking '/home/aurelien/dev_ws/install/articubot_one/bin'
-[0.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.ps1'
-[0.398s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.dsv'
-[0.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.sh'
-[0.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.bash'
-[0.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/aurelien/dev_ws/install/articubot_one/share/articubot_one/package.zsh'
-[0.400s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aurelien/dev_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '~/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[0.394s] INFO:colcon.colcon_core.shell:Creating environment hook '~/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[0.394s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one/bin'
+[0.395s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[0.395s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one/lib/python3.10/site-packages'
+[0.395s] Level 1:colcon.colcon_core.environment:checking '~/dev_ws/install/articubot_one/bin'
+[0.398s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/articubot_one/share/articubot_one/package.ps1'
+[0.398s] INFO:colcon.colcon_core.shell:Creating package descriptor '~/dev_ws/install/articubot_one/share/articubot_one/package.dsv'
+[0.399s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/articubot_one/share/articubot_one/package.sh'
+[0.399s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/articubot_one/share/articubot_one/package.bash'
+[0.400s] INFO:colcon.colcon_core.shell:Creating package script '~/dev_ws/install/articubot_one/share/articubot_one/package.zsh'
+[0.400s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(~/dev_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
 [0.400s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
 [0.401s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
 [0.401s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
@@ -133,13 +133,13 @@
 [0.406s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
 [0.406s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
 [0.417s] DEBUG:colcon.colcon_core.event_reactor:joined thread
-[0.418s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aurelien/dev_ws/install/local_setup.ps1'
-[0.419s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aurelien/dev_ws/install/_local_setup_util_ps1.py'
-[0.419s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aurelien/dev_ws/install/setup.ps1'
-[0.420s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aurelien/dev_ws/install/local_setup.sh'
-[0.421s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aurelien/dev_ws/install/_local_setup_util_sh.py'
-[0.421s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aurelien/dev_ws/install/setup.sh'
-[0.422s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aurelien/dev_ws/install/local_setup.bash'
-[0.422s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aurelien/dev_ws/install/setup.bash'
-[0.423s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aurelien/dev_ws/install/local_setup.zsh'
-[0.423s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aurelien/dev_ws/install/setup.zsh'
+[0.418s] INFO:colcon.colcon_core.shell:Creating prefix script '~/dev_ws/install/local_setup.ps1'
+[0.419s] INFO:colcon.colcon_core.shell:Creating prefix util module '~/dev_ws/install/_local_setup_util_ps1.py'
+[0.419s] INFO:colcon.colcon_core.shell:Creating prefix chain script '~/dev_ws/install/setup.ps1'
+[0.420s] INFO:colcon.colcon_core.shell:Creating prefix script '~/dev_ws/install/local_setup.sh'
+[0.421s] INFO:colcon.colcon_core.shell:Creating prefix util module '~/dev_ws/install/_local_setup_util_sh.py'
+[0.421s] INFO:colcon.colcon_core.shell:Creating prefix chain script '~/dev_ws/install/setup.sh'
+[0.422s] INFO:colcon.colcon_core.shell:Creating prefix script '~/dev_ws/install/local_setup.bash'
+[0.422s] INFO:colcon.colcon_core.shell:Creating prefix chain script '~/dev_ws/install/setup.bash'
+[0.423s] INFO:colcon.colcon_core.shell:Creating prefix script '~/dev_ws/install/local_setup.zsh'
+[0.423s] INFO:colcon.colcon_core.shell:Creating prefix chain script '~/dev_ws/install/setup.zsh'

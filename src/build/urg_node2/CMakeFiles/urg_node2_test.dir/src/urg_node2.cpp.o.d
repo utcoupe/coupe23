@@ -1,7 +1,7 @@
 CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.o: \
- /home/aurelien/dev_ws/src/urg_node2/src/urg_node2.cpp \
+ ~/dev_ws/src/urg_node2/src/urg_node2.cpp \
  /usr/include/stdc-predef.h \
- /home/aurelien/dev_ws/src/urg_node2/include/urg_node2/urg_node2.hpp \
+ ~/dev_ws/src/urg_node2/include/urg_node2/urg_node2.hpp \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -659,10 +659,10 @@ CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.o: \
  /opt/ros/humble/include/diagnostic_updater/publisher.hpp \
  /opt/ros/humble/include/diagnostic_updater/update_functions.hpp \
  /usr/include/c++/11/math.h \
- /home/aurelien/dev_ws/src/urg_node2/urg_library/current/include/c/urg_sensor.h \
- /home/aurelien/dev_ws/src/urg_node2/urg_library/current/include/c/urg_connection.h \
- /home/aurelien/dev_ws/src/urg_node2/urg_library/current/include/c/urg_serial.h \
- /home/aurelien/dev_ws/src/urg_node2/urg_library/current/include/c/urg_detect_os.h \
+ ~/dev_ws/src/urg_node2/urg_library/current/include/c/urg_sensor.h \
+ ~/dev_ws/src/urg_node2/urg_library/current/include/c/urg_connection.h \
+ ~/dev_ws/src/urg_node2/urg_library/current/include/c/urg_serial.h \
+ ~/dev_ws/src/urg_node2/urg_library/current/include/c/urg_detect_os.h \
  /usr/include/termios.h /usr/include/x86_64-linux-gnu/bits/termios.h \
  /usr/include/x86_64-linux-gnu/bits/termios-struct.h \
  /usr/include/x86_64-linux-gnu/bits/termios-c_cc.h \
@@ -674,8 +674,8 @@ CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/termios-tcflow.h \
  /usr/include/x86_64-linux-gnu/bits/termios-misc.h \
  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
- /home/aurelien/dev_ws/src/urg_node2/urg_library/current/include/c/urg_ring_buffer.h \
- /home/aurelien/dev_ws/src/urg_node2/urg_library/current/include/c/urg_tcpclient.h \
+ ~/dev_ws/src/urg_node2/urg_library/current/include/c/urg_ring_buffer.h \
+ ~/dev_ws/src/urg_node2/urg_library/current/include/c/urg_tcpclient.h \
  /usr/include/x86_64-linux-gnu/sys/socket.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/x86_64-linux-gnu/bits/socket.h \
@@ -694,8 +694,8 @@ CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
  /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/bits/in.h \
  /usr/include/arpa/inet.h \
- /home/aurelien/dev_ws/src/urg_node2/urg_library/current/include/c/urg_utils.h \
- /home/aurelien/dev_ws/src/urg_node2/urg_library/current/include/c/urg_sensor.h \
+ ~/dev_ws/src/urg_node2/urg_library/current/include/c/urg_utils.h \
+ ~/dev_ws/src/urg_node2/urg_library/current/include/c/urg_sensor.h \
  /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp \
  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
  /usr/include/c++/11/cstddef /usr/include/console_bridge/console.h \

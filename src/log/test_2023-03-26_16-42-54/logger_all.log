@@ -6,7 +6,7 @@
 [0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
 [0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
 [0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
-[0.305s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aurelien/dev_ws/src'
+[0.305s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '~/dev_ws/src'
 [0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
 [0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
 [0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
@@ -62,7 +62,7 @@
 [0.325s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' test argument 'unittest_args' from command line to 'None'
 [0.325s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' test argument 'retest_until_pass' from command line to '0'
 [0.325s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' test argument 'retest_until_fail' from command line to '0'
-[0.325s] DEBUG:colcon.colcon_core.verb.test:Testing package 'articubot_one' with the following arguments: {'build_base': '/home/aurelien/dev_ws/src/build/articubot_one', 'ctest_args': None, 'install_base': '/home/aurelien/dev_ws/src/install/articubot_one', 'path': '/home/aurelien/dev_ws/src/articubot_one', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.325s] DEBUG:colcon.colcon_core.verb.test:Testing package 'articubot_one' with the following arguments: {'build_base': '~/dev_ws/src/build/articubot_one', 'ctest_args': None, 'install_base': '~/dev_ws/src/install/articubot_one', 'path': '~/dev_ws/src/articubot_one', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
 [0.326s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' test argument 'ctest_args' from command line to 'None'
 [0.326s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' test argument 'python_testing' from command line to 'None'
 [0.326s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' test argument 'pytest_args' from command line to 'None'
@@ -70,28 +70,28 @@
 [0.326s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' test argument 'unittest_args' from command line to 'None'
 [0.326s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' test argument 'retest_until_pass' from command line to '0'
 [0.326s] Level 5:colcon.colcon_core.verb:set package 'urg_node2' test argument 'retest_until_fail' from command line to '0'
-[0.326s] DEBUG:colcon.colcon_core.verb.test:Testing package 'urg_node2' with the following arguments: {'build_base': '/home/aurelien/dev_ws/src/build/urg_node2', 'ctest_args': None, 'install_base': '/home/aurelien/dev_ws/src/install/urg_node2', 'path': '/home/aurelien/dev_ws/src/urg_node2', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.326s] DEBUG:colcon.colcon_core.verb.test:Testing package 'urg_node2' with the following arguments: {'build_base': '~/dev_ws/src/build/urg_node2', 'ctest_args': None, 'install_base': '~/dev_ws/src/install/urg_node2', 'path': '~/dev_ws/src/urg_node2', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
 [0.327s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
 [0.329s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
-[0.329s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/aurelien/dev_ws/src/articubot_one' with build type 'ament_cmake'
-[0.329s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/aurelien/dev_ws/src/articubot_one'
+[0.329s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '~/dev_ws/src/articubot_one' with build type 'ament_cmake'
+[0.329s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '~/dev_ws/src/articubot_one'
 [0.333s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
 [0.333s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
 [0.333s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
-[0.336s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/aurelien/catkin_ws/devel'
-[0.337s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/aurelien/dev_ws/src/urg_node2' with build type 'ament_cmake'
-[0.337s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/aurelien/dev_ws/src/urg_node2'
+[0.336s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '~/catkin_ws/devel'
+[0.337s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '~/dev_ws/src/urg_node2' with build type 'ament_cmake'
+[0.337s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '~/dev_ws/src/urg_node2'
 [0.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
 [0.338s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
-[0.342s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/aurelien/catkin_ws/devel'
-[0.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelien/dev_ws/src/build/urg_node2': AMENT_PREFIX_PATH=/home/aurelien/dev_ws/src/install/urg_node2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/src/install/urg_node2:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/aurelien/dev_ws/src/install/urg_node2/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
-[0.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aurelien/dev_ws/src/build/articubot_one': AMENT_PREFIX_PATH=/home/aurelien/dev_ws/src/install/articubot_one:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/src/install/articubot_one:${CMAKE_PREFIX_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
-[1.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelien/dev_ws/src/build/articubot_one' returned '8': AMENT_PREFIX_PATH=/home/aurelien/dev_ws/src/install/articubot_one:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/src/install/articubot_one:${CMAKE_PREFIX_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.342s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '~/catkin_ws/devel'
+[0.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '~/dev_ws/src/build/urg_node2': AMENT_PREFIX_PATH=~/dev_ws/src/install/urg_node2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=~/dev_ws/src/install/urg_node2:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=~/dev_ws/src/install/urg_node2/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '~/dev_ws/src/build/articubot_one': AMENT_PREFIX_PATH=~/dev_ws/src/install/articubot_one:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=~/dev_ws/src/install/articubot_one:${CMAKE_PREFIX_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[1.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '~/dev_ws/src/build/articubot_one' returned '8': AMENT_PREFIX_PATH=~/dev_ws/src/install/articubot_one:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=~/dev_ws/src/install/articubot_one:${CMAKE_PREFIX_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
 [90.769s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
 [90.769s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
 [90.770s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
 [90.770s] DEBUG:colcon.colcon_core.event_reactor:joining thread
-[90.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aurelien/dev_ws/src/build/urg_node2' returned '8': AMENT_PREFIX_PATH=/home/aurelien/dev_ws/src/install/urg_node2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/src/install/urg_node2:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/aurelien/dev_ws/src/install/urg_node2/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[90.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '~/dev_ws/src/build/urg_node2' returned '8': AMENT_PREFIX_PATH=~/dev_ws/src/install/urg_node2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=~/dev_ws/src/install/urg_node2:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=~/dev_ws/src/install/urg_node2/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
 [90.782s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
 [90.782s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
 [90.782s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'

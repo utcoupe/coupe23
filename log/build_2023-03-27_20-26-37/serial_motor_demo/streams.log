@@ -1,4 +1,4 @@
-[0.471s] Invoking command in '/home/aurelien/dev_ws/build/serial_motor_demo': AMENT_PREFIX_PATH=/home/aurelien/dev_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/aurelien/dev_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurelien/dev_ws/build/serial_motor_demo/prefix_override:/home/aurelien/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/aurelien/dev_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/aurelien/dev_ws/build/serial_motor_demo/build --no-deps install_data
+[0.471s] Invoking command in '~/dev_ws/build/serial_motor_demo': AMENT_PREFIX_PATH=~/dev_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=~/dev_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=~/dev_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=~/dev_ws/build/serial_motor_demo/prefix_override:~/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages:~/dev_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory ~/dev_ws/build/serial_motor_demo/build --no-deps install_data
 [0.700s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
 [0.700s]   warnings.warn(
 [0.717s] running develop
@@ -23,15 +23,15 @@
 [0.821s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
 [0.821s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
 [0.822s] running build_ext
-[0.823s] Creating /home/aurelien/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial-motor-demo.egg-link (link to .)
-[0.823s] Installing driver script to /home/aurelien/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
-[0.824s] Installing gui script to /home/aurelien/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.823s] Creating ~/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial-motor-demo.egg-link (link to .)
+[0.823s] Installing driver script to ~/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.824s] Installing gui script to ~/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
 [0.824s] 
-[0.824s] Installed /home/aurelien/dev_ws/build/serial_motor_demo
+[0.824s] Installed ~/dev_ws/build/serial_motor_demo
 [0.824s] running install_data
-[0.824s] creating /home/aurelien/dev_ws/install/serial_motor_demo/share/ament_index
-[0.824s] creating /home/aurelien/dev_ws/install/serial_motor_demo/share/ament_index/resource_index
-[0.824s] creating /home/aurelien/dev_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
-[0.824s] copying resource/serial_motor_demo -> /home/aurelien/dev_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
-[0.824s] copying package.xml -> /home/aurelien/dev_ws/install/serial_motor_demo/share/serial_motor_demo
-[0.841s] Invoked command in '/home/aurelien/dev_ws/build/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/aurelien/dev_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aurelien/dev_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/aurelien/dev_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aurelien/dev_ws/build/serial_motor_demo/prefix_override:/home/aurelien/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/aurelien/dev_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/aurelien/dev_ws/build/serial_motor_demo/build --no-deps install_data
+[0.824s] creating ~/dev_ws/install/serial_motor_demo/share/ament_index
+[0.824s] creating ~/dev_ws/install/serial_motor_demo/share/ament_index/resource_index
+[0.824s] creating ~/dev_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[0.824s] copying resource/serial_motor_demo -> ~/dev_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[0.824s] copying package.xml -> ~/dev_ws/install/serial_motor_demo/share/serial_motor_demo
+[0.841s] Invoked command in '~/dev_ws/build/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=~/dev_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=~/dev_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=~/dev_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=~/dev_ws/build/serial_motor_demo/prefix_override:~/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages:~/dev_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory ~/dev_ws/build/serial_motor_demo/build --no-deps install_data

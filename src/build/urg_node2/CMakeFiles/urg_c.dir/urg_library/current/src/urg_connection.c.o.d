@@ -1,9 +1,9 @@
 CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.o: \
- /home/aurelien/dev_ws/src/urg_node2/urg_library/current/src/urg_connection.c \
+ ~/dev_ws/src/urg_node2/urg_library/current/src/urg_connection.c \
  /usr/include/stdc-predef.h \
- /home/aurelien/dev_ws/src/urg_node2/urg_library/current/include/c/urg_connection.h \
- /home/aurelien/dev_ws/src/urg_node2/urg_library/current/include/c/urg_serial.h \
- /home/aurelien/dev_ws/src/urg_node2/urg_library/current/include/c/urg_detect_os.h \
+ ~/dev_ws/src/urg_node2/urg_library/current/include/c/urg_connection.h \
+ ~/dev_ws/src/urg_node2/urg_library/current/include/c/urg_serial.h \
+ ~/dev_ws/src/urg_node2/urg_library/current/include/c/urg_detect_os.h \
  /usr/include/termios.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -26,8 +26,8 @@ CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.o: \
  /usr/include/x86_64-linux-gnu/bits/termios-tcflow.h \
  /usr/include/x86_64-linux-gnu/bits/termios-misc.h \
  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
- /home/aurelien/dev_ws/src/urg_node2/urg_library/current/include/c/urg_ring_buffer.h \
- /home/aurelien/dev_ws/src/urg_node2/urg_library/current/include/c/urg_tcpclient.h \
+ ~/dev_ws/src/urg_node2/urg_library/current/include/c/urg_ring_buffer.h \
+ ~/dev_ws/src/urg_node2/urg_library/current/include/c/urg_tcpclient.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
